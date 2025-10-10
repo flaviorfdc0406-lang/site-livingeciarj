@@ -1,0 +1,3360 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/README.md b/README.md
+index dd842caf359ff46ffc361ca1cde513e15b16a1e7..2599f0e92b4e234a9357678eba83c52f26a79b03 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,15 @@
+ # site-livingeciarj
+-Repositório para projetos relacionados ao site
++
++Repositório para projetos relacionados ao site.
++
++## Download do plugin
++
++O pacote instalável do plugin **Simulador Imobiliário — Financiamento & Obras** está disponível na raiz deste repositório como [`simulador-imobiliario-v1.0.0.zip`](simulador-imobiliario-v1.0.0.zip).
++
++Para baixar diretamente após publicar no GitHub, utilize a URL bruta do arquivo, por exemplo:
++
++```
++https://github.com/<usuario>/<repositorio>/raw/<branch>/simulador-imobiliario-v1.0.0.zip
++```
++
++Substitua `<usuario>`, `<repositorio>` e `<branch>` conforme o projeto. Depois, faça o upload do arquivo zipado em **Plugins → Adicionar novo → Enviar plugin** no painel WordPress.
+diff --git a/simulador-imobiliario-v1.0.0.zip b/simulador-imobiliario-v1.0.0.zip
+new file mode 100644
+index 0000000000000000000000000000000000000000..daaf2c8467fbfa590e18147f5acb8b1ebf0229b8
+GIT binary patch
+literal 36450
+zcmd3OV{oP0)^2Ruww;b`+eXJWJMP%F)3MdDZJQmVW9Me?bMAM(ed_Gfdsp2bcU8Ts
+zQmI;F&UfIMV?JZdDK7;K0tN8f=Ndp#>-RtY`Gp361K?<G?QCUWZ0kU4Zf$F5Ze?!Z
+zU~WsVq6`TDEFpVnrttANyFmj0g8cTI-@oMlR35>f%5yTYwzD#DGI9K+WR#C#Aby{z
+z!6XUX$j6A^(E$J$|AJ&wa~lI2BXa|56B{R6Iy*DF|9OeuUgY0iVqRUx2AdthXOR*N
+z8aOU;#X&v?K8yriLZ^#A0K*;`1p>%#X9f-N+(F6#ltYe3n0~9Rfj`RwWW9j==u(W2
+zdRDi>x*<}(i{SI8_iNae*LXw4`c`mo+D~8b6USgNl2H9Iz>*caNhc*_-F-mQK9kx=
+zIR};}JwH<_@Fx&0Rwp9~Z5a|J<}#V^M<{q{V-?XlHqEchj$tI^833SvuA0zo_hD>>
+z&}!d6WzNsTftD46?wEMHUeF~|B65>dG@Yb1X|t_DT*0S`$oHp+TOam0FS#2VuAY~B
+zL@6QAgh#rG`t0C!*e+ct+4baPRte1}E{GyN;6My462pibqFj@J%_0887SqLot8pM!
+z4t$nu@fJcV$kv&fdvnJ=r8~k`f84w!Y`+}*dSJ&?4k5}%flNa6ur_Nqdl^wskg6}j
+z+keK>lptCQliE-Ff(aQ(VxW)efrRREY>qKN&+)V>UODQae4JY7q{H%MoI*+i3<Qeu
+zhaODvt!6N7mtK7^3^h~{P{?kNE&~&|o{Ued{)L@`xK!bkJ9lJp-1f*+=x`wO&3vuL
+ziPf=d`yp08BPqRvK#3C2gP73%x%@Ufg`yCZ-{<SjBI#54dF-Omr}HwZLs!O{`(g|T
+zR<DtTS?))+qIYE_N-~f#YReeOga)M3Kq5S5LGmd-C?+IWPj0zo7_eSvs8b<Z%I>$j
+zq@^KNe<Km;uJL<RKz#YWVKi+XJ}??nwVPaLWdr(Q)<gk8PYFwKT1G+mm9x^Zcmos6
+z(Q(qxL^7pbQHz8<XWnAF?h0x0k`Qb-3cO;?_$1U~$SFt)m0f|ddq@hL^Ie`8S6)s%
+zhhj-CTNq#g-9#!;pslXz`LMD(W!u3-TJne@uQvK2oxabwJD*ik?Zj*bi?AUlG~vs`
+zV)o5Tdc$(miL88wv~3HBqJrRR9od*G8}cB6T#>Vqg?Rud7t&ffs!p(<a`iRLk7%hE
+z)hf<jQSsp-64n5n#r>q>IOZ8tNjF9>7xISD0I;b6H__?1FsJdsL$lRxI3XcfQtCk5
+zTFrIL@S8AbVI&u*ed^lq5D_-BYrbSW(n#bm^=d>{@{z%9?6-{#eA=Lv1rNNG4e7V>
+z5<$3f*`11LeVJflNh_C2cnC8gM6t20Us{zBUc;rsf^y9d5@ZZ88Db>Kj4&^{cU1!3
+zh}v>fXSv3>pu|*ItX7{Tozho3QpBi7$E`r0!|-4fo#o2C&lDbq?^?&oyzhC{ihKxy
+z$7$Qz8rOg0F#5E2;~V`teo-M8^pq%8V%zxq-085TC*+rsnoCYqpg?d2hJ5N7r_&#@
+z_pO)^W9)rSCvKFyD*(opJl=u;jSS=<c@&o;VmDGF;d+xI&qqxi@8bGw%@(8P(#xm`
+zA+R<Sg;MF~{o82?IN#52ug6ZZb5$m1mgZ^#wAbHl(QL12@g2r{o8_^0nzU_Do6!Xo
+zAv?E>wwOV%w;wd_zwdsQ!|ku~9eRo0KzSqX2iE^?(-z3pZ<>_%)2+8io4FczB9bF+
+z^)Vc@U|D52F|!YZWXlrhtk0T5RTzJMRoyDz>oya59#XWX@l=g(eC`EIGJuJ1xuMQ)
+z!WM)!h?Q|aDxST5x9r=+Y7pAnEAXGgG38$XO*;bzCvyX<zk|z+PR^%RfB*nDKmY)r
+z{>~8Aw#Eil=EerbCXT;?=g8P@i(Uqp;0t#sL?BrM(t!1qPk!BSJPEKKG^EXqt0^4z
+z)tR;HcL<(6Ji}J()+;mJ4vew95}iK#CTgw<hRqFm>)4n0!SjYK>K(jlWrW=6XDt=2
+zKGdKUvR0g_ViNfnvHpkyk@Vc`n)%@{E1znK(^%FlOt$2%#+d=>!zrq=!`4QDZOl|w
+zMOC>$ZwyP~SOI~Ia6JHwg=eLD60*WXt%Fd6p@a09LTZPY7pXbfRw>6JD+q(AfA;Yc
+zX%6rKpeJLdbkST@l0@Zc%I9Tx7-V=Y8faU1tJG`cGe@yiiapx8fI*D+3Lp6SI*`Hf
+zlQM!0+DLS+JCQdV|766+kZ9D7dM6}Xsch2c<BBqpNs(u)mj#R(+-Ai2da7f_khVb8
+zEK@#z)Bw9Nh!KTT!Qp*C6C~D!ksSdIVa!eyvD&<j&JO&-aRD<_2N;rFW!tRByg`@{
+zfoF_PwwLO7=H#$ZyM3Iyh5nlZ{cF|rNzZv9{jhG>$I8q6cdYx7KDd}z{mQWIu`;r~
+z3<yE@JpDuI^+*bE{Be~YAWNe0ON7KP$jh?1IH9y+hy4t&ln#(ISb^+GFIlfYJSRBL
+za$^s*yKyKLi)6Ks;_4hg4fc^N33FK+_2q8-lZrhP28y~{(Bl#x8!tQ%D!*}78Ivx=
+ztodSm!6tC_f-c$vi@Urdh>b?Kj0;SX21?gjN^*CBdW0cahsXQmA&uHP=+7F^Ajl35
+z_BIvn@BZ@?6CoQPf~8cSsX;_7Gr>Z!)*<n;AG_6}VpD+vI|@-fduOlM!uvOZESsWG
+z=-xcR9%NPSEi1_H3IPqA9j!18%i2m^L!}XSIv`x6VqXq=P2@|P1kGgmd@t#0wI^@S
+z;OT3PTA{5G_i{ps(d(RC^Y22`l{EVtd0&9s!T)HHhO9YL`VWhg0|NlC{~e1M8Q2*Z
+z{T^?>vPwhTKdq8sxF@3-S^`cWv3QCA-8kKsRf^_f^;kTm8%}J;I3Upqpdv1RIpE=u
+zwE4_3OW_S*&M=@VY~A22)IMvRaA@;I&d81cm<wI=XPz8}GOn32MXTw_Js!n~Pj>l{
+zIq1BRy?%%)b|heM46=VAW8OEL+@1G2fqg+8!y@(-mFkWF>qV=g98%?IUUK=A>PC!g
+zEkegFb$67Qs4UIcLsrPCV<}3E=~}MPw>6=zqVMKxFe8hT_6>p}==K-kz$1Q63n4&v
+z*dv%`V=g(Dkmhi@F=+Ov!+?>{=n`3BO5*k2zFbqCa+Wr=IWl<%2yh*7F~xQc=#cnf
+zz`XK1>r>LLwJ4O8?@oq}Fa8Z*FWe0q(RvXlH1otb#?#n2P2-!<uE+4b0RCtnON;iG
+zoDcihf&&0B{T=(*8af#K5((RtrDS{gVb&d?s0FFSh0m~N2$E=)01UNSLd|J^6sJPw
+z4Q>Nu_=j(M@mtK77JN%ni3{B%_i<6Z;zEHEN+I)Owd9f$Dr9{^ec@eg8I19WyJs7&
+zt4Y}VyqwgdMy5jch&hx<nGruyr`6=dpPNFPugcu|Wf~b<+3u&C4@awi?3^l;)X6NC
+zKWhGGF8@*NX4F!&0#M`KQV3E}Y1ZH-b4BHicuG~szQlZUq$6T7efd%Ee0Ma9Qjh^6
+z*OFs!rfua~=U!)=^~qD31Q07CcNtP&Uyp&QNg)Ce5$#zFP}e(fs>CG;bExugE7-RD
+z(gLEGB7}DJm9&uagm=Qy{&k7Kq7?xLa&m9TTKkh{2%ToV=jURHX%ELJq$1DjSC#5L
+z$lhxH1{cl!m9*xygbBgfNr9#YAD-rlUj6(ryE@d$d&s0YE|zqf8d34p_Bg(*-aQMZ
+z*o>j%ovE_}8`1P$f;$@?9Kp`%dI2W3;LhYUbmax103~|z5a^?hP?wZE(8rDUeMl8^
+zKNfLL?|Sg75G+z_!bYe=|L5PA-+!T}kRx%P{70N7BLDzU{RLleHTN)ZF#c6|o~g;$
+zer#6SPt;%nfodbgId77N*tFRxK>8vP2hS8RXa~`teS-F=8s8&hg<=Ba1bn;SYT#T=
+zBq+_GEf@KL)RJE@uG$CLh0e|DFH9?$*OrgE;4-k>$t1eO+=F!aNzPD2vFxmt9x3G`
+zW-`E+g5rNpKOCOX$H(`VCDTt*%4&0{)TXROt*-dYFK?bi1ZD{3G6b&M#AsS@on1F5
+zQ<Pu$cYS?zJ2GopoubpF%!oTi&kBriY2uRP^b=(4#&`{E%yB&|qo;&uZSBxs+JHW!
+z^?ME#qYBks!L#c0e{Hw@g8Sr;V(J&2j?o#RnBV2ng;#au5v^2!s@fOc)^m?z79>pO
+zp(}xQ>WplJZ3|P?gj$J0K@rX=8*6X|HYFn9&qDC2tTde>+=T`(amdpnj)(x_bk4{O
+zw3JeQ$RDo|LchGDdS?$OvuREWW};|>`)!zM%qLKOeN3WpHmax%`XvXh0erz2C@cP4
+z3VGOa!-d;ag`t0}(v9q!h2WkOoy&-Wtn+yM%)qxwfn;;X;2FetcYbI`WiMieHCY(>
+z*^x`bcD9`AG%rF0Kyp`EQ3NS)CGXlUeN9n+MPdkd(Jbj(_t-*I3u&Ps7%#6+#?~-;
+zOvsa3q3U5(q$M{gcDxA`+)o9AS}w6_sfmr#3+-^1^qx;54sB8WUp?mPBc`#;Cc1y*
+zLQ?|1=H0Xn4Ar@-y4oiG)R-%!RHOdb0NKYEO;`JE@MjQn2#545#YZ^bI?G~Lc!LOi
+zzurL<zMx1*=abk(iU`)Gxle}GN8Ha?kShL>R3uMIe{$FB_44DU>E}hf-r$8kK>I4Z
+zJBCB77~KZL+-M#oFxVj}EA<$RCs89=Ipd~I^R1uZA<;rw-M%sGJp}0!c!B<S;dn65
+z#y3NaM>*q!YnIO0629^<c>AMNl91eot_Qx4Ul|@>-?r@S6NbF*#xXrV+ThxejsJKv
+zW-*TNyzWuQdfo55j&sd?6RZa0rq+K4-E;_<zf{XsVjqZ%S3<D|D2`3kMzqULGW1n4
+z^QdAWN{mj+#kWejsO5c|5<zp@Kk~hVG2&0YxPx2N1~S^7WO?XnDMk{)DjcD5xBemB
+z)m{UBT&(ck52mjD2KYz(M*eBr?*<A0P(%O#@K;jizXaQ78soq53mwmtMHT>~0w|QQ
+zn)Pv~T~QzW!aA6J8X5(Z-wLjTu&YGyUa6{_cVc}=4yeO1@uAEU32vOF1a(z~FFK$h
+zK8gLXZO7v_49BWZ5tv2Q+vPSMcc5BIX`n`6)*Qk2G)xBWaWnDbL6+Q(`>vb@?HgE}
+zp8d!E$9`Ax%u%nB<<tDLlJfM+5=WjYkEs<;m-@x1M})jUOh<J>@vIRWTK+*rH3HM5
+z`BU+2gZ}VwF{Fk50#kLQ(O$__Mo<=o5REb}^`KX&dk{ky?R)(0H;}p?!k2-}<NLfg
+z^;^pdfGi>bMJP8tJb<QyzJS0esz%urAl5Nm6{c-C?+#ZO2`r{BK3~09&!vr<{P3T}
+z%7BY0U`~uQcYE?=8C@KggoRmRlsItX98GC}`<((I1BTOnYH121pFPkPU^XF17sUjc
+z>mvoz<kB;Os&q_!K_49_uC0$7erVrE3=l6WA)Y`YIDk{=6Q2`^cu(Nhr!0OLQv_qY
+z$Q5PuN%k}kvsj-?Nf*yI?2FuDjuSp9A|c!33F>=w`ee(5W?6)bPdgk|U_#jtWXiJw
+z{6r1w86I{s^!Y(!eN2;*!0O9oKF|bU1I27Xe&Kw5sRPUHLswDg{R1T<!yb@qJ=*v0
+zI`Eg!fys~_p=44t+voBF?$RSyc&Q#QQ5nrb62%#J1Q(`Wi~bqQijX{XXks!7(%)sL
+z9bIt%!)fq$tY{L)PVJ?4QaOCG<VZ~dClw20U2t8sOd&@>a)>^mQ`NOt)95ZkK_uyt
+z-@~DiD1Wh#4Fpc@E0Ky{S)Sh|^Xd&zmfHfIwPn)Im_KGFOI@+&LVMD^OzDS~C^t%@
+z;ior`j~5n2@(J|yeFt_>oN`lq&-=Oe&N`)0k|r-R=$p=oe5LQGRj9bst&Ic9_<erg
+znF0gJjq~mESE<wORaVHtq*OgPYQh?^{E>>>EozkzkeDe?#c5JX0cYdg%+BCE(B-n@
+zlbIY8Q{CN}*5ejP!)<1>RGuuQ5_?YZBi4}~=?UG8j?dS3TSvhn$pGi|h>5ugM~K?*
+zcLP=CdRZk7XI(=H`yowOj}0X43)Pq42TPGn2Te|gPT!g1>f;Z|R86$Ri|bY|v6_j+
+zXQHTqO+d58Eb3aQ4hd`z<D$<MQ?L0KHa!|oVvnA1)tV%%NY`{?8gbMBohquIQmh))
+zMZ%JC4{SG;G-`@Uuz9f@h{JIMpfI>3hh&{zi-=E4C=0q&Nxt>4^F?CGbv~7^9>*G3
+z1iuH55A4$OEv7VTKPs%koJhH@`X7&iW1Ea5$}$dwuAP~-LsW!$s!-R9xs)wZS9+mW
+zEs1I7B`Xx=cY_dXO?4yr6k`<ii}>U!)9p5cDTq>6rMpQS75c37YDqI~(V-lsdF=NH
+z%GvS=oOx6a(v|7gJiAs+b0mAZXrA^zc=r`v=-H6UqifrEi`nv8sm(F)T}_^-YgXz?
+zNVW8TuK7U}WR^@x_M=cEL>}7x@^By6jN5{R;?2yIv7LS=hCPVgFt)ft#%zqkotV>c
+z_%p5QcGCGz?ONq>{PU4?#*=*ARoU%Z=pz2<iVE%c5WcWEpuS9D-Yl$(&iiVwgH}7`
+z`ttOxwmESr!soQY>-{Ec@S&YJDD&I#ZZCmvoh9lts|{p<Dmm+jCMP*QVpSoM`5qlJ
+z$?7%M-<j|@VBR^9sWyc0$4sy6+Q3yF0<R)#^Qojagx~9{b~bAEg<9U3ai)CZ?QF14
+zT~-7pd&6cDilpT9$s_a_Vd-T%Hv&67cc(4K<G%-_U^2)Ub;6~vN+)){dD1EM*Y87)
+zgA#6ovp=eTtN2`zA#GNc!2TLS0)T=_d83nMZCw4b%l8|!|7WtB<S(RScE+ZEgP<l<
+zRsOm0L05nKNd8&>qV&H-QWr)u+I+AeBCeVKLwS8AMoyI{G$KEMc)sL_I|(Zzfl67&
+zUK<YyIMj?dx1yfO1MLaEy+1tbI7m3j5a;+E6!W0K44?SR7Yht-?0^t27M0}Zx~(nD
+z%ASHvYk7e0I!{EGN&5leudpc4R0!#qlnL-x_=o~v4PM61Sq_vV9n=P=i{jQ$$Oe6?
+z6d>a&6`{M}mt5-l0cfhOX5PsNZzZ=W?8>)RvP_}ouclt1N73f)-L5?egJ#ePG6QI|
+zjhWPWmsIT1NGj(+lmy**QF^c`7csVv-;Mql-OcxJtFZSDXw>?LGK)TxN&6R-`IlDW
+z4<*V1Ga`t1W*a6942PMBjMtjWuMq45B)Rg0i`6hES@UOv_y_D6E-g<HQluEN^uN5n
+zT{LxrO|wRR0n5U3jhO~7W)@sV)^q_Q9>eh)ESa@-Kk0KpXwOwk$&fuVNF0hksDX`@
+zZD}Y8H)e&Pm{s%a8fIz(b(T(1-bz@sn=ko17A8c-TOk0(TqZ(i`@0VDsLHA9H&cky
+z?``wiu`B0TDAU`O)XU-b^fGvTv-mJzdIY!}Iqn)%3JXUAwwF}(914hQw1IAP7+<;i
+z$1>ihy<*>&UZDTn-Esd^hX#(0CQiR5{Qh$k{dtM!pJFY3E%{&DrPQj^8@7+F(zOBr
+z0L8B+{2|%Y!Pdr!&cgA(Rd&{KEFD)x&pmxWPg2WD)bsY&q>B&4xMi_6-N|H`>{lja
+z(yq&g8pZ>w;u7#>UX9M1*6_IizI&ZY<(;yytNBzH>Ht9N1JbylC-`;@^>9uwzjIFH
+zy?E@1xHpTtt48zjU2S2~Qk|<fV}{(C-6OK<)XYGmn+(@o-cisisV=tN+_gvOc@Ao1
+zf>fa$WhCc~;-lW)EU!-YJ;NB=Ab0FWVi}uR@d}>QHPMT0tgFM#T<)Wmmp?c{{?My2
+z?jFqAg3W$dyFOX<KRCd<b$@<--k>0c6ZPizlGLRikp?(#<Z*?nv5g?~NMXiK!clvH
+zm((Sp*?U`f_8l+sO$V8U*Fs0OWx=|r6nr3!iLstF1ERtL_0}GSFyE&b7U+)K-1N0=
+z{yxj%CX2kSnoD9XZBBsT&6xRWKXB(a!(B#ShF`}i`;wN3-nQ`h7`x8B!9^;ev69~a
+zh^r)w1gtmh?$&<}l1ALkMM2NQb0gk4q-7uGEX4^rnC7rO+dIW=mD%J;lCTu=JFR~E
+zx2B3(G_|TFYJ6}4*sv;L<2Jfv4IkRfGjLT$JtOHc!}Sn=K!7=ydhs}4AmBH*o#7&6
+zV}MRuOXa{k#P4zt%h?dqGAN9X0Ozhl$JIHg!<j3*cX*zwa&0oWN)E+&!=kgqvg+QL
+z1*Zeq5@=<NF>8%l7DI8D<HKB?fw}zHpx`ZG)V-QDtBgEKoy}K`5YDG8t0)J4V1S6R
+zZ%GHX0o;9-v3kA9GIEy;q>@GIN(8mS!P&})inF^(!(U){$+U|h)Xerk8vPw(U^}%y
+znrpB1YG^8VHy<SMYDl8g`!=iN3Q?OyW~UCc1^@y0GqdorakATdT<%_O%kp<SJvV($
+zzR?PlD&PWKbyz;|>pneB#E8xtDe9fw2-R%SfBC^&EsRJdK)+hIEIjLr#)wVkoZ-hS
+zbYnp7Gj6lAof`>om%-QwblVr1)~XO5_nLG;K?wh|q$T#gYIB?ds5GTO2{}Fud+fsc
+zYfey{$SKK$70&2J9m~X;wpbe!p{Ierqp+nGf;r1E&1Ow$&9PFQ8{X&sygQ?pvQJoS
+zAT(jR+JJKOyQM!c%TtIgLP*<WY6nVRb7a_uzoZ>Ngc%O6t2j&WAeL!>N*N4SrVICg
+zEg&=%0q|to)>fMIWC$6m(;|v)sc>%_oLTl+dqj4>Vn;<8W(g<i1-a*b;$a2pq;qrk
+zlnlJSVvu;5_Dt{%W3KC*-lN6FCvXH3(5t?ju}wvBEVK`^SC}V`+lj>^m+^-FG<9g^
+zS#R0ZDlHP!ru8jN1aS9f{wE_14Cb+c>w|KA1MSTx!g6bxV9e<NBlPw!?P!uJcxH6K
+z9?#ggmjfZ0mvJEkiCMDVM(}+PU(L+4SWxI%>HSReBw6rlkxEKX$YF~$NbA2=9?(R_
+zrz9HFw~`b541Q+QuE?XlU5d%CX2RB}6+N67-DT<A8D1GfKG%>Q`jq5a?GWdTGQ0uj
+zP;4(MkRk2z<tG9IQvDQv3#VrFq08ppC3w3t{|WN2BX-F*Ejel1y*75Kg>A^=@10+9
+z@p>>M^YUDJh<<`xtBuVVRBJG#d)wAk9k^>IxR0Euk0mp-4(j?=EU?5ZkXNUjX<f4N
+zOP3h~g=otJrjaGY0YXONic^5BcK|j-@K+r-BjF_a?(-xrwL&99=Zz-5IG0sf9>VqP
+z2-5Ge6u}1CmB^SAl=wj3$n71$*7vPj7N=>d)LX<BmAC1bRttbS&3N&`QhE_Znh%$W
+zDArLd?q(JgQ%kae+k*kW?5+<>MZ9TV7EAaiB0bu|$@^FDA@u8!;B-Fbi!jZg0rgBB
+zdZZ7OGObAM6nm=Z{8;W+0yqp^rICV6zut2n&TpOo)UU5=BHiW@o=Wmv3k8_kK%4R&
+z`hrj>lvO<s%(hC~Kj#-t-v^eOI4nF}?@3wZcDrT2VQ|VALio)NnkzjrfRiuG)@_fE
+zaQbbhh5#0i`x1KFr0jOBWfv>W`|+GyCy%cB(7_tIB_qL`c#t<H|7U_Q%TuV_VFHQk
+zCBT^INA(qMO2Or8H9A>&=^Z<k*k?$3%f=e%%t0m`iB~h(<z_BwD2Sa&`dyN%VFg?}
+z*duuleBtu4{g@!9bnnT1bn46JlT!!z7VVwR{Vy{P01Id{7v&mMbPjD^JoFm3XoePP
+z-yLT|NO(Em>`W(3tR55N*!axquX#xia!MF{y218j{2K!=4$aH3q=<~a`)19nZO#!D
+z`k;htN6lQEbE`&K@SCEBL!#NU$m(zVR}(yiW?qwk+k-sPUT{TXjH1adoso+M2ca>W
+zosl)jfcn>nA&&RnlLPrY=5ei12M6verF}~jNF`Gq*zJKx10Lig<ViCslz9d=%XYc8
+zf|IAr+_=~P@DJ%hkTxtoBXDuO)i5t%;pKnNl&?rFD=M2k*0R6vhuqYxdD!Ch)FCN<
+zAsi^Hc?42pa=m%hTlV0~xRISKA3^g}6(cZbw_3oovvEb1+yRVErUG9Pu!=ySq{%Li
+zNF96eD-obKHjm8~+>!zVUxmsYub@)k?A~I}K<Sr6uh{K?2#}!iPfzgGVfeb9QbDn2
+zFKS9<jJuf(+Na$wmeFtEWs8Wo$mVajS_Dw-$%>VJE#0<bt<Aw`<DOh%-B0Cm@Uvj&
+z-WX!HUno@}Y52QX8ndM1JW|?3LdB5;>1)5gNTo3!(Cm*Df2-*L-fx>XqUM4Fd5XKl
+zyqwHG{2J7S8c<ZBifEBs(a;J!p18N1;uf4uHCe-(o99UlK`M2<8rSa0yNvaw>Nk*G
+zq)VaZ-JO?XCpvf?gHh-N;kwIzRE`$I95-%pR%y(L>U=vK4EDdRmNWCXQP}t57Urd1
+zH{~F-ti9<pKyUWC(`QHJV52?NKzi!su##F$0E>G_dZ;WVc0pC^RRs0Vpz@ev1_NTG
+z0pTn-&-P%hr&URo`<{A4yVY2RNQ6K4Qse`-7FG((OiE&b&h1<xPAW<&D1f3S(sOBS
+z%OZDm8Sk<})>|J=7$BPTS)1ITZhD@xSR*~IqU&5HQTsY{!q6k0$q9rJI3W1bw9)7k
+zBg-fz!(2`8cu166_o$y>u2DHFK+AkWY;pxw?m<k{GrRa<{2|Aw)>U|1;i+%>vgZX~
+zbKEodj|2EM?4{XQR>z~~0{r{YiV9-yqrPRAylb(7$?;Fe5-7S$2WAM~@rY6y!nsqb
+ztY914kA384)LWZbYl@yfe-zooLwsGBCKsK%MXGD8q1;`$F=QT$p#ksDYrPr&0@rRJ
+zEvC(t1<&?1WcE|5q^l=4Tqy}$3m@vixfaAy*KG>Z;V#L!8!@7gm?<A_!<o328al#f
+zw&JRy`aaD&<P|!w_Ax*bSG2}&&HA9G<kX?~Zkz60BmL<XnYPA3h5f1(`$@2OI6Z;7
+zWF_e3F|sQHX-{Lt&!&E4yli3CUMJJ$$4ul|4NYpH=9=r7gdr^*94=-#c9H5QeE31{
+zULfx^F#&M1>1o^3s?qbM<D&4bdbg`w=noLfSk<OsVUtkg#AG;8F6GKPbhiyg?Ul1m
+z<X#1%4I__}os6&5y^{Az+#>*Oj<PoQ-=_H!lbzMD`}ot7!e|yg0iU{RHn8Yco80<?
+z8S$b7aL8m(-mTWz6s5GUSBGMfAGL(vcmbHFMnDV{8z$&Nuu!WNPMl#THFJ5aYWJ(1
+zqflGTGR##mGtQ0*|F{aab~fP`>&!ZsuE<J<RBYW1TPS1&#5Iso(Hx(x;Xz4I-Z-No
+zDv?@G6W@Jo7#Y#Uod)EInq`)-zk>6Y<nt()&cC<}MQGh^25ms;l4!WOko99<7l<sJ
+zrGN#4rjoVPeZhGj7#Xt0LG8-f#7!b4!4^ps+G?k5{wgmp6xWwXtB7gP<PE@?Uz3F=
+zv|A^lbD*)`ND?pG-3<;|!KadGmHfyW23Drh7g>sfG*pjnmE~sdWW<Q2sh5wfc~!yk
+zTo2qzH<%||et9EC(|1ggF2ljTjHXCB_<gu=E(2{UCO(bLBzti=Km;5M5M$mzriqoc
+z7D{SZxkK#>{W1i!x)Q9o>d<*!TO-xjHS*qA{ME9<#4`mvCOfs4&}EvO6qT2G{eoA1
+zx`|J_$NdKN-njmE*$yMxZBWxrjOSx&rX(mik&}f?$7~d)jg9%i)XkWUK2+t0T4~qf
+zg|YH^GNdQNV;V`HTi<W8#%+2}Q!zz>eZh0b@QmQcRlS%KmAe@wt;VFjgR?}r*3~Zz
+zxlT)0!8*WGp8FSd_}si0?+zihZw+C=LF{cAZrKkNMGg|+!<``;@H?PjO43^2+7%fL
+z^%NL0(ptZOkT8W2ttU^w0eK9!6+UeyjkPfQ>8!R?^oP-FxO6|8j?vlzU-EZoikBWF
+zHpu$ya2yY<!r{u(YFebPKAEpNu$JF#w(Qq{g#p?Yl^3EG1Km(n@Tqn=Q!H!yOD?{Z
+zS6=q(rL`Pz$v(^_+ZS$_aq8x1D5x1NKQ`aTj;aMzA#$&Q_gD1NaP7~3@o)}cYtmGW
+zd{jYwO*D$F;8vc^Xh^%B%vl$sdZW4nt7}NeWHp4{7kkEDOfIifSBRN;#^pA#H-r~3
+z1g{`3oqPDAt+JuL<mwocnTSJTJ0Sp`bWNqcz8>)^>=--jY7l~$yj4~*!@7=?23#p|
+z7TDiEh%j>QX~|_mx&Vu>KU~=0jdQdZ@L7p|qEQLd6L<)4mI83Hmiufx&z(#^7zD;+
+zW@A+c(j&5Y#aw%&gxwO46BPBkl5=w2ysqNGWL(;k+|X<IFcR<1XG8zCtyI3&@{_!k
+z<&{=bfsrOSyEbob?!Ymk=!a<A=%1*~+`aKqr`U3B)63ij%f$_Hntji@*U>ra0!Zy$
+zLk?7ks!}2cKR60afzA1Z4!e&fuVM_eq3EQ1qK4t)zF;^Km^hfrxXh-WG!5lIBRnr~
+zS}G>NuXu_b?4Xz*t+R;OiZY_zGj2s$v{1alNC^$Q?N=W)e+IFI?^n=#C8-NV?o-at
+zS(28X0P{OsOnCSb-yZNOi{2wy7>zgS=L}8|oWTLyB%0|{%fRuj{Tc%e7v_6fda}v)
+zxTI_Y?2KC`du!eEx-y)sxr)RoSjivfnK<vEd%DT@RjK<(RcM{Pr!JS1%1-WT89-7B
+zx?uoeuFB8YKTb?!(5x~RZ=(UvS<y_`2QUgoz-K$iCfUD+f5|CDB38oYpv=lxaMFt8
+zkcq4NN@OBeM_YY_$=Ajko4P5*zc)RTO@@fP_|}-YKcqa#i}Ohlp(QRwI~M^?RvRTf
+z5hIcK$iaRyJz0!26vF^Ewv4`c>{?Ee@WDZR?@8W{oimw73+XO`%;bb<_&^<Dewff|
+zqf+(QlP`bQ4Df(EZa|tiTdl3l!k6jNSV76=Mw87|%9hHrbfeiiy~V_;m4z<d6eV4(
+ziomgU%XI3rS--Cm;Jppll3Z%tg>*eq@aszJviiGkejdNiWug<XuM}h7s58rV+$y@C
+z$;<>Qffdl`dO-^7k>h&KYu-0{e=G?(=60J)e6%+Wf&DdJ!ob+t+~ya&M5eNg?G6J%
+z`!#hNYMga!nuB$2S>oMHZ)Lq_5S}zs{jzh$P^$b?*n3CgE(<;g6)QLd-eg-U`$e})
+zVie;zYx<QhvSId*FKqyCfxx^+AaGV;4rO2BpQ1ePW@6_0b4aKa2m2?o7{XS$IgnTq
+z!lltpas8W?WrCy)UyiRZJBmo*K^1kBF%au7XTB7iuO$pM$9xS|pk>Z^$yK9WN4)D#
+zK5<#*2CHUDTf23X-F<xseM!H}w(8KRlVRFTKX?RSowJ_lh!adh%3`UttJmcgGqxWb
+z_C|l{3o1-@4tu-<&KC6Z>8|6L_-ytJUxSaNGYL)@E{L02nGlvnYtKX+&Uw#rRHaEa
+zeDM-#P2HyrpR8TAa6zGs5ajpDUWkEel2)kE(atLW<pzD#1U48NsfBHI$+!cQRI06@
+z))W1-wEJ@()nbP^I&6*$&#fH3G1oWAuV3FCo>Q4xg@t}Z_Zqg=_*Jm~2n!k3pMm>f
+zH`U76gl{KA!|1N<(Spp4R^4i!)>*?tbHFxZy*K9{h?U$1G$VPJc9h}Gnf2VIL}$0G
+zxCp}vgy3#xu%BlPqhllzSotl{OzJLT>hnm;l2lne9%|;jql7vb(05k3w&F)hsjKD@
+zeq!__T&yydH_KIvLaT8*%PV%zy9q)kagZvX^mkmBT1B2raQw$_z!t<&(e|*$k9fS$
+zJa!f`ZJC`QmLgag9L+YlqV(9Dm*<7P_xfe~VKfs?HsN~8hs&aaH**%li={^fxVmx~
+zua7Ez94q(lf6n<4{)$2~a{N2&9Iwzv$bC?<!5`0`H(>vh_xnw>p_Q$XC9R3Exs$B}
+z-N!%v8%;+#G78s2fDp9JBgZHuQ=ouOcQ|W@X-@>oB#knAvrc-(@ttpT&Mdd^)0yH=
+zTOCZkKs|NTh?X9}<*o`Bh{kpX0I|<<i=%HxK3T46)({E1U!qr{NtQ%bg&DCgQ$QaN
+zC*wreA4ysGnZ9Jt7rp&4zK_o};R!$Dd;KH6|GZ7(f4$j1h{s>NQlW~k<thWhD_^#t
+zC1$-oXt8x`zd`i{<K5sgCs$rA2}z3t=Hq$%3$eXbA@mp+_PMOw#nJh4s=`PtAM_5r
+zByE*@g+nQ9RkxS%9_|=$p{I;D1TCi|G-*Pvkci;<tkWw{RrG4VeT_OCz}q^6{>aT#
+zVO&&_yyLb&%UbTX&8n$pn*vQ#t*2z(_5og}*wLY^vh+8OIV^C)2rb&Kcq&jlPEpju
+zh>uLQyA|3kCQK@g`an4|cAgS(VX7VSb{lh(-1dcO**00|rz+;WcoO0_5|>XcOfWpJ
+ziM$A9AfMHO)^b=A%=9BhsfOI3IA5MuHRPIbS-aefm}{4<oao!lB4C#^?T@CM1U~a?
+zo;SxWf9(wMY6R)t`CRMkx6RK}E^y?t7PPm1F{H7UbKgNT`lvd~<`TkLp((iiz$F{*
+zm>bqKdK{Op@2yjRacv055k@_Qn9@PIT1S63RF*k9WSKT_*)kU?RiqFO6z;yX-R&oE
+z_;||U$R)=k(>XzA#EG!`$gBbfZ$7gzI&b7;quVp5o#CVu(g=I@io>EasL%;t=Vs_}
+zx9Vm{*PTU12LGx$^VYk^&gl+tBFdRczU52i;iY;Y*Ha=_;W%uuP&F#5-BgtgF;XoL
+z#tENIb5$og;OAyDlbJTan?yV_<BsHQQ+g@=zQkLF^EQ^X2VK>`1XmDFXWLZB1yaQr
+zS}6HG%IV!z)pCA_`Ud((C*)JKPw@W;EuoK!$6s>7f2=aUaKgw5DX1QPm@nI}8ARBw
+z6Y@>BESSg^`nr8))H~}9Q~uaeb<i)5;>{9C+WBH5iUj3l2GTH!E9+5oR-yy(xlC^t
+z3D~=IKZ~_B+&CU4D2x~JWOZCWeQ#PN?UR&a0L=$=uTIluaF=FEz^g?d-MEPvvcyFv
+z$cIyGn`i5sDSEv5FAd3mUX%D8Iev{z|G6gd=as#Giv35I)h{c1|B_xX(vth>!!*A=
+zbbkt}f0XWEVq<LL@T*oXZoZF$DNqh3PR<TC1je>{j%KzFPDZxICKLqZTK{tvNAG`~
+z#nB-rpyY!3qwBnDNQv!!%q{rCb!h(L{LDY5=k|*nB`AhRwvQhs=s9D@S)$<7rV|ks
+z33Qx|z?z54D5n2Km^og!I;@Yd8Q}9aSw>(gNS+8vb2ZKL<8?eW_l>HkOJmPc?m!Da
+z)REQKPrb9mA>wbET#rugYlvjpq}z81*txHyNm;@L*fPOZYXLXWDM_kYV^@4*P$v4l
+z1DP(woe)(cKUPKI6f^Y8MxPAprwlKwIg=>DLfW9di9moGn03an*KNxjnCoLnNyCnC
+zv9+U(xUZ3cTE4m6pI$yb1@G<vJAcPZPiufN%z39>);$ToZAoKdEWEL59En_gxo&&_
+z`lBLa*L~b}J`|btp~$~#=-<u$p-5Ys|F*vA#0c2*5+I1&^MV@ca49Bt2rR~~um;;R
+zQ8AdMP)O$C6n#GG4<l4IU;eonz-Nc8tg%Ak1wJ9JFnN4i7&Hw+p_R#~pJU=WP-ak!
+zuPpD??+HV0i&Nu4jpp(4W>`?EL2O6RVf6!Z{euSyY+Nwk1sbT)CQ4DrF#=y^A~P2{
+zie9P2DM8H-MH_We5ceAy;93EowYr*{JW!JCE3{E<N}Ic(=uS3f<rR{-fXBsw`q`n%
+z+wNgig@-P8r}XZ;zmv^Z!eJE9sq~VpT11h_Bn;lRjmk4NTM4SfNyf7lg8xTNvi_76
+z(f!b*&EE)_znCe62|#@zKmfStFpLJpoS)XsKQojntd)SA-V9G`ft@{X`-zt6Vwr)K
+z83<Q|Ob1FoOyqD07EG7;Q;H5M4&zV>u>M&ZVkfhr^+z4<@%yN9Z6o!wzJ6Yegs5}b
+z@4eRl3jB}B|Idf|SAq41TK?Za7ip_}WX_LaetZ7BZ{VNk^2b5`pMuOEME@t4*$uh*
+zGV?LX-(cp?&jS3%iT*XTsrjwFLD<!|-?|ZyeA&neaw<w=249|}h=52bm}Hd#=-rc~
+zm=(#10^Bbr>H@CZ4pUgnMbY3`VONzP(FKXf=JKYWFpf{XxGH;-$6!DU$!5|WVFkVB
+zu7Idr>sWjT&)B#B2BV>$=)JdG9_+l?@nAhjB-Au<ztYNQW{;>hv?aJAy900Plbb{q
+zq^a9j*_3LKopkxDMYV>5t%n@(tg@kvd{#4dInzWh0<SJmj*VJ!i^gh>=o4Q!%mQx(
+z{dz{|k;I@Wqs_{X^rn8?KZZm;Vr9Z_Ee*9F>ie5^{%aUx{cjkv(S-hWj_02kQxf@q
+zF{bjg^z_I3;7e7Db1AnqQU~DYf)cUYm$^POpag}_Fc@Z>V;C~^>T?tY_%S&TlDLf8
+zZT5X5ejcyz4We7ZUOI>HPUJCdnr4;`0&TQffo{$?#-k|(Dzo(2pZtgto6Nr(S{#Mp
+zb#`Kyt1s?JN%oQ2DL0iW-_mrWo3QZ;sa(M0;3UBfrnPYhbV?nQ%iZZ*bPmniMlYmv
+zq;{IT2{J1s%$t0LbF2A$!vGgT26L3*<a*)rZ%y|98(#jVF8}{V8RB1|%<oMue*;}=
+z)}Kw7KD_R?=g%8y{u#9Y5dQxZRel%wpU`Bx06lW{V^Y2!;qXgr{l~=q8j6hD^e`X<
+zUbu&~kj4V7g?fDJLxsBm#qs>6dMjtl6-t%hItYj0=W&QvKK+sTPpdY={GO`J<qtIQ
+zQ+=c=%{{a1AE}BG*W>l=Dzd2;$!_Cl<Wxs$Avxkv&TvemXN*tU(S}8M|67PgE{xSu
+zv&{h~z2Gvp;vP|dXhU$hUdMU$C%1GL(yu#=(SjC;Jqj2rRa@h6uCtz4sYOVR0as(D
+zQ-U1uBA=iuw9$%50gqjDnAyu<3=7_Smjq6de~OH!rerypG>*uudYv{l|66C&!jxgr
+zZz!Dfp|`(i(7y&BIx+20A1O+pCm(1YFPEa^y_%i@B@f?;oAZ{)sHg<W{`zF_r>h{S
+zAJ{Hnc#)b(Y>;wYnC1)ZoIWb{Y=}wu6BvwfJTWHmx6n|M6i!`kkORon@D>c+v#pQI
+zo|%ZBkT=zyQC~6lBBv6?&&YabG<&fxV{nb)G$njDr~HW$@6Fw%sK;B+EIJB=+l+6H
+z6%z7fk$UqY$c!nDuT8+C1-TRI*Bw`x>Kpvls@`l9J(ql?Z|hMzq`cBZi!|6q7(BO7
+zqcL(W;8YH05}dBB-u??_{6)q6|AH0&YLQYhT;E*zpeh(XI@JHX`O3lMV{>Ri=j7(}
+z-*QsxgmIf$euTjbpD+%>uZqRA_<~8=%1<H+^T9=h;L5Qz?ar#@u4Ct%lpH@1+W5Dp
+zkj1jPY<uDv?gq>i?ZbGMA1B9b-%dV78IXia8i;~LK}#0I-Dbvu_;$X35&EW3j0ByF
+z+l~B53P$tm?x!W<vj}M_u>n#3!YK-N#gRU1J3o$)2!7BWPNzJ0c3rUpZ*he}?WpS~
+zf&{a~N5-m*sZa)YJGu_l83^b@e#m+{|K#nHE&m2#FcrusA~)0y2vIm>(k=tMZq;T?
+z8!&Pv)Ri!Zs9^G0>#fk{7zQ02y2)tbluv3aW(+CgrUsQ|G19#9Z(nft3Rjj)D?+K2
+z5nxmjrC?J5RvC9X_Mk|iNwH3UXxZ)TmM~ddm4GHG0=fteuzs<^M-rhdhDsTxL7(Um
+z04IV0+8FAn{uWypUx4X?aHC&87N!4UzC3==(6hMvwvuiAbFf?FerQ}TTH~?eV!vb;
+zK6UPPQjo1X0R~<>ZbH3d8DdaXJTSxO)(r@L4_C#J5x;zF9=LHVa*R6Q*88<sAw941
+zg3*Xyn#vmGd8@C2_>ER#zB5yrhsVH8bQuBr9N$B9Fs;4NtrNGP0s-zunaPpA7cC7b
+zB6-}VJOX#ZgyYWo2~=yzZ(X{mJP?e<{)cQ?zpaTU5lo}dlC#4~iEHiwj%1LD-tC)j
+zkViQvw=bwwFg4S1jF|Q(vNQb@n=5}NWv1Q*Lh4<1GpGrBMVXf@o-abZ=s|k(>`M)L
+z4;Ee}4`G)ujs1ws7ydarEF9$On>c1@bSGR{z-QQB1EjL@IBM%L#l3}!wszY}l+l(B
+zz9z15fX5AH<%Xr!Eo+y}w0JZOwf1}4?lkT>n1R(^!ow@KiKI=)A~FaZp3$xKDA$3P
+z`k*s>yC5K3TnTHhM=*`m1CiT|o{-IE#fTksd(sh*bFlU2L=U?HZN4+=DfGNlz*sdC
+zA3x_u1$+Ouz^8(;zvlcnziI#v06_nz>+ApQw*U9d7r)xSH>hdZ?6RS}-c#B537mm6
+zvcBHdQ*g(N!5YVP$*yDr0nzHLW=thWD#ja!0q6*`Pc=A^>qyX3D#RHr$IgCxC7umA
+z;GHDBeT_b%Is+LT#QhX(8B5y|DAhQCIQGDaOe2dTy)c{s{dTVxMt(Vo@7sf!EG?R$
+zKSOd!t38f7%j&;+WDG)Wq{ssW<fVV2yu~27;Mbp#6NMrND`z|oVX-x{r8o@_%h+Ss
+z3+8W1BzuY<$_my8=8;H&Ov-r7J0^lOJ#amilaa4E6Xl6VKW+92^-z3nD(xLJ(WR&p
+zy92kQfqHigVH%=RF<}?di=ZdO!rPaD{Xu_=M1xs2Vg;Oe%Y6WYbS&r;z;1lZ0>n?>
+zA+?5dB?2@PPLChHBX@|xFv4>Rw=-KO+Scc|2hrR20>JyyFWoh>80^yO%Kqx-vA3JI
+zy(e!A%p@6l@oglB9e5>tt|x@hCyRa`rqo8lrfS}TO7xzTGKRt~&#5hcQcIIZ7mw+I
+z+8}H7iG(Fv^=(^BH4HMQo&)|c;NYo!CL~N&jcUPI#d{bD#&uWlvj~t`kDO@?y5uTy
+z{hw*0i|O?HR~Arl-zeFhQyF8|?8qL_X|CYHrA1ZO>&@^&Du-X=62H!i4w<V>swt7s
+zz=h{wA}OEl3C>%iprE>S2M+Mc`;m@^WYIrln2({mD6fes4_8@gb#ZKM*X8l&Bf`R6
+zDPUs>ED@{YvNozL!KWsE+lWrjny_g^gxf*cuEmRcYM4%lc8GgTgI{SSIX$@a&-;vH
+zHMW{Jpck+hc~UjxI@!s9`b>5ckyS7z-)t|+s+Q}X&ou_Od>MXS;y$Q!o@eVBBt=D9
+zI)$g^+InD$5WXA3;VvI~t-6pq4>B-!vfgTZl|-AsPCKNZi)0Q)VU(l1j2u0kUnfs<
+ziePXg6Ge6FmaXb*eoaxW=D}#!I8<@gZCRFt3>v%O2Ml)<+9geSx5SmFzm|KFx5TtZ
+z2O6UJv<K^LQ9BEs&qQO=v8mmz2S(?~6?rfZ&DIE_J=30h4(@a@n=w?mj4y(&^a4xQ
+zahR*5$Tf*`^L|gUXvmf9aO!(^)DPyY3>?8BQ74nV@Y8c;e%TwD)S)~1vNsBuc>IUI
+zST5gzrwZKgS1w}LCU^J5M>}VCHjZLcTWe48W(9d{*vY^(Zqm{+`>eC%V1Imtet8NT
+zGdw+9$#iVN>y(|l7Gow-cCwxHj4Z{YRed2DHqOPqN^<QJWfS$O6QFR_z39)m=>9K1
+zQ<rHc8!N&3?Uh)}le2hYUGKkLpWY57Z8JMc<mZKPgrB?Y)$$vr_Vv<Xp_UTWw#z4e
+zzah~k9oE@xFJ2(aGRfx)%Q3XVR}HNIf(9ZoM65(YTtyDuNJqm&#U-5mRQ{~ZJ~whQ
+zq8Y!L>a>i!Ls~4gm1Q``fbCAVsKue3m)ZILJMr|Ni3a>Xg(!0yBP-{R>k@vM{{Jgq
+zfB-gJ=KshSs6R>@e||f|{|Gj+`lxcynpm0qert{c?eBT_uRt(US>d-rhtGXgvp|>4
+z*W`QCadAogpddI!bpvd{8oE&aqzIDP;8?vn-<rj@noLx#y7(zmB|M@N*-dZP`%GRh
+z8a5G@(|h8>UTK4<6>MlZ#q#Oiutrn!7GUygMSG@p@<9WXVN{Y!IFQN$(O7=&RJsmn
+zJl=jgk<M(ysh-bAV$*bCk|Dk|oxZS3RwKAkQPNGKo|Xwlj+KvCXB1&f{h0y%>n}Dw
+zd?w&(F8F5Kbz-zQ^$e75Uv(3tNSW=jJfE}@Ij?8TO4bUBlrjxw7%EiHmg<_5Ch|o9
+z*{gR-4VNG0G@86u5axFT8Sn%Z6smK%*3jo*)6;(fG&gvq0~j@BlZS&E0e{7&Ui}_o
+z7{z(1<FS!M>+-#KB9FcTEK+Vuz9J6G_};=K%Ab6yOrp+fGg7v4aKLG8O-|E(+iFji
+znPu{OWXbR#2}f$W2^I)OXXtLB+GjtEd|4WQAJ8KW0-9!|q7@KC1!}{^lv%0*<v1<#
+z9q6Ue2rTa?9@Qjei7@@9Z<O+#nSuj6m63^u69Nk!p^GKc4$eIjSkbBEIvFl3We26e
+ztJl~^GmOJsPXXYL&FHpb&i39|YvNNsbIKmO${kT`C_99A+?hA-bJA?Q9%;ucQ7?$}
+za62>|<&mq%DvG@O(5`!k+M$_X@bksOl8^Z$COOsR?F{sMUWLE_XKkS)a(lRawkxaf
+zO{3wH$z`NvJ)Qj!>T|lST=DB*Bfosy$W%TV!9Q}lN=S+pd@d$s^!*V2k2DE$_T_l~
+zhsS1ooS*0abtwG1$NquE`jzJ<s*KBGGa__cC`pr&gisK=DwY5!_$jZ15!jnikJfxf
+zmWsk%-T*4SV&VA-)qZ7|xqchGPO>w|VcgFA_9H#jwhf<;_F&X%?&9-Qh+_bB{j_`Y
+ztVJ-QgU46{s;UK7Kn{8kqA@SQfkM&|j>jb+N*r`4UUmHJ@O^wbG}!aab37nz+oF9&
+zMQu66L&W=aW6wb`(Ux1U(+{hg2@oIB@|0Zs&#5d#ASv3qI=bFm`<7~NEk$Idv_WBJ
+zDqqmpVoTJO9}~;qkw^OUozS=^oWAM`pPdRYMVG#tFtTb2el?DdL03)UmCv(~vaRUT
+zjn{99+trQyiie6LKqsB5y&E4ke`hX~AVtwHf*NKKDwCAoif%BMVGNA05gvkP=X1Aj
+z%(U$VP+oJj(th0C47^#0?mcbTq{-(V5!9sr6Amb?Ety|cE2vG@OoH0BbPH@4@3e65
+zA<xF8m@Iu@+upHbaR*!{n9`xxJPBpSTwO9QHt)7aCd6G!{8Xi_B!3xlh{M@NF)}o7
+zS^)w#RPjLFth|@0mQB;`YzaGVD$c2f8j^-qh%%zQ_}ckRQ8<I6it!XkddHBt{xE2H
+z=ZB6kriAdSb)vZoSGA{oW$$H5{nqYE0C;)gMl6MtEj4>72DTG;f#HI?N+y$GSl{(w
+zvkkv{z}76^tzrB3q307FOEaXO4m8MTu#M1a8~6#0>QLVj<sW!^%vsweFK(4RyTt7Z
+zU9t?yGJQRipG**88-@BqNGpjGbJ;EydwYk^_Q#j|A8(^(Q5DW<P7p|gI^#uph8-6M
+z9-nUR+mGh3_B(?ptB*f<c6GUYno*NLA**%X;KI>6=Jb|q?0*WDs1B<vZhTRgz@-@M
+zU3;X+6qI}!<TTo7@$hK~woZKgx641QT;90!K7u3S1I{`AesKJ?`vnq}M{PdvyzPX#
+z@e3f8pU&nkSr9VFS3fY?QUKn1P=RpjbN~@7l6e-|7sl5}-D@Ka9_nSAI7M)YJv$c{
+z*CE%7rgUo-9-hc8luFhgX8z80ReM;##y1)miIfQ}w@RNLlk8?G6fyfQ!AML;aw7c3
+z>Eq?Dzhi@u-@Jr<0eh1-Ks(DTxqL`|I;qY3k=(OuWqUM|wpD)jqKZ)?${wDl41GbU
+zu|{XZr+WoAlAMSYhBze-&!ZTo8?=c=U7>g>0ODa1BoR;xCYi#-VyPIR^=;qm3vr0$
+zJ}{@`BMwupR4Q$e#P{eUr34}I;Sa|z^{?14*OBM5cCBTEIOr3C$<XsoA%{FL(m$iB
+z+E!ux4E&VawiTAus&l{3fHLu=+w-!du9<L|M=P~`i!lOgn!9S1amd-%-eLMY+S7j9
+zY)^nWVkjiitdF_MA#ruSfDO+xmZBsln#o?aLR?wbjBt1gnn*>H=gnnAP#gOw@JRuz
+zoDf+>2!wEnT2Y?T`B@!Gy;9m={V{p}0}oa>gWfPyjL;fI17r_@RVKisfm3&?GtC`K
+z!Rqs?6?_~7@a%Gh?4lbS!IO-}tw4#{>wZpMCf0T<H%Nt}#!Xy@x4!K!4-E3n@TwgV
+zUQ66Ba)Cr%UZt?s-p|c6)G0=-CL+JR7qI24v@v|6O9+sq(Q%!c>R<~B<K?!hF`_@Z
+zzi6qeGj3`A-rDl!Wz4=_llOm0JIk=TvL#GIa0qU}CAfR=;O-t=gS)#04esv2-66QU
+zySs)U!6giR`%VXX(g{76A3Pj>?Dy2#wd$->yXvbEPutJ4KwpU!0F85w4tY>}z5}`x
+zXW4{fv#ugD(MJrqEUUzsQ3&<lb=8L{2gnUjt2H{5s4qKlF7Zn~4flL-i%EnJ9{v3x
+z-2d}Kg})t8{(4OMTfLM;xp}iWE;!c<#fJ!w!MDnR#3)SuDJFpl@}Q!su)8#W*4BPH
+z-LS9wROMPH`3zbI7eYR@oL%!Ug@xXFsBpPqFed&D_Dl9xEhc%Dn`8n&0b?|X1?+mX
+z96scXsCk#)RG=8~vw%|dgWPqX7TPi(yTJMV%eDi6UpRo!67gtbdbnG%e6G7ZY4zj0
+z!)8zOdHW&R0b_Wblpgf`s;$G_6`j%K$qI5yhENSCoQO{R26H~s-rYC0Y*?Dx2*(74
+zILqTyL%nd7AW#3ol@UZ_Lb29#VrQ0;5wD$%qMj2+5hP^U2vIYih*B<$NkHz!A{8Gp
+zDhRP0S(-Q^ef{}c(=3%m>wMVhPP36zhMwSQcB9I=n8jLz`dQ=sWPFdII{EtXXcYT_
+zwdz!oHAcG}ER^o>yegtlaeCMd)=wxVK4WC=;9|yhI9$V2K4@Mg(p@wBb-i)y-YSEP
+z^nxt?<J(pN2MgGGsvlFux+(iyNzI`M<nDSvlvMRd4IM00(bZskxpw2Ld<Uosc45;6
+z_f%LjIhL2>BWzL9Z&P$a!pklUClihLY%@rE%nL?9ttshlNR$TyA`IuTtJDW5GRe>>
+zUn?4o<WDrhhQji&d4{nM>X=X+40e|&uIB8xIzYWXG6o!U@YCX3rf?s_a>$=lV@bh}
+zY?UQK2C_=v=I?=`&u${l!I0tm4)(gw*){=DZvd(y;|~5Bl~+Vs!cuqr?r(({xFyzL
+z+7Ib9oL9d}u>Q>>t@NyIes|iKRGK%NXL{9iA#33Q*qeg*nOq83Vv(UYg0f`{RJc?P
+z*oRBBl2<GzymGs$zx~U*bL|_)FtI(jdD9r%K7NAZb@$85)QxGuE7v8o^Bb%Q!D;<B
+zHU3%BDWh^04E?X_(|hr|;1|>gW}~`J51U^No&!?8X&AJ;Bu|NCq@baBNy7D#4U3hR
+z^BR<2S3nlws)voUu8y_oZj_hf@@9hDA{-gnFWFCmIEZ$8XKU?b?c`24?aS4KG@M>W
+z!}SjS=8GJ>**DaI7v`~XEYA00sFo%QetYgiblg1L_`vwU(9*H!S_WPO*QMD9SQ6l1
+zZ$)jDW#U=|I+c#TUY@*EW#s@u!_I*Kf%NT1RacvW<-?U2cNF7`!B;+RkE@OA(u^xJ
+zuNLCv24pA3Ct<n-F+Y*H6&WAZrQ=TOs5o{whz^cYw8d&5YA&d8J1phnwCPh3=<xb9
+z>56_WWql-9-iDIiqtr<*5UUhc^_CkBMX4JLlOIq44jfsa7TiLj)tamUuq|lyt;+=R
+zMHKADNs<+}QcJlHt}4G=qTV!Ufw!u;0YOt`DgI(vdEzEQyJs{0ikUy0MWqXSjG*3>
+zsmvsII05PyP=#BL8Ubla7r_aq63Z$!SN|*$iU?kxSo3P-A}$s)xH-5X1o6W^WW%BB
+zM0B_6NCrQD6ET(WuN}t6U1}mSAE8zxyZ1n>CNN>=Y~*BX;^4f>%XsL=w8WH54{|_8
+zi>{dRg+O3FZwr6pKL8<0vdv{t8Uushh&y5e3TNM8JQFb6uoi4823;cDgO525F4!>-
+zAa5byrXmIEN7*_SQjbO$qvP*<9WJ*(q5)Nozy%(V397#_*%CsFAADpT&-Rg?B8GWs
+zv`haJl4Ls7M=VO<)U<W(I*o`+a$<V@OP%V^!StBl^ffC^@)bGHU{Y)6^kjXn?$i26
+z*_wU#wz?b!k9@<HFzYc8@?}=<DfMu%cp#@k&gi2UkvHy{hO}xEMz0XTm^&^mG*FhU
+z80fM&)J)hI`rOZU4^{o-SOtmNH#`(wcG)>WnP9QqgohYEKwu*6(OIt#1njQ@2z0(E
+zzYsVH)A2=IPR1#;EGuxT#6!3uOL3;e7h|ijH%{&}J1RFd_kJJkJ8x*$?@h^Pn`HWu
+zrl?oKvsl?UwfGDTWTBxl$7JwQz6{4J0K6H_K|j0*Z^@5sJ8T2ktrE(`glB;X4@Fe8
+zN^c|?OqAP8F=a{?DX&|K_f(tV1!Lx&w~>V^JPHp@^{z}D?sOV7`u<GSQf!R6r{X2E
+z;W&vRP?E`rUgngtK&H3Rsp^`1B2kqYt>KG8WO@N=jo|#<V}F;bChn$Sv`iqChA))N
+zZLtidvYK$*Jmb(d^5KMf5^cFAiAZk*!AF`L(Uok@HFd6Zza@hY`jWD_zUiRQ1*Z&$
+z%<I3Mz$3SPwISN<AHtnyUlKNNjFe`|FzlW2_0;yo*`AHaH<5t^?L;tJqHQ^WTvE^F
+z3@@<W1^YAns|t}VEANF{r}B`n_BnIBt;l5RSK%D2eutMLerCp%UGkG-BFz}}xS(S?
+zcdlCzN&cWQq5>Ff`NhTgXo=9aVNtoPHNa@cwozKDD(2Yenyi#Df%3ss21|9;&9UA`
+zs5YjILgw>D@)l~j?-d$uZb5Suh7QuTM71V0n8^YF=nDq5=9Q#FY9w?vnM36ER-;1&
+zfTlMa1u~PjM3`3<_K4q+eRV7q0*SUQpeebC63!H>e#=pb2pyhNXdSjE4itf?<Oz_y
+zkOhh<+I8F3isv*LC&sK6N15xGSV+z0cNra`#(`>%w!F_hccpehTV9j=Y08(==I=^A
+zrZEX=><@wbkCyU(uBiJfkQ?ZkSm;^(_C(RB_z=Yf;9RE_g8=ceFc*_*=Ay^5@)7}T
+zjb;QqCWHczt13~6>;pE(%2h9Qt|{-zhL#)<<C$D@U-Ba9Zw(B@C$ApeOkb&SDq~`Y
+ztiUaeGvpvdM05v2sB_^HsFoFq^@5gg>S_<loKL4l1hDKGN8(r^EJvy+7w}62r=b{8
+z2)vHr0tYKihgi2k<T=_pnCwj4zW@|FIt+zh@#CbkrE|i*l5)$2JgIEZ!{jUW_N0`x
+zNB54(GjfO}@a7TjGS_mEv_C4C?CN*qeXSE}14LtYel+CzHmouWIUy@QYJn_qgac8k
+zG)PN%lu|xCn3&;fHsb~)LIg@>pMl94Boaf>3s`xnPc(b@aWBFnzVHyN>*|U@YZY<@
+zmwMHe?YbITWWS}_D4q(CcBr;c@8+M&x(c+&o<a1fjfyyN&`0w;I@qL+1dJ)_A|6)d
+zSBZekxHcqDO6>Uz!6DWeb64l3IyNsf#!g7fUybsnnOc8Ye7k}gih!);ex!>w4^CnZ
+zfW&NOIC-*JCdFveQS`I0rUBh)NFqZDL_EBFWG*nSC)W3%Ga6T>BDe1d-fss|yuqou
+z;aV^q;*0WZ6tsxHk~SnL<n1BtGq@2L28kDvs3vLf3Ncg1&v8rGp>5_nW2<t??59E%
+ze;vc3DbCIEdEr_!>p?QoV9lYynQ+8KfL#}N*uDj8;VDFNU_MroRQ+n)|3vIfD2$HL
+zq6Bod{y^o7Rnvz_BY8w!t6jsAkr^u0Tf~<-b`wTrwDs-l8|)bi*UBr&uj9C>s;}2R
+z!5VCNvJ#uv>59=aN<~Y;ZHdbeg$af48r?NlwdztAz7ir5DQ>D`g}v$I9=TUY4rILh
+zG|KwPv89js_-!=rw9@iEWk0XGJl&u<pmBb6l+}th)CY4e_yB7hCS^ihc8Pv3j!W)>
+z!pRYT+v?O~dbYQR5g*U?a;5|jv^bQ|6-ZKO3GJc3cI}Z`eN|`-t>G#Q;)IZ}lsR3p
+z-*O6T=*`uoeWwZ!ueL%j0DNvTJ(L8!BQuer0hFWS;D@A^*=C*#$JB|)>}!hcxLz8t
+z<EUDN%c=V=uZMMVoL#GY<o58?P{F>iG->}>-Df;-bOhOyVGDcd*ph;DiM`#8&Dxsr
+zlD+?B0xhP8ZNDT?qoWswpUJy<_6soi`?%yav$XYgs`xepqKa`b6Q%MSk+~w(L5dc5
+z?Y-69q-1;^glZnsxLO?;%`MCngT)AJeY^U0Ag5EvNas50eu;X@#Bf2xdcn!}g2bgt
+zT#KXv8#kSH3>|!(_B-Emy5r{f%@^1ZV%&fypq&i~8QLL4u6%cQ2_b`pWGv?oXe%P1
+z4?VD=N|kj=7kj06ZG(JKnt@dB@X0M74kW`j7F~A**!c`O$ebdUZBj=cXR`Zw_2JM=
+z)Y=;4EQG5yi<>;NjMn$*Ho5m1>*TKOU#9|+HK-k48*?ekt(@})uuu#|AUS+8n0i5D
+zMkAodo_0#Kf}hE4KRlKC3YK8q>01FtRdFEn>XvA<aQ{@sRI_4^JS9Fqj(ikNg4wxt
+zTs5~9DP(wz2rza>Goez2a`C#mDNg&07Z7CkjF%}G8Wk!(!BhlrBMiFLzGorSmv4Ai
+zO+f6xwJVV%#2CVSrQ2z*Yb2Vw<U(7^mM+;k0+8UfAD(sC`+u|Ahr?mLU=3GA0%A4A
+zxf9=k)m!w%Ig5Nfd8lHHCnHkpyhx{#<m|I=li_NO<zhU-e210Gm*vBI2njZscd>>_
+zeYBdcp#{X;Qq{jWZ67<x#+usvw@L=0Wg&ZZZ~y=x;$Jls{1u=7%=A5omDm`X>HjuN
+zPb$xwE%d;<rj{50wMFRkSe>8*WiCcH3gDYyLZpCralL}0EZ6tlCrUJAvMtL9eYb&!
+zvxXzeSmK(u739^R`?6>1Xd+KkQIWCWt{W%cwaVe<`pm0=$T(Y0{i{)Vj$T(hfeKzP
+zD>b?V{pGYCo|$!u`;GY4+RG#5jqbo~jhztj(kwq|F2J<|?QnBpG4=2u({B-av;kC0
+zB_-5uSJr$nN85(nEA7};XJ*F@N?A!$jPEqu>Thk%IMFDblq*Z8r0yKWsrr>i>GX7|
+z9lAE&-QOKucC(RjB)G>wZ*#1f-q;iRXy<980WwABY!Ki$3<n4_e?!ucCqpH?YQr9;
+z$d~gVsC)S8f3jE7JB)J=11z14%JSiLo-+`B>Q{Q%U<zUAP!?G(_E(w}ii4D3-<-&6
+z#N(?KzQl=udOCn-f3M`8h6(%j&02=ONv()zSuE>&?QpBT-Le}7^>T2}cITz!tcq#B
+z?TG$xH!Ledxo~t?h$3BcW}x_Y0%2B7N_&GC!b%^m?<0jhq84n5qonCFW8HB{xvuJ|
+z5klo^>f}T@Vfz$NXy<i;k$~dpjd0@<wY5!r(^?EO<NEOjoWVu8&b#4XvJCQfklrPd
+zmVC)czL`?QV)QxM(0CUiGi0t6DX?+t{6^_@5BOBxFbG>LlPZ6geamD-!<D+eCM>|R
+z>F(yGiUo+<9$yYfZDxa3RZa5E2V<-_HMn_fV@e`WeJosPC^8(pi`ua4#G=gb3fyp~
+z!VZZsqk97#APXux{JioaFqqP9kQ*`)-}Wl!jJ-E)0OFe6Tt}L3_)tM29YvOl^Ms1=
+zz}r;Da+hR#BW^h48H@6Jq{9ffTsoWY1X5&DDrCyGWtEcE+QEIuJ{8>7xVzuP;vz>!
+zfwu*U&?&sv6v+d2EO&S3d~MuEUxqJP_5J4Eyb^5VnmFfKU|4ct8jIxK*12Ntc(~5?
+zTq!Y|LBD(6je_nLkDoTMk8vWe&=(S{>b)-@?~(B{*@q3fjNWi$FJh?~bX{C`gWatY
+z->t7>zRQ>{ry&ufQ_R*b_lUrYgdB*LQcb(BK{9oml~Jb`#77>v7-teH9^|HE@z86f
+z!vaaL$c-?Xfx-QDv&>?#62p)QVFNPLZN>vOdJ4$xJP(foL5I4Y;&Zb>vM}T`M_T5|
+z*i#LW^y2FW4LmMTr<~8g%9_KP;TzItBJDLVhWNYN)19&zdUuM`M*(Yft3;H9%~|?y
+zU0Ue;Iplcq)4Q-L1!;#MK{W&8LrFb=3uY8?LPUVsX6wzfWy$;d^QF~^jW3jIDz7Uc
+z;7;O~z*+=rI7*_sf$C;~Bz=d#iP<aNCH)!^M@cAQXmKy1i{ThWbCdifp{qAP`;a@V
+z+e`*yP4}*FIPc(EDoxbvcYSGNsu3@l@fN9OS$~Ha*4fjYav*JNrH~{1+7W-(HK;G`
+z9L5#v(?b%7;G;AfmaC3z`<`pwyJWcxh2tQpxY@6*iLZmZ^k5AQKObxv+)&~L&6~uV
+zZ9F``0og1F3?4t)fVLT`^`YSX5Z7lBxv-OV=I2J(V$!<4zCpubkht)&*t9MUQeym=
+z8!%{oH%~$YZy}|H!gv}RYl;NFWJQlL=)0D}v4?U5vXoYyW|dV9Zrz+3L;eB?)<iHf
+zXQuO%B`VSc2iB|GG5W+%U(D(R1@dLg;r*WUPAj7|B}-Tt6)OX+LuU?|5BdSbEH>Se
+z#1tJ1T!0lHcna^hzvvZaO8HN+mzYvaT}6ED&q!W&ub6pRHN~!7NuS@~i`Z|G-NGNc
+z@%a!S_T~7;ce!kHbCA6T^~B$-Dv5|SW^~x5cbZQ9VH_P0{gboRB1i$S^S<+`F776q
+zG_1gQ?p~S;e6SnK2YaQt*>oNhNYG$90<0_!=|kU!H0z(nii4t%zXK#rl6-8&1w0w=
+z!5bLp9T@oV8z_)WxH-_U6OJD-Lzds%c&C}0OG!TVy>&hjA6GQAQux~sHfU<>ZMO0L
+znlII)W>}c{KRIa<dJT#DOJFtiTb%Yeb4=i50`CsfGp%6T*E2RV*9Wo4ctUQa!=O?N
+z@=a6TO}bQ-`<TH@W>5~|ls4uYnqB8u8?UY%$s5R@Rb+bPA0Ih$O@2s})&s^nk&l;b
+ztn9)wkZC5VS=bG|a-zB3_h^v&CR};8np1%1U9=QTSjOS7TX7kkqMzT*5|#Lo7)_MF
+zi|**_v~ra2g>j)Ijrcoj<wN}$iTQvSjOnEXOI~Pnmra3|aA5&zdsZIxYPXQG?SrfN
+zM$4Vm^t#d1IQ&JvW+ISCwxcypMQ6H~it6l$ZC}BiL8g5C9T%t7=w@pIx@Jc)F`zx_
+zMx_s7S_W?*4~d`#JC-=?KRHS0?|tw)t%vQP@gKjKQ6UvM1GQ_rCrDX*eLH4uv;1<u
+z7N9AI{*4Sy0~9HV>Nw07;c&<JVu02hw{T2B*lDMeqt=wY?rV7i!xNuvBx~>6=2zA(
+z9Eyxf24Gtw9xrfK-A~@104lpP!Q-B0pC5SCHS!3~WY<`?6mBtwQt$4#dLBaL&*BIJ
+zBRhLTsG6_95Tspz`!%L_l)X{99yHdb)i>exHNKf5YoTdM!*Zt8JDw3FzTaDa(df@@
+zKgb~7N`-OnyU?v1Q~OOhXd^Slx47}MOl(JdFKGOd^P5y=**9(+=SKY*$3w(|3ze!|
+zSWTIxlwa?2#-#5ReeJZr+^0iSZ)4;Py!K1X?rTX$Gb?##2j97V9gn;g66_a#!$B@A
+zTU~5bEFSR%2f6^cKP2#i<T~T40Y8ADZ5QqklwcQgA_N$U_jafI-^z#lPtS*oA4-SV
+zb$-<p^0#BkpUqjnnL2ZzI%thigWSAd!o^@D<R~U%mw<VyC0Mq>SEOf5z+x!4J_~5i
+zjd1=|8_FX}cbdNLd`Z;Yc0OJVhUHV^Y2Q78yD*N&-4bD4KdkUj6n3c4%IfOs1@@9N
+z0LteZ=2yVR$<7y3BOH~74ikdZp;DoiHUf?5AF(d&Hp-}McQ1i*3ZZQRPx}Gp%`H+1
+zbQOerJt0Y0jg2e)5_S+b!m!T*#`%KpN`@rPhno%4#4j(*pj-V^rRyrr-Ao7V%HVds
+z>|E|#b}Gh%Z!9KckB;RHbJ%P^1-K?wwtMB?_QP+@cDbMX6=NvapDugQ3!4aI0<#lT
+zje<hgrE_HE+CwfTuNRXXKw5{C5L+yVjX)|HC2YM9-zN>{{rWlqL$pVK#+JKUs$*%S
+zhER`l57CexIsx8cFOyqgEVHqZgTQ}&en|o}CR;Amh2v$C>Yfat0pFP$<@dhe!a6(O
+zQ&%lr$yabk>6B>0!GYuOF$8F#db9AR@0n*TDGG&K)JtWuHsRf8YH`{ic3^UAL(!8?
+z^TIwP8tF;1jmN>=OY+hY#FVl?XOWzI1aE<an85I*6%?OziW)Tmoe@a2_`=kt;T)>z
+zF>*0o4_EuqAg0oQPBbm@<{c4@G=O@bmKZ|*YbHth&dJ#_s&0JhaWp$D&`5;Fk*di$
+z5Q!4_`@q^{1l0cH;SsJh$<f}{arBqR-~u4J!3^!LB$)SUBILAlNxFeK>8`j%?pcLd
+zHW{5L@wB;K;`uz}0DiIZpSde1WEH@)NyX5y&$-z@f*3KRO`A~CNEcam`mk)W0eGOl
+z4{!GF^vD;U--F59mugPcIln@!sIoG6|1KAaemc8=kd2yq3Q)&fsuhTd07{h(zc^+o
+z(Dx%JV2+YW24`1AG;3o&?lJ1g9O2-r<`@*rN`%gYNPX&NPA9WQc30my%~9o^5K2Bl
+z#OhU*FGfs&t6&F3=L)Y63dURwm*r|IrlmDXWYvp~(Une&KXvAg-+(tz_SzoMVSGL{
+zU9is^<+IWyUpH{Ja5-(5D5m4DhaSk1wTn+agsI{lhLcs>gSD{ro_@)4JmYVW5+EqU
+z-@uwVNH)YL9yDSU?Kx;gc+5`LwI><IvB8B`ln#K8QGgqr*pLUD=T&ExtMmpRg^w6q
+zLM|R;0C9i6{o6;-C`NU_if$pzRFO}6Z-8F{+q^vm*--U<u}d@;(l!gTX9GvzUp<rU
+znri9Qq_e=X%IANM=4mPAxac;7`}#7*VlI<O;iN_~V31wXb7i9&TR663{A18<iHL6s
+zmIi?`DFU7c7fSp#S~!AB^vse1shm=(gdO(Vz~-;4HXm&8>ucP4Ej{QEHSeSa@)ujZ
+z1wWHH3-HZMaXA(96J1-L_FuU3$J4-!TD=EY0$jCY8<8wt_X`i>#I6E}jzM6;WhYK2
+znnK{=lq}`oLR)FQ+f$VvOoB$W4=9kouk9hws?-`gZ7h_C3YFKu&J-Yl4<w-1h1QeN
+zlGf4JMtud%yn9gOS2_ojU4~^<W4M)aWh7J2G{UYRYeGFSmeb-=0+=G*Uv9Xf5}MX`
+z+#z%Fo&l5hibOC&ZZ0UCw!S424pax0o9ZPj!zGR4i!AIc0;`s!#xoCyx)8CZ`WkHI
+zT=Yc(TNDv~gLQ>aglTwT;Ig#@PW^UVM28GmhZh=yn&ZriDBf<bLDS>+AjOw@HoD6Q
+zV&%};L}vxvI0bPqpdyAHYeY#Wi7OXIYF=oNkC(@beUIQ4NTtf%5qGQ#@5&mm%^IPM
+znfNSHwtotJD!Ruq)VXhi!>Anbva2i>Y9$OCyS_ZcCSj2$qmg><qI6%{(AH0;ZLR!+
+zj@H+Lyp%v1EO6Sq)MJ~JIO`ok0<Yr@)QM3$Ue0|IEGHvSv)aO8ioGlupRg|(=><{n
+z2~mJa1k4PQ+hhw>1QVVm8ABaJ^9BX%rCw500jgzQS)W8t@Z?VrVu`_oW+-r-_mkAT
+zVwqsj;ym^@CfaZ3%H#Vlo!&9Kz3^0$&Ld%GtYi4D_RY81N{Yyz9?wkr?JE(2lIWla
+zRnIp$66(zU{@C$wzJYapA0xkIq7D}=<9r_#vJ2NbH^K@oWlQRyl9tGh9+M&>XbVJ5
+zTcIShO4>6RiwObQ&!yLD;qGX|d%p^>7~OUcy$X|c&h$aR6VsRAm<FAP401U&DY=!V
+z)*uszrv%)^9V$S^qb_?z$kqPgNm3z)iaB>cJ*%TDH-yH>3Ria_Z12=cy-n@5oZ^Mq
+z+=PrarGY*~PM<&wL%fleXlXW3RpiSlKqe$9dyh#fh0rSm6R2_xzycwqer>SVOds--
+z#G!*oeFYrmndC7S=q<9sJ23(zVNw*7um{ZFu8gBH#`fGOGR4@`Dt*dJ@~LkQ^^G7a
+z0I<)vj-lbziE2dwj^3y?#XHc*6<nfAjSAV_m7-zLTqq=A+lilRz<cw>5FZfrj2<s_
+zPo2o5)To`M!N@$*HPpgreF*LS6vRfd?1h$jrwS&$U#%0y@_TFtsJz?sS*1%ek54nO
+zUV5KlKxlmV9JvQS0@9RGMTaqibKTSMjr5!A_;}IXbmY=E6NK^!VF<)%=wj2<hS^Db
+zJ3xp=wsbO~(V(6frvvEkU>(1Zz+KNqKfSmZWt;zW6rEeblU&x&Y}!mWXe89%ZnHN!
+zkulmi(5*KEDV?EQdg=sCp3(=CnRSrVq?6}s4!lRV?es1?)uK@QwqgLvEid|A5u=fv
+zPQ{k8?HZMY)8HO0m=zmXyKb_@_xjW%08GdAR6#iD0Ke0%pe2_@R4;Doh>%xCRtUM{
+zh`^E4o^;jk){_nj(6F$sO6MS6b+6;dg^UJu`B`weq#dJOgWBUA7(mG6EE9LS0V;vi
+z4hvAc?LrTNeNR6`_KI8(%w_cQkc7Q6mSzcE4O`+%1Y$3HbQ@Sl=UJWP%(TYVId7g~
+zaImbWhMsJ5ipHS%T27AlT&Fv4alyfwu^ACgl2VD`Sjqx6+>Lmw8s*-gtW0x#+-CP=
+z7>~XwcqP&vE&iU$XdNTmqM-PlG5sd0EEc0W|8~mp74cEh#$JVoBnw2`OS33b`>PHI
+zy8V`xqjzd37Cg0rgqtK%t+4O`K#ft=t0hHR<IR_sf_@V2OS;%9DO#@NWevEPWuF91
+z2!X^4kGNZhWabSb6Nsl6`}6zGyGnTw+D<7x^jm%r11NX%z;RJ9B8&^YUxn|D=YkuO
+zqRS)0eCNj0d!;T@6`5-CCgx@pu$6F2*62{nd)Lj86C<VVnu{9U=7R?7q5k$VzWMEH
+zesDr_d;;!3r`jhIC2DjQpo0*1nO1vbtmJj_m#YmqzMd8sHHu3<HC|K_%x?Yowhnx7
+zWw)FmmHm^h6v-Fq)O8{`4abt4XGgaQR1j~IBOL3=Cwa2ktikDJ<Hn@Ta)YHyzU+{#
+z>Kmf_-=g{!u=M8()Frc5sZ8AwXt4Lv#*1u^Qt6fr97;O0;Y!%rvB9gg`k^vYIp?Wy
+zZBBLub$prhnPn}bO$;C4?;8uEMz^duiYqI0!C*v}{yv@e(eLeP{fCm*c*3PMO_NJb
+z78pCVR=SRt`PfWanV59KyCndqRp;F(8*)sAMEmKHh6(K?8W-eTB0Me?G{t_>GbDZz
+zGWDve)n<rj=GeLoGP(_Vc-G&PfXVpt4h`4dv#^hC;*jF|HZb8^R$$`qo@jU~;t>&6
+zvhPi|6Hn6kNmXZ)33Nuu#16To(8cN~sEu-JWeJ+P3cZGdI@Q^(>;tNeR;)+@22LcT
+zv|150rahP=_0%Xb2){)dCvUvTT;Cp>#-Y8LENqu0QwzK3L*eil3$9ewBK-z|uZ~+X
+z{xP0`|8=ulue^Y0jKQYNdD24$K6+P`vLW{{jJ)wwMjla7-J04prctU_ED&O8D2Vjb
+zo<q+InIl=-ZFGbZf1!dO>grwv&CM*eqV1@?Xz=tXGlLD~yODRekrY&f+-C}!*}%D@
+zIIsX-mx0hr8s<V#?T_`-6Jv?jsrflt9Ybc_BMTxyMY#1>;|Lw^;Z!bd_c((y!L+@y
+zfbX}p^UiN%uPHd{h0H$A+OoTY%O=yCy0YYaeP_2y#kKeH1{B*b8vt}#a4t!^AEZ?8
+zDpFSvKHZH1{q7{zJ^gJOykh~6S3Mbd_Oi12l#ZSr3^#|a0&56}8b8`_-*7|}qXae)
+zDa-l0&11FNPxCC9oOZFLWuKkiBr9Wk<VH&mGl{OdMjpA<UK^}*Dq6P|BrYN~bkBVz
+zc<)?qY46FHQd&IwUU`wZFul(0W$6_Cv{(UasRHNG)_SUnR~>Kfsi*xp#4uZfco?#c
+z9vjGTe9bM$Ej^YfUXe(tMyJ+k8Ec*VJRBMC$CP`GUM=$7?ptYV9L}Qkb!1FYdi&eR
+zET*X*km#?~i_r(6Np&%Y9vl9UiMXBD2{*Woq~$7jnvqM3%aFa2w`Am+IPWbxKb5>#
+z%}7V*JJJ{VI-}mguGwNV#GI_`-%(Uvn)UIprL~vcVFyh0l&l&BSGa-#KmJ5znI#bn
+zPMf{{6T8!9H|D@fg?L2^(%#rg7FFVxqPGi9myX8!9|OZEceC46WdrKuK(a0s+S|`m
+zujw~Mc+K2=3a!S;NySG*7Hux?%~Tc_tCJG+O=>5_{kCVU*;pKu?Yk*2K!Y%5%*k7Y
+zIKB-_#|lTE4myA>34ZIT9IrSPj|dDE65N2|KyY>7|I8pDlZ;N5iTJ|JmTZMpOJe9M
+zt#Y*2h3FW#9`oK~(X&anAxxN}KaU(bZz1`plRAa4L8LgT2w_@wYen;RJ^4jdcMCTq
+zgj~Dvr?hO1)E691aq}})7ViH2Z(`&)tlX}?o3F!ic_)Zu?V@hwW5J3!8H-3{6Oxd0
+z7GEdImLI%d!c^<5>bsQBwe{AXb&fY9q{CJR2@-Wx-o7w!&!y)7?niOwrplhU+T8AP
+z;WVepH&CNy)C^dFAvKE9LAXcQ!6r+ztEbtBBG$-1^B$(RrG8_6OHzpo0$)he9@t&W
+zG04sSe67wA51fw|D5u_nHR{%^p($g-Vf3?B6?N^xsDcqhucu}Vjz&hd)*5Z5+H22*
+zU8Q6OnK-{aO}29H&pE3!n;abMY=Sq$f>6L~G-8GLK0X7|ZBg>y2l8S%vsI7~X3IaE
+zc?5b~RTgN_wojr{Yfi+z09n7!w{I(lWWoXKi#FWHR86YyeRD{4oR3VXbCsV*nqHEX
+zb=gFIEGS1!j`^y|qmJo&4eTrMi4VQ`=4NbLJH!huC6SwjUmK-X&U#fg*SW0Hms<|k
+zK+Ld<mE()UYZ8cf*F=mKU@e+o$-*g6LywfWD3}LX`?=orefgAYYBYB4cHsU;-P+G9
+z_W!vN&qT{i-&RZi872Eazw$rVc>cKZKQu0x|FZW_N)+$~Hqg(ZC;$(YPyhLW132LR
+z<By*r9=Z@f{+tT@w_&=!x;E~UYfJs(wI5Fi{uSj%r^D0vz<*ls&>{<v<(dBs%1_G1
+ze}(<|!jV2PZuz0~;O7hX!?;KDHh+ctVdc|ln~$yJc_;~fHtzqKz4<))(`k^8>9`Ni
+z@t#e8khA$~HstfbPlp~p2A4zp3-I4ZAU+TNbfVv5xD3?4fIsS`c^>!a^ti`db?D!7
+zAJ=+6kN0%))ngt4{O@_sH1Fp-hv3Q1IY9Y6?$6mQ&ok`lWR}N<i9QSy|E=3TOo92A
+z;o--AeLBbFF*@$y#dFaA)4F0kS=R-$e?tCO+wOml==A8nLHuVR$n$R7({Uh=*Dm-O
+zlpn)Eo=1Bs^7)uXNd9}9en@`)iuQBo$9r;<Mks$ndr*A)%}4JK_j{_@_}D0Ns%K#S
+zBOLKW!SPqt{lGpIRD6sDp?(JTk-Xybcu%$S9`gcepTT>ir1vY{&+p#TEoSkcv-0y@
+z{a=Zd|DP@PG&*+w4)K@1-Sdojs&4mq@d)XEW6Xa^j|F3X#r)wQPZjGPGdrKj{GkQ&
+zJmOPnx5q>n#^+i2SViS|%*QH4RR7)Ne;!Gdn4ZUcEI{%r=FeS|{7GQJe)AjVlMlJy
+zgqR<|r}AZw7uNgV0sp-hJryK-jHY1zSGN9JXL>5-^%!i-@~^=En@=%5@u`{z0l8m>
+zo~QTse{-$ZPh9H*+i%eSImA5MrJib5Jzn0`=YjscD?L@CdW>{pf0k|k)`gzRI6VfI
+zb36<9zqt<O6W7`2d=~P#F7qSKKb0$bY-Q=&e?mSMFZxx?`$2gs@bZ|l!Shd)pYD`D
+zJGg!Y{So&bk_vzQ;5^w4euDo5{i{gi*QbCVmOYhkcx>6q?;(G0jeq7hi68W*t@w}W
+z5hA}e@$d8}(dYLI{o`Fc?RkFuE=t7z^}G1@--@3$s6NJfKBTXH>PFOm-RJ+-EdO6s
+z-~U!E|H{FB*!{E*@i7=t_L<-xU5U>_KJA!!j9gIqE%HhK%=36pE5IM~Tpq+@pSQM8
+z>cO9feOl4=82eiPnb=45UB6=fJX}0Yg0k5E6Z1!o_t){_=M<K|g3=#J(8y;{e!AdP
+d7Jp=t|H(*@hpgit;*xX#0uM<WP=`NW{U4IIpo0Ja
+
+literal 0
+HcmV?d00001
+
+diff --git a/simulador-imobiliario/assets/css/admin.css b/simulador-imobiliario/assets/css/admin.css
+new file mode 100644
+index 0000000000000000000000000000000000000000..61a9eab2c8636e52d19471bce90c8338fc97c416
+--- /dev/null
++++ b/simulador-imobiliario/assets/css/admin.css
+@@ -0,0 +1,14 @@
++.simimob-admin .simimob-table input,
++.simimob-admin .simimob-table textarea,
++.simimob-admin .simimob-repeatable input,
++.simimob-admin .simimob-repeatable textarea {
++    width: 100%;
++}
++
++.simimob-admin .simimob-repeatable tbody tr td {
++    vertical-align: middle;
++}
++
++.simimob-admin .simimob-add-row {
++    margin-top: 10px;
++}
+diff --git a/simulador-imobiliario/assets/css/block-editor.css b/simulador-imobiliario/assets/css/block-editor.css
+new file mode 100644
+index 0000000000000000000000000000000000000000..e4663ea7139184dbcc893cfbcdfb4b1a1aeafeba
+--- /dev/null
++++ b/simulador-imobiliario/assets/css/block-editor.css
+@@ -0,0 +1,6 @@
++.simimob-block-preview {
++    border: 1px dashed rgba(0,0,0,0.2);
++    padding: 16px;
++    text-align: center;
++    font-style: italic;
++}
+diff --git a/simulador-imobiliario/assets/css/front.css b/simulador-imobiliario/assets/css/front.css
+new file mode 100644
+index 0000000000000000000000000000000000000000..068229ccbec43d85f2e896d07ebe1dae4642668b
+--- /dev/null
++++ b/simulador-imobiliario/assets/css/front.css
+@@ -0,0 +1,99 @@
++:root {
++    --simimob-primary: var(--wp--preset--color--primary, #0054a6);
++}
++
++.simimob-simulador {
++    font-family: inherit;
++    color: inherit;
++}
++
++.simimob-simulador h2,
++.simimob-simulador h3 {
++    color: var(--simimob-primary);
++}
++
++.simimob-stepper {
++    display: flex;
++    gap: 0.5rem;
++    margin-bottom: 1rem;
++    flex-wrap: wrap;
++}
++
++.simimob-stepper button {
++    background: none;
++    border: 1px solid var(--simimob-primary);
++    color: var(--simimob-primary);
++    padding: 0.25rem 0.75rem;
++    border-radius: 999px;
++    cursor: pointer;
++    transition: background 0.3s ease;
++}
++
++.simimob-stepper button[aria-current="step"] {
++    background: var(--simimob-primary);
++    color: #fff;
++}
++
++.simimob-step {
++    display: none;
++}
++
++.simimob-step.active {
++    display: block;
++}
++
++.simimob-field {
++    margin-bottom: 1rem;
++}
++
++.simimob-field label {
++    display: block;
++    margin-bottom: 0.25rem;
++    font-weight: 600;
++}
++
++.simimob-field input,
++.simimob-field select,
++.simimob-field textarea {
++    width: 100%;
++    padding: 0.5rem;
++    border: 1px solid rgba(0,0,0,0.1);
++    border-radius: 4px;
++}
++
++.simimob-summary {
++    border: 1px solid rgba(0,0,0,0.05);
++    border-radius: 8px;
++    padding: 1rem;
++    background: rgba(0,0,0,0.02);
++}
++
++.simimob-actions {
++    display: flex;
++    gap: 1rem;
++    flex-wrap: wrap;
++}
++
++.simimob-actions button,
++.simimob-actions a {
++    background: var(--simimob-primary);
++    color: #fff;
++    border: none;
++    padding: 0.75rem 1.5rem;
++    border-radius: 4px;
++    cursor: pointer;
++    text-decoration: none;
++}
++
++@media print {
++    body.simimob-printing {
++        background: #fff;
++    }
++    .simimob-actions {
++        display: none !important;
++    }
++    .simimob-print-header,
++    .simimob-print-footer {
++        display: block;
++    }
++}
+diff --git a/simulador-imobiliario/assets/js/admin.js b/simulador-imobiliario/assets/js/admin.js
+new file mode 100644
+index 0000000000000000000000000000000000000000..15a3de56836db76941fdf6eec0063dffcab320a2
+--- /dev/null
++++ b/simulador-imobiliario/assets/js/admin.js
+@@ -0,0 +1,55 @@
++(function($){
++    function getNextIndex($table) {
++        var indexes = $table.find('tbody tr').map(function(){
++            var match = $(this).find('input, textarea').first().attr('name');
++            if (!match) {
++                return 0;
++            }
++            var matches = match.match(/\[(\d+)\]/);
++            return matches ? parseInt(matches[1], 10) : 0;
++        }).get();
++        if (!indexes.length) {
++            return 0;
++        }
++        return Math.max.apply(null, indexes) + 1;
++    }
++
++    function addRow(button) {
++        var $table = $(button).prevAll('.simimob-repeatable').first();
++        if (!$table.length) {
++            return;
++        }
++        var $last = $table.find('tbody tr:last');
++        var $clone = $last.length ? $last.clone(false, false) : $('<tr />');
++        var nextIndex = getNextIndex($table);
++
++        if (!$last.length) {
++            $clone.append('<td><input type="text" /></td>');
++        }
++
++        $clone.find('input, textarea').each(function(){
++            var name = $(this).attr('name');
++            if (!name) {
++                return;
++            }
++            $(this).attr('name', name.replace(/\[(\d+)\]/, '[' + nextIndex + ']')).val('');
++        });
++        $table.find('tbody').append($clone);
++    }
++
++    $(document).on('click', '.simimob-add-row', function(e){
++        e.preventDefault();
++        addRow(this);
++    });
++
++    $(document).on('click', '.simimob-remove-row', function(e){
++        e.preventDefault();
++        var $table = $(this).closest('table');
++        var $row = $(this).closest('tr');
++        if ($table.find('tbody tr').length <= 1) {
++            $row.find('input, textarea').val('');
++            return;
++        }
++        $row.remove();
++    });
++})(jQuery);
+diff --git a/simulador-imobiliario/assets/js/front.js b/simulador-imobiliario/assets/js/front.js
+new file mode 100644
+index 0000000000000000000000000000000000000000..02b01d7a0f451eefc490b09c2d57cb5b42673ef7
+--- /dev/null
++++ b/simulador-imobiliario/assets/js/front.js
+@@ -0,0 +1,482 @@
++(function(window, document){
++    'use strict';
++
++    var currencyFormatter = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
++
++    function parseCurrency(value) {
++        if (typeof value === 'number') {
++            return value;
++        }
++        if (!value) {
++            return 0;
++        }
++        value = value.replace(/[^0-9,.-]/g, '');
++        value = value.replace(/\./g, '').replace(',', '.');
++        return parseFloat(value) || 0;
++    }
++
++    function formatCurrency(value) {
++        return currencyFormatter.format(Number(value) || 0);
++    }
++
++    function monthsUntil(target) {
++        if (!target) {
++            return 0;
++        }
++        var parts = target.split('-');
++        if (parts.length < 2) {
++            return 0;
++        }
++        var year = parseInt(parts[0], 10);
++        var month = parseInt(parts[1], 10) - 1;
++        if (isNaN(year) || isNaN(month)) {
++            return 0;
++        }
++        var now = new Date();
++        var current = new Date(now.getFullYear(), now.getMonth(), 1);
++        var targetDate = new Date(year, month, 1);
++        var months = (targetDate.getFullYear() - current.getFullYear()) * 12 + (targetDate.getMonth() - current.getMonth());
++        return Math.max(0, months) + 1;
++    }
++
++    function calcPMT(rate, nper, pv) {
++        if (!rate) {
++            return -(pv / nper);
++        }
++        var pmt = (rate * pv) / (1 - Math.pow(1 + rate, -nper));
++        return -pmt;
++    }
++
++    function calcPV(rate, nper, pmt) {
++        if (!rate) {
++            return -pmt * nper;
++        }
++        var pv = pmt * (1 - Math.pow(1 + rate, -nper)) / rate;
++        return -pv;
++    }
++
++    function sanitizeModalidadeParams(modalidade) {
++        var params = (SIMIMOB_CONFIG && SIMIMOB_CONFIG.modalidadeParams && SIMIMOB_CONFIG.modalidadeParams[modalidade]) || {};
++        return {
++            ltv: parseFloat(params.ltv_max || 0) / 100,
++            renda: parseFloat(params.renda_percent || 0) / 100,
++            taxaAA: parseFloat(params.taxa_aa || 0) / 100,
++            taxaAM: parseFloat(params.taxa_am || 0) / 100,
++            prazo: parseInt(params.prazo_max || 360, 10),
++            idade: parseInt(params.idade_max || 80, 10),
++            entradaMin: parseFloat(params.entrada_min || 0) / 100,
++            descricao: params.descricao || ''
++        };
++    }
++
++    function maskCurrencyInput(input) {
++        input.addEventListener('input', function(){
++            var value = parseCurrency(input.value);
++            input.dataset.raw = value;
++            input.value = formatCurrency(value);
++        });
++
++        input.addEventListener('focus', function(){
++            input.select();
++        });
++    }
++
++    function initCurrencyFields(scope) {
++        scope.querySelectorAll('[data-mask="currency"]').forEach(function(input){
++            if (!input.dataset.masked) {
++                input.dataset.masked = '1';
++                maskCurrencyInput(input);
++            }
++        });
++    }
++
++    function updateFinanciamentoCapacity(container) {
++        var modalidade = container.querySelector('[name="modalidade"]:checked');
++        if (!modalidade) {
++            return;
++        }
++        modalidade = modalidade.value;
++        var params = sanitizeModalidadeParams(modalidade);
++        var renda = parseCurrency(container.querySelector('[name="renda_familiar"]').value);
++        var idade = parseInt(container.querySelector('[name="idade"]').value || '0', 10);
++        var valorImovel = parseCurrency(container.querySelector('[name="valor_imovel"]') ? container.querySelector('[name="valor_imovel"]').value : '0');
++        var prazoInput = container.querySelector('[name="prazo"]');
++        var prazo = prazoInput && prazoInput.value ? parseInt(prazoInput.value, 10) : params.prazo;
++        var taxa = params.taxaAM || (params.taxaAA ? Math.pow(1 + params.taxaAA / 12, 1) - 1 : 0.008);
++        var rendaComprometivel = renda * params.renda;
++        var pmtMax = rendaComprometivel;
++        var pv = calcPV(taxa, prazo, -pmtMax);
++        var ltvMax = valorImovel * params.ltv;
++        if (ltvMax && pv > ltvMax) {
++            pv = ltvMax;
++        }
++        var entradaMin = valorImovel * params.entradaMin;
++        var idadeLimite = idade + prazo / 12;
++        var idadeValida = idadeLimite <= params.idade;
++        var summary = container.querySelector('.simimob-capacidade-resultado');
++        if (summary) {
++            summary.innerHTML = '';
++            var lista = document.createElement('ul');
++            lista.innerHTML = '' +
++                '<li><strong>' + container.dataset.labelCredito + ':</strong> ' + formatCurrency(pv) + '</li>' +
++                '<li><strong>' + container.dataset.labelParcela + ':</strong> ' + formatCurrency(calcPMT(taxa, prazo, pv)) + '</li>' +
++                '<li><strong>' + container.dataset.labelPrazo + ':</strong> ' + prazo + ' meses</li>' +
++                '<li><strong>' + container.dataset.labelTaxa + ':</strong> ' + (taxa * 100).toFixed(2) + '% a.m.</li>' +
++                '<li><strong>' + container.dataset.labelEntrada + ':</strong> ' + formatCurrency(entradaMin) + '</li>' +
++                '<li><strong>LTV:</strong> ' + (params.ltv * 100).toFixed(1) + '%</li>' +
++                (params.descricao ? '<li><em>' + params.descricao + '</em></li>' : '') +
++                (idadeValida ? '' : '<li class="simimob-alerta">' + container.dataset.labelIdade + '</li>');
++            summary.appendChild(lista);
++            summary.dataset.credito = pv;
++            summary.dataset.parcela = calcPMT(taxa, prazo, pv);
++            summary.dataset.prazo = prazo;
++            summary.dataset.taxa = taxa;
++            summary.dataset.entrada = entradaMin;
++        }
++    }
++
++    function renderObrasResumo(container) {
++        var valorImovel = parseCurrency(container.querySelector('[name="obras_valor_imovel"]').value);
++        var valorFinanciamento = parseCurrency(container.querySelector('[name="obras_valor_financiamento"]').value);
++        var entrega = container.querySelector('[name="obras_entrega"]').value;
++        var saldo = Math.max(0, valorImovel - valorFinanciamento);
++        var meses = monthsUntil(entrega);
++        var mensais = meses;
++        var semestrais = Math.floor(meses / 6);
++        var anuais = Math.floor(meses / 12);
++        var resumo = container.querySelector('.simimob-obras-resumo');
++        if (!resumo) {
++            return;
++        }
++        resumo.innerHTML = '' +
++            '<p><strong>' + container.dataset.labelSaldo + ':</strong> ' + formatCurrency(saldo) + '</p>' +
++            '<p><strong>' + container.dataset.labelMeses + ':</strong> ' + meses + '</p>' +
++            '<p><strong>' + container.dataset.labelSemestrais + ':</strong> ' + semestrais + ' | <strong>' + container.dataset.labelAnuais + ':</strong> ' + anuais + '</p>';
++        resumo.dataset.saldo = saldo;
++        resumo.dataset.meses = meses;
++        resumo.dataset.semestrais = semestrais;
++        resumo.dataset.anuais = anuais;
++    }
++
++    function calcularDistribuicao(container) {
++        var resumo = container.querySelector('.simimob-obras-resumo');
++        if (!resumo) {
++            return;
++        }
++        var saldo = parseFloat(resumo.dataset.saldo || '0');
++        var meses = parseInt(resumo.dataset.meses || '0', 10);
++        var limiteInter = parseFloat(SIMIMOB_CONFIG.intermediariaLimite || 10);
++        var campoSinal = container.querySelector('[name="obras_sinal"]');
++        var campoMensal = container.querySelector('[name="obras_mensal"]');
++        var campoIntermediaria = container.querySelector('[name="obras_intermediaria"]');
++        var quantidadeIntermediarias = 0;
++        var tipoIntermediaria = container.querySelector('[name="obras_tipo_intermediaria"]');
++        var inicioIntermediaria = container.querySelector('[name="obras_inicio_intermediaria"]');
++
++        if (tipoIntermediaria && tipoIntermediaria.value === 'semestral') {
++            quantidadeIntermediarias = Math.floor(meses / 6);
++        } else if (tipoIntermediaria && tipoIntermediaria.value === 'anual') {
++            quantidadeIntermediarias = Math.floor(meses / 12);
++        }
++
++        var mensal = parseCurrency(campoMensal.value);
++        var sinal = parseCurrency(campoSinal.value);
++        var intermediaria = parseCurrency(campoIntermediaria.value);
++
++        if (!campoSinal.dataset.user) {
++            campoSinal.value = formatCurrency(saldo);
++            sinal = saldo;
++        }
++        if (!campoMensal.dataset.user && meses) {
++            mensal = saldo / Math.max(meses, 1);
++            campoMensal.value = formatCurrency(mensal);
++        }
++        if (!campoIntermediaria.dataset.user && quantidadeIntermediarias) {
++            intermediaria = saldo / Math.max(quantidadeIntermediarias, 1);
++            campoIntermediaria.value = formatCurrency(intermediaria);
++        }
++
++        var totalMensal = mensal * Math.max(meses, 0);
++        var totalIntermediaria = intermediaria * Math.max(quantidadeIntermediarias, 0);
++        var totalSinal = sinal;
++        var totalPago = totalSinal + totalMensal + totalIntermediaria;
++        var saldoAberto = saldo - totalPago;
++
++        var aviso = container.querySelector('.simimob-aviso-intermediaria');
++        if (aviso) {
++            if (mensal > 0 && intermediaria > mensal * limiteInter) {
++                aviso.textContent = container.dataset.mensagemIntermediaria;
++                aviso.style.display = 'block';
++            } else {
++                aviso.style.display = 'none';
++            }
++        }
++
++        container.querySelector('.simimob-total-sinal').textContent = formatCurrency(totalSinal);
++        container.querySelector('.simimob-total-mensal').textContent = formatCurrency(totalMensal);
++        container.querySelector('.simimob-total-intermediaria').textContent = formatCurrency(totalIntermediaria);
++        container.querySelector('.simimob-total-geral').textContent = formatCurrency(totalPago);
++        container.querySelector('.simimob-saldo-aberto').textContent = formatCurrency(saldoAberto);
++    }
++
++    function buildCronograma(container) {
++        var resumo = container.querySelector('.simimob-obras-resumo');
++        if (!resumo) {
++            return [];
++        }
++        var meses = parseInt(resumo.dataset.meses || '0', 10);
++        var saldo = parseFloat(resumo.dataset.saldo || '0');
++        var mensal = parseCurrency(container.querySelector('[name="obras_mensal"]').value);
++        var intermediaria = parseCurrency(container.querySelector('[name="obras_intermediaria"]').value);
++        var tipoIntermediaria = container.querySelector('[name="obras_tipo_intermediaria"]').value;
++        var inicioIntermediaria = container.querySelector('[name="obras_inicio_intermediaria"]').value;
++
++        var eventos = [];
++        var today = new Date();
++        for (var i = 0; i < meses; i++) {
++            var data = new Date(today.getFullYear(), today.getMonth() + i, 1);
++            eventos.push({
++                vencimento: ('0' + (data.getMonth() + 1)).slice(-2) + '/' + data.getFullYear(),
++                tipo: 'Mensal',
++                valor: mensal
++            });
++        }
++        if (intermediaria > 0 && (tipoIntermediaria === 'semestral' || tipoIntermediaria === 'anual')) {
++            var gap = tipoIntermediaria === 'semestral' ? 6 : 12;
++            var inicioParts = inicioIntermediaria.split('-');
++            var baseDate = new Date();
++            if (inicioParts.length >= 2) {
++                baseDate = new Date(parseInt(inicioParts[0], 10), parseInt(inicioParts[1], 10) - 1, 1);
++            }
++            var totalIntermediarias = Math.floor(meses / gap);
++            for (var j = 0; j < totalIntermediarias; j++) {
++                var dataInt = new Date(baseDate.getFullYear(), baseDate.getMonth() + j * gap, 1);
++                eventos.push({
++                    vencimento: ('0' + (dataInt.getMonth() + 1)).slice(-2) + '/' + dataInt.getFullYear(),
++                    tipo: 'Intermediária',
++                    valor: intermediaria
++                });
++            }
++        }
++        eventos.sort(function(a, b){
++            var aParts = a.vencimento.split('/');
++            var bParts = b.vencimento.split('/');
++            var aDate = new Date(parseInt(aParts[1], 10), parseInt(aParts[0], 10) - 1, 1);
++            var bDate = new Date(parseInt(bParts[1], 10), parseInt(bParts[0], 10) - 1, 1);
++            return aDate - bDate;
++        });
++        return eventos;
++    }
++
++    function renderResultados(container) {
++        var cronograma = buildCronograma(container);
++        var tabela = container.querySelector('.simimob-cronograma tbody');
++        if (tabela) {
++            tabela.innerHTML = '';
++            cronograma.forEach(function(item){
++                var row = document.createElement('tr');
++                row.innerHTML = '<td>' + item.vencimento + '</td><td>' + item.tipo + '</td><td>' + formatCurrency(item.valor) + '</td>';
++                tabela.appendChild(row);
++            });
++        }
++    }
++
++    function setupStepWizard(container) {
++        var steps = Array.prototype.slice.call(container.querySelectorAll('.simimob-step'));
++        var stepButtons = container.querySelectorAll('.simimob-stepper button');
++        function showStep(index) {
++            steps.forEach(function(step, idx){
++                if (idx === index) {
++                    step.classList.add('active');
++                } else {
++                    step.classList.remove('active');
++                }
++            });
++            stepButtons.forEach(function(btn, idx){
++                if (idx === index) {
++                    btn.setAttribute('aria-current', 'step');
++                } else {
++                    btn.removeAttribute('aria-current');
++                }
++            });
++            container.dataset.step = index;
++        }
++        stepButtons.forEach(function(btn, idx){
++            btn.addEventListener('click', function(){
++                showStep(idx);
++            });
++        });
++        container.querySelectorAll('[data-next-step]').forEach(function(btn){
++            btn.addEventListener('click', function(){
++                var current = parseInt(container.dataset.step || '0', 10);
++                var next = Math.min(current + 1, steps.length - 1);
++                showStep(next);
++            });
++        });
++        container.querySelectorAll('[data-prev-step]').forEach(function(btn){
++            btn.addEventListener('click', function(){
++                var current = parseInt(container.dataset.step || '0', 10);
++                var prev = Math.max(current - 1, 0);
++                showStep(prev);
++            });
++        });
++        showStep(parseInt(container.dataset.step || '0', 10));
++    }
++
++    function shareTemplate(template, data) {
++        return template.replace(/\{(.*?)\}/g, function(match, key){
++            return data[key] || '';
++        });
++    }
++
++    function initFinanciamento(container) {
++        if (container.dataset.ready) {
++            return;
++        }
++        container.dataset.ready = '1';
++        initCurrencyFields(container);
++        setupStepWizard(container);
++
++        container.addEventListener('change', function(e){
++            if (e.target.matches('[name="modalidade"], [name="renda_familiar"], [name="idade"], [name="valor_imovel"], [name="prazo"]')) {
++                updateFinanciamentoCapacity(container);
++            }
++        });
++        container.addEventListener('input', function(e){
++            if (e.target.matches('[name="renda_familiar"], [name="valor_imovel"]')) {
++                updateFinanciamentoCapacity(container);
++            }
++        });
++        updateFinanciamentoCapacity(container);
++    }
++
++    function initObras(container) {
++        if (container.dataset.ready) {
++            return;
++        }
++        container.dataset.ready = '1';
++        initCurrencyFields(container);
++        setupStepWizard(container);
++
++        container.querySelectorAll('[data-mask="currency"]').forEach(function(input){
++            input.addEventListener('input', function(){
++                this.dataset.user = '1';
++                calcularDistribuicao(container);
++                renderResultados(container);
++            });
++        });
++
++        container.addEventListener('change', function(e){
++            if (e.target.matches('[name="obras_tipo_intermediaria"], [name="obras_inicio_intermediaria"], [name="obras_entrega"]')) {
++                renderObrasResumo(container);
++                calcularDistribuicao(container);
++                renderResultados(container);
++            }
++        });
++        container.addEventListener('input', function(e){
++            if (e.target.matches('[name="obras_valor_imovel"], [name="obras_valor_financiamento"], [name="obras_entrega"]')) {
++                renderObrasResumo(container);
++                calcularDistribuicao(container);
++                renderResultados(container);
++            }
++        });
++
++        renderObrasResumo(container);
++        calcularDistribuicao(container);
++        renderResultados(container);
++
++        container.querySelectorAll('[data-share="whatsapp"], [data-share="email"]').forEach(function(button){
++            button.addEventListener('click', function(){
++                var data = {
++                    empreendimento: container.querySelector('[name="obras_empreendimento"]').value,
++                    unidade: container.querySelector('[name="obras_unidade"]').value,
++                    saldo: container.querySelector('.simimob-saldo-aberto').textContent,
++                    mensal: container.querySelector('.simimob-total-mensal').textContent,
++                    intermediaria: container.querySelector('.simimob-total-intermediaria').textContent,
++                    entrega: container.querySelector('[name="obras_entrega"]').value,
++                    cliente: container.querySelector('[name="cliente_nome"]').value
++                };
++                if (button.dataset.share === 'whatsapp') {
++                    var text = shareTemplate(SIMIMOB_CONFIG.shareWhatsapp || '', data);
++                    window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
++                } else {
++                    var subject = shareTemplate(SIMIMOB_CONFIG.shareEmailSubject || '', data);
++                    var body = shareTemplate(SIMIMOB_CONFIG.shareEmailBody || '', data);
++                    window.location.href = 'mailto:?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
++                }
++            });
++        });
++
++        var pdfButton = container.querySelector('[data-action="print"]');
++        if (pdfButton) {
++            pdfButton.addEventListener('click', function(){
++                document.body.classList.add('simimob-printing');
++                window.print();
++                setTimeout(function(){
++                    document.body.classList.remove('simimob-printing');
++                }, 1000);
++            });
++        }
++    }
++
++    function initWizard(container) {
++        if (container.dataset.ready) {
++            return;
++        }
++        container.dataset.ready = '1';
++        setupStepWizard(container);
++        initCurrencyFields(container);
++        container.addEventListener('change', function(){
++            updateFinanciamentoCapacity(container);
++            renderObrasResumo(container);
++            calcularDistribuicao(container);
++            renderResultados(container);
++        });
++        container.addEventListener('input', function(){
++            updateFinanciamentoCapacity(container);
++            renderObrasResumo(container);
++            calcularDistribuicao(container);
++            renderResultados(container);
++        });
++        updateFinanciamentoCapacity(container);
++        renderObrasResumo(container);
++        calcularDistribuicao(container);
++        renderResultados(container);
++    }
++
++    function initAll(scope) {
++        scope.querySelectorAll('.simimob-simulador[data-type="financiamento"]').forEach(initFinanciamento);
++        scope.querySelectorAll('.simimob-simulador[data-type="obras"]').forEach(initObras);
++        scope.querySelectorAll('.simimob-simulador[data-type="wizard"]').forEach(initWizard);
++    }
++
++    if (document.readyState === 'loading') {
++        document.addEventListener('DOMContentLoaded', function(){
++            initAll(document);
++        });
++    } else {
++        initAll(document);
++    }
++
++    window.addEventListener('load', function(){
++        initAll(document);
++    });
++
++    if (window.elementorFrontend && window.elementorFrontend.hooks) {
++        window.elementorFrontend.hooks.addAction('frontend/element_ready/global', function(scope){
++            initAll(scope[0] || scope);
++        });
++    }
++
++    var observer = new MutationObserver(function(mutations){
++        mutations.forEach(function(mutation){
++            mutation.addedNodes.forEach(function(node){
++                if (node.nodeType === 1) {
++                    initAll(node);
++                }
++            });
++        });
++    });
++    observer.observe(document.body, { childList: true, subtree: true });
++
++})(window, document);
+diff --git a/simulador-imobiliario/blocks/financiamento/block.json b/simulador-imobiliario/blocks/financiamento/block.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..44793d6b03db4e6e0063894d8a64f839f84db9a8
+--- /dev/null
++++ b/simulador-imobiliario/blocks/financiamento/block.json
+@@ -0,0 +1,15 @@
++{
++    "apiVersion": 2,
++    "name": "simimob/financiamento",
++    "title": "Simulador de Financiamento",
++    "category": "widgets",
++    "icon": "calculator",
++    "description": "Exibe o simulador de financiamento imobiliário.",
++    "supports": {
++        "html": false
++    },
++    "editorScript": "simimob-financiamento-block",
++    "editorStyle": "simimob-block-editor",
++    "style": "simimob-front",
++    "render": "file:./render.php"
++}
+diff --git a/simulador-imobiliario/blocks/financiamento/editor.css b/simulador-imobiliario/blocks/financiamento/editor.css
+new file mode 100644
+index 0000000000000000000000000000000000000000..3ad183c3cab27722eccbdd648cbe057182fd6419
+--- /dev/null
++++ b/simulador-imobiliario/blocks/financiamento/editor.css
+@@ -0,0 +1,5 @@
++.simimob-block-preview {
++    padding: 20px;
++    border: 1px dashed rgba(0,0,0,0.2);
++    text-align: center;
++}
+diff --git a/simulador-imobiliario/blocks/financiamento/index.js b/simulador-imobiliario/blocks/financiamento/index.js
+new file mode 100644
+index 0000000000000000000000000000000000000000..bf0d5ae1cb4ce60bd21f915b5f1aaa79eb3ab859
+--- /dev/null
++++ b/simulador-imobiliario/blocks/financiamento/index.js
+@@ -0,0 +1,13 @@
++( function( wp ) {
++    const { registerBlockType } = wp.blocks;
++    const { createElement: el } = wp.element;
++
++    registerBlockType( 'simimob/financiamento', {
++        edit: function() {
++            return el( 'div', { className: 'simimob-block-preview' }, 'Simulador de Financiamento' );
++        },
++        save: function() {
++            return null;
++        }
++    } );
++} )( window.wp );
+diff --git a/simulador-imobiliario/blocks/financiamento/render.php b/simulador-imobiliario/blocks/financiamento/render.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..5fd981d2cb61bebb881f2315e83115a322609f11
+--- /dev/null
++++ b/simulador-imobiliario/blocks/financiamento/render.php
+@@ -0,0 +1,2 @@
++<?php
++return do_shortcode( '[simulador_financiamento]' );
+diff --git a/simulador-imobiliario/blocks/obras/block.json b/simulador-imobiliario/blocks/obras/block.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..7d8ad55b24a236b70b8028fba0c4ab2d781e6340
+--- /dev/null
++++ b/simulador-imobiliario/blocks/obras/block.json
+@@ -0,0 +1,15 @@
++{
++    "apiVersion": 2,
++    "name": "simimob/obras",
++    "title": "Simulador de Saldo de Obras",
++    "category": "widgets",
++    "icon": "chart-bar",
++    "description": "Exibe o simulador de saldo de obras.",
++    "supports": {
++        "html": false
++    },
++    "editorScript": "simimob-obras-block",
++    "editorStyle": "simimob-block-editor",
++    "style": "simimob-front",
++    "render": "file:./render.php"
++}
+diff --git a/simulador-imobiliario/blocks/obras/editor.css b/simulador-imobiliario/blocks/obras/editor.css
+new file mode 100644
+index 0000000000000000000000000000000000000000..3ad183c3cab27722eccbdd648cbe057182fd6419
+--- /dev/null
++++ b/simulador-imobiliario/blocks/obras/editor.css
+@@ -0,0 +1,5 @@
++.simimob-block-preview {
++    padding: 20px;
++    border: 1px dashed rgba(0,0,0,0.2);
++    text-align: center;
++}
+diff --git a/simulador-imobiliario/blocks/obras/index.js b/simulador-imobiliario/blocks/obras/index.js
+new file mode 100644
+index 0000000000000000000000000000000000000000..dd2a087702c734ef153794efe7a96f20b063e2d6
+--- /dev/null
++++ b/simulador-imobiliario/blocks/obras/index.js
+@@ -0,0 +1,13 @@
++( function( wp ) {
++    const { registerBlockType } = wp.blocks;
++    const { createElement: el } = wp.element;
++
++    registerBlockType( 'simimob/obras', {
++        edit: function() {
++            return el( 'div', { className: 'simimob-block-preview' }, 'Simulador de Saldo de Obras' );
++        },
++        save: function() {
++            return null;
++        }
++    } );
++} )( window.wp );
+diff --git a/simulador-imobiliario/blocks/obras/render.php b/simulador-imobiliario/blocks/obras/render.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..95ec1abb421f5279dc6f3297c1ad6edf50cf8190
+--- /dev/null
++++ b/simulador-imobiliario/blocks/obras/render.php
+@@ -0,0 +1,2 @@
++<?php
++return do_shortcode( '[simulador_obras]' );
+diff --git a/simulador-imobiliario/blocks/wizard/block.json b/simulador-imobiliario/blocks/wizard/block.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..c3f5abadffdc284b6341af8661f20ebd90fbbda2
+--- /dev/null
++++ b/simulador-imobiliario/blocks/wizard/block.json
+@@ -0,0 +1,15 @@
++{
++    "apiVersion": 2,
++    "name": "simimob/wizard",
++    "title": "Simulador Imobiliário",
++    "category": "widgets",
++    "icon": "admin-multisite",
++    "description": "Wizard de financiamento e saldo de obras.",
++    "supports": {
++        "html": false
++    },
++    "editorScript": "simimob-wizard-block",
++    "editorStyle": "simimob-block-editor",
++    "style": "simimob-front",
++    "render": "file:./render.php"
++}
+diff --git a/simulador-imobiliario/blocks/wizard/editor.css b/simulador-imobiliario/blocks/wizard/editor.css
+new file mode 100644
+index 0000000000000000000000000000000000000000..3ad183c3cab27722eccbdd648cbe057182fd6419
+--- /dev/null
++++ b/simulador-imobiliario/blocks/wizard/editor.css
+@@ -0,0 +1,5 @@
++.simimob-block-preview {
++    padding: 20px;
++    border: 1px dashed rgba(0,0,0,0.2);
++    text-align: center;
++}
+diff --git a/simulador-imobiliario/blocks/wizard/index.js b/simulador-imobiliario/blocks/wizard/index.js
+new file mode 100644
+index 0000000000000000000000000000000000000000..06eaba89041dfda97bc30758da2071cf28fec900
+--- /dev/null
++++ b/simulador-imobiliario/blocks/wizard/index.js
+@@ -0,0 +1,13 @@
++( function( wp ) {
++    const { registerBlockType } = wp.blocks;
++    const { createElement: el } = wp.element;
++
++    registerBlockType( 'simimob/wizard', {
++        edit: function() {
++            return el( 'div', { className: 'simimob-block-preview' }, 'Simulador Imobiliário — Wizard' );
++        },
++        save: function() {
++            return null;
++        }
++    } );
++} )( window.wp );
+diff --git a/simulador-imobiliario/blocks/wizard/render.php b/simulador-imobiliario/blocks/wizard/render.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..a0468edc13c16ccf40ad93e979cf74d9c31703fe
+--- /dev/null
++++ b/simulador-imobiliario/blocks/wizard/render.php
+@@ -0,0 +1,2 @@
++<?php
++return do_shortcode( '[simulador_imobiliario]' );
+diff --git a/simulador-imobiliario/includes/class-admin.php b/simulador-imobiliario/includes/class-admin.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..0dd1c988cb0492c1516481d9208791f8b42caad4
+--- /dev/null
++++ b/simulador-imobiliario/includes/class-admin.php
+@@ -0,0 +1,418 @@
++<?php
++/**
++ * Admin UI for Simulador Imobiliário.
++ *
++ * @package Simulador_Imobiliario
++ */
++
++if ( ! defined( 'ABSPATH' ) ) {
++    exit;
++}
++
++class SIMIMOB_Admin {
++
++    /**
++     * Instance.
++     *
++     * @var SIMIMOB_Admin|null
++     */
++    protected static $instance = null;
++
++    /**
++     * Tabs.
++     *
++     * @var array
++     */
++    protected $tabs = array();
++
++    /**
++     * Return instance.
++     */
++    public static function get_instance() {
++        if ( null === self::$instance ) {
++            self::$instance = new self();
++        }
++
++        return self::$instance;
++    }
++
++    /**
++     * Constructor.
++     */
++    private function __construct() {
++        add_action( 'admin_menu', array( $this, 'register_menu' ) );
++        add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_assets' ) );
++
++        $this->tabs = array(
++            'geral'       => __( 'Geral', 'simulador-imobiliario' ),
++            'financiamento' => __( 'Financiamento', 'simulador-imobiliario' ),
++            'obras'       => __( 'Saldo de Obras', 'simulador-imobiliario' ),
++            'pdf'         => __( 'Relatórios & PDF', 'simulador-imobiliario' ),
++            'avancado'    => __( 'Avançado', 'simulador-imobiliario' ),
++        );
++    }
++
++    /**
++     * Register admin menu.
++     */
++    public function register_menu() {
++        add_menu_page(
++            __( 'Simulador Imobiliário', 'simulador-imobiliario' ),
++            __( 'Simulador Imobiliário', 'simulador-imobiliario' ),
++            'manage_options',
++            'simimob',
++            array( $this, 'render_page' ),
++            'dashicons-building',
++            56
++        );
++    }
++
++    /**
++     * Enqueue admin assets.
++     */
++    public function enqueue_assets( $hook ) {
++        if ( 'toplevel_page_simimob' !== $hook ) {
++            return;
++        }
++
++        wp_enqueue_style( 'simimob-admin', SIMIMOB_PLUGIN_URL . 'assets/css/admin.css', array(), '1.0.0' );
++        wp_enqueue_script( 'simimob-admin', SIMIMOB_PLUGIN_URL . 'assets/js/admin.js', array( 'jquery' ), '1.0.0', true );
++        wp_localize_script(
++            'simimob-admin',
++            'SIMIMOB_ADMIN',
++            array(
++                'addRow'    => __( 'Adicionar linha', 'simulador-imobiliario' ),
++                'removeRow' => __( 'Remover', 'simulador-imobiliario' ),
++            )
++        );
++    }
++
++    /**
++     * Render admin page.
++     */
++    public function render_page() {
++        if ( ! current_user_can( 'manage_options' ) ) {
++            return;
++        }
++
++        $active_tab = isset( $_GET['tab'] ) ? sanitize_key( wp_unslash( $_GET['tab'] ) ) : 'geral'; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
++        if ( ! isset( $this->tabs[ $active_tab ] ) ) {
++            $active_tab = 'geral';
++        }
++
++        $options = SIMIMOB_Settings::get_options();
++        ?>
++        <div class="wrap simimob-admin">
++            <h1><?php esc_html_e( 'Simulador Imobiliário — Financiamento & Obras', 'simulador-imobiliario' ); ?></h1>
++            <h2 class="nav-tab-wrapper">
++                <?php foreach ( $this->tabs as $tab => $label ) : ?>
++                    <?php $class = $active_tab === $tab ? 'nav-tab nav-tab-active' : 'nav-tab'; ?>
++                    <a href="<?php echo esc_url( admin_url( 'admin.php?page=simimob&tab=' . $tab ) ); ?>" class="<?php echo esc_attr( $class ); ?>"><?php echo esc_html( $label ); ?></a>
++                <?php endforeach; ?>
++            </h2>
++            <form method="post" action="options.php">
++                <?php
++                settings_fields( 'simimob_settings_group' );
++                wp_nonce_field( 'simimob_save_settings', 'simimob_nonce' );
++
++                switch ( $active_tab ) {
++                    case 'financiamento':
++                        $this->render_tab_financiamento( $options );
++                        break;
++                    case 'obras':
++                        $this->render_tab_obras( $options );
++                        break;
++                    case 'pdf':
++                        $this->render_tab_pdf( $options );
++                        break;
++                    case 'avancado':
++                        $this->render_tab_avancado( $options );
++                        break;
++                    case 'geral':
++                    default:
++                        $this->render_tab_geral( $options );
++                        break;
++                }
++                submit_button();
++                ?>
++            </form>
++        </div>
++        <?php
++    }
++
++    /**
++     * Render Geral tab.
++     */
++    protected function render_tab_geral( $options ) {
++        $logo_id = isset( $options['logo_pdf'] ) ? attachment_url_to_postid( $options['logo_pdf'] ) : 0;
++        ?>
++        <table class="form-table">
++            <tr>
++                <th scope="row"><label for="primary_color"><?php esc_html_e( 'Cor primária', 'simulador-imobiliario' ); ?></label></th>
++                <td>
++                    <input type="text" id="primary_color" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[primary_color]" value="<?php echo esc_attr( $options['primary_color'] ); ?>" class="regular-text simimob-color-field" />
++                    <p class="description"><?php esc_html_e( 'Herdar cores do tema usando CSS vars. Deixe vazio para usar o padrão.', 'simulador-imobiliario' ); ?></p>
++                </td>
++            </tr>
++            <tr>
++                <th scope="row"><label for="typography"><?php esc_html_e( 'Tipografia', 'simulador-imobiliario' ); ?></label></th>
++                <td>
++                    <input type="text" id="typography" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[typography]" value="<?php echo esc_attr( $options['typography'] ); ?>" class="regular-text" />
++                    <p class="description"><?php esc_html_e( 'Defina uma pilha de fontes personalizada ou deixe vazio para herdar do tema.', 'simulador-imobiliario' ); ?></p>
++                </td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Logo padrão para PDFs', 'simulador-imobiliario' ); ?></th>
++                <td>
++                    <input type="url" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[logo_pdf]" value="<?php echo esc_attr( $options['logo_pdf'] ); ?>" class="regular-text" />
++                    <p class="description"><?php esc_html_e( 'Se vazio, utiliza o logotipo padrão do site.', 'simulador-imobiliario' ); ?></p>
++                </td>
++            </tr>
++            <tr>
++                <th scope="row"><label for="timezone"><?php esc_html_e( 'Fuso horário / Locale', 'simulador-imobiliario' ); ?></label></th>
++                <td>
++                    <input type="text" id="timezone" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[timezone]" value="<?php echo esc_attr( $options['timezone'] ); ?>" class="regular-text" />
++                    <p class="description"><?php esc_html_e( 'Ex.: America/Sao_Paulo', 'simulador-imobiliario' ); ?></p>
++                </td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Modelo de compartilhamento WhatsApp', 'simulador-imobiliario' ); ?></th>
++                <td>
++                    <textarea name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[share_whatsapp]" rows="4" class="large-text"><?php echo esc_textarea( $options['share_whatsapp'] ); ?></textarea>
++                    <p class="description"><?php esc_html_e( 'Use placeholders como {empreendimento}, {cliente}, {saldo}.', 'simulador-imobiliario' ); ?></p>
++                </td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Modelo de e-mail', 'simulador-imobiliario' ); ?></th>
++                <td>
++                    <input type="text" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[share_email_subject]" value="<?php echo esc_attr( $options['share_email_subject'] ); ?>" class="regular-text" />
++                    <textarea name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[share_email_body]" rows="4" class="large-text"><?php echo esc_textarea( $options['share_email_body'] ); ?></textarea>
++                </td>
++            </tr>
++        </table>
++        <?php
++    }
++
++    /**
++     * Render Financiamento tab.
++     */
++    protected function render_tab_financiamento( $options ) {
++        $modalidades = array(
++            'A' => __( 'Imóvel em obras — Associativo (repasse imediato)', 'simulador-imobiliario' ),
++            'B' => __( 'Imóvel em obras — Incorporação (financia apenas no Habite-se)', 'simulador-imobiliario' ),
++            'C' => __( 'Imóvel pronto novo — Associativo', 'simulador-imobiliario' ),
++            'D' => __( 'Imóvel pronto novo — Financiamento alienado à construtora', 'simulador-imobiliario' ),
++            'E' => __( 'Imóvel pronto retomada pela construtora', 'simulador-imobiliario' ),
++        );
++        ?>
++        <table class="form-table">
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Modalidades ativas', 'simulador-imobiliario' ); ?></th>
++                <td>
++                    <?php foreach ( $modalidades as $key => $label ) : ?>
++                        <label>
++                            <input type="checkbox" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[modalidades][]" value="<?php echo esc_attr( $key ); ?>" <?php checked( in_array( $key, (array) $options['modalidades'], true ), true ); ?> />
++                            <?php echo esc_html( $label ); ?>
++                        </label><br />
++                    <?php endforeach; ?>
++                </td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Permitir pular etapa de capacidade de crédito', 'simulador-imobiliario' ); ?></th>
++                <td>
++                    <label>
++                        <input type="checkbox" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[permitir_pular_capacidade]" value="1" <?php checked( $options['permitir_pular_capacidade'], true ); ?> />
++                        <?php esc_html_e( 'Habilitar', 'simulador-imobiliario' ); ?>
++                    </label>
++                </td>
++            </tr>
++        </table>
++        <h3><?php esc_html_e( 'Parâmetros por modalidade', 'simulador-imobiliario' ); ?></h3>
++        <table class="widefat simimob-table">
++            <thead>
++                <tr>
++                    <th><?php esc_html_e( 'Modalidade', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Descrição', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'LTV máx. (%)', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Renda comprometível (%)', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Taxa ref. (% a.a.)', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Taxa ref. (% a.m.)', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Prazo máx. (meses)', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Idade máx.', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Entrada mínima (%)', 'simulador-imobiliario' ); ?></th>
++                </tr>
++            </thead>
++            <tbody>
++                <?php foreach ( $modalidades as $key => $label ) :
++                    $param = isset( $options['modalidade_params'][ $key ] ) ? $options['modalidade_params'][ $key ] : array();
++                    ?>
++                    <tr>
++                        <td><strong><?php echo esc_html( $key ); ?></strong></td>
++                        <td><input type="text" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[modalidade_params][<?php echo esc_attr( $key ); ?>][descricao]" value="<?php echo esc_attr( isset( $param['descricao'] ) ? $param['descricao'] : '' ); ?>" /></td>
++                        <td><input type="number" step="0.01" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[modalidade_params][<?php echo esc_attr( $key ); ?>][ltv_max]" value="<?php echo esc_attr( isset( $param['ltv_max'] ) ? $param['ltv_max'] : '' ); ?>" /></td>
++                        <td><input type="number" step="0.01" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[modalidade_params][<?php echo esc_attr( $key ); ?>][renda_percent]" value="<?php echo esc_attr( isset( $param['renda_percent'] ) ? $param['renda_percent'] : '' ); ?>" /></td>
++                        <td><input type="number" step="0.01" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[modalidade_params][<?php echo esc_attr( $key ); ?>][taxa_aa]" value="<?php echo esc_attr( isset( $param['taxa_aa'] ) ? $param['taxa_aa'] : '' ); ?>" /></td>
++                        <td><input type="number" step="0.0001" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[modalidade_params][<?php echo esc_attr( $key ); ?>][taxa_am]" value="<?php echo esc_attr( isset( $param['taxa_am'] ) ? $param['taxa_am'] : '' ); ?>" /></td>
++                        <td><input type="number" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[modalidade_params][<?php echo esc_attr( $key ); ?>][prazo_max]" value="<?php echo esc_attr( isset( $param['prazo_max'] ) ? $param['prazo_max'] : '' ); ?>" /></td>
++                        <td><input type="number" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[modalidade_params][<?php echo esc_attr( $key ); ?>][idade_max]" value="<?php echo esc_attr( isset( $param['idade_max'] ) ? $param['idade_max'] : '' ); ?>" /></td>
++                        <td><input type="number" step="0.01" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[modalidade_params][<?php echo esc_attr( $key ); ?>][entrada_min]" value="<?php echo esc_attr( isset( $param['entrada_min'] ) ? $param['entrada_min'] : '' ); ?>" /></td>
++                    </tr>
++                <?php endforeach; ?>
++            </tbody>
++        </table>
++        <h3><?php esc_html_e( 'Coeficientes opcionais', 'simulador-imobiliario' ); ?></h3>
++        <table class="widefat simimob-repeatable" data-name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[coeficientes]">
++            <thead>
++                <tr>
++                    <th><?php esc_html_e( 'Faixa de renda', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Faixa de idade', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Coeficiente', 'simulador-imobiliario' ); ?></th>
++                    <th></th>
++                </tr>
++            </thead>
++            <tbody>
++                <?php
++                $coeficientes = ! empty( $options['coeficientes'] ) ? $options['coeficientes'] : array( array() );
++                foreach ( $coeficientes as $index => $coef ) :
++                    ?>
++                    <tr>
++                        <td><input type="text" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[coeficientes][<?php echo esc_attr( $index ); ?>][faixa]" value="<?php echo esc_attr( isset( $coef['faixa'] ) ? $coef['faixa'] : '' ); ?>" /></td>
++                        <td><input type="text" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[coeficientes][<?php echo esc_attr( $index ); ?>][idade]" value="<?php echo esc_attr( isset( $coef['idade'] ) ? $coef['idade'] : '' ); ?>" /></td>
++                        <td><input type="number" step="0.01" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[coeficientes][<?php echo esc_attr( $index ); ?>][coeficiente]" value="<?php echo esc_attr( isset( $coef['coeficiente'] ) ? $coef['coeficiente'] : '' ); ?>" /></td>
++                        <td><button type="button" class="button simimob-remove-row">&times;</button></td>
++                    </tr>
++                <?php endforeach; ?>
++            </tbody>
++        </table>
++        <button type="button" class="button button-secondary simimob-add-row" data-template="coeficientes"><?php esc_html_e( 'Adicionar coeficiente', 'simulador-imobiliario' ); ?></button>
++        <?php
++    }
++
++    /**
++     * Render Obras tab.
++     */
++    protected function render_tab_obras( $options ) {
++        ?>
++        <table class="form-table">
++            <tr>
++                <th scope="row"><label for="intermediaria_limite"><?php esc_html_e( 'Intermediária ≤ X vezes a mensal', 'simulador-imobiliario' ); ?></label></th>
++                <td>
++                    <input type="number" step="0.01" id="intermediaria_limite" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[intermediaria_limite]" value="<?php echo esc_attr( $options['intermediaria_limite'] ); ?>" />
++                </td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Entrada/Sinal mínima (%)', 'simulador-imobiliario' ); ?></th>
++                <td><input type="number" step="0.01" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[entrada_minima]" value="<?php echo esc_attr( $options['entrada_minima'] ); ?>" /></td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Entrada/Sinal máxima (%)', 'simulador-imobiliario' ); ?></th>
++                <td><input type="number" step="0.01" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[entrada_maxima]" value="<?php echo esc_attr( $options['entrada_maxima'] ); ?>" /></td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Mensal mínima (R$)', 'simulador-imobiliario' ); ?></th>
++                <td><input type="number" step="0.01" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[mensal_minima]" value="<?php echo esc_attr( $options['mensal_minima'] ); ?>" /></td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Mensal máxima (R$)', 'simulador-imobiliario' ); ?></th>
++                <td><input type="number" step="0.01" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[mensal_maxima]" value="<?php echo esc_attr( $options['mensal_maxima'] ); ?>" /></td>
++            </tr>
++        </table>
++        <h3><?php esc_html_e( 'Pró-soluto por empreendimento', 'simulador-imobiliario' ); ?></h3>
++        <table class="widefat simimob-repeatable" data-name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[empreendimentos]">
++            <thead>
++                <tr>
++                    <th><?php esc_html_e( 'Nome', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Limite pró-soluto (%)', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Meses de obra padrão', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Entrega padrão (AAAA-MM)', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Política própria', 'simulador-imobiliario' ); ?></th>
++                    <th></th>
++                </tr>
++            </thead>
++            <tbody>
++                <?php
++                $empreendimentos = ! empty( $options['empreendimentos'] ) ? $options['empreendimentos'] : array( array() );
++                foreach ( $empreendimentos as $index => $item ) :
++                    ?>
++                    <tr>
++                        <td><input type="text" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[empreendimentos][<?php echo esc_attr( $index ); ?>][nome]" value="<?php echo esc_attr( isset( $item['nome'] ) ? $item['nome'] : '' ); ?>" /></td>
++                        <td><input type="number" step="0.01" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[empreendimentos][<?php echo esc_attr( $index ); ?>][prosoluto]" value="<?php echo esc_attr( isset( $item['prosoluto'] ) ? $item['prosoluto'] : '' ); ?>" /></td>
++                        <td><input type="number" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[empreendimentos][<?php echo esc_attr( $index ); ?>][meses_obra]" value="<?php echo esc_attr( isset( $item['meses_obra'] ) ? $item['meses_obra'] : '' ); ?>" /></td>
++                        <td><input type="text" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[empreendimentos][<?php echo esc_attr( $index ); ?>][entrega_padrao]" value="<?php echo esc_attr( isset( $item['entrega_padrao'] ) ? $item['entrega_padrao'] : '' ); ?>" placeholder="2025-06" /></td>
++                        <td><textarea name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[empreendimentos][<?php echo esc_attr( $index ); ?>][politica]" rows="2" class="widefat"><?php echo esc_textarea( isset( $item['politica'] ) ? $item['politica'] : '' ); ?></textarea></td>
++                        <td><button type="button" class="button simimob-remove-row">&times;</button></td>
++                    </tr>
++                <?php endforeach; ?>
++            </tbody>
++        </table>
++        <button type="button" class="button button-secondary simimob-add-row" data-template="empreendimentos"><?php esc_html_e( 'Adicionar empreendimento', 'simulador-imobiliario' ); ?></button>
++        <?php
++    }
++
++    /**
++     * Render PDF tab.
++     */
++    protected function render_tab_pdf( $options ) {
++        ?>
++        <table class="form-table">
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Ativar botão PDF', 'simulador-imobiliario' ); ?></th>
++                <td>
++                    <label>
++                        <input type="checkbox" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[pdf_ativo]" value="1" <?php checked( $options['pdf_ativo'], true ); ?> />
++                        <?php esc_html_e( 'Exibir botão de impressão/PDF', 'simulador-imobiliario' ); ?>
++                    </label>
++                </td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Cabeçalho do PDF', 'simulador-imobiliario' ); ?></th>
++                <td><textarea name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[pdf_header]" rows="4" class="large-text"><?php echo esc_textarea( $options['pdf_header'] ); ?></textarea></td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Rodapé do PDF', 'simulador-imobiliario' ); ?></th>
++                <td><textarea name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[pdf_footer]" rows="4" class="large-text"><?php echo esc_textarea( $options['pdf_footer'] ); ?></textarea></td>
++            </tr>
++            <tr>
++                <th scope="row"><label for="pdf_marca_dagua"><?php esc_html_e( 'Marca d’água (texto)', 'simulador-imobiliario' ); ?></label></th>
++                <td><input type="text" id="pdf_marca_dagua" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[pdf_marca_dagua]" value="<?php echo esc_attr( $options['pdf_marca_dagua'] ); ?>" class="regular-text" /></td>
++            </tr>
++        </table>
++        <?php
++    }
++
++    /**
++     * Render Avançado tab.
++     */
++    protected function render_tab_avancado( $options ) {
++        ?>
++        <table class="form-table">
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Exportar configurações', 'simulador-imobiliario' ); ?></th>
++                <td>
++                    <textarea readonly rows="4" class="large-text" onclick="this.select();"><?php echo esc_textarea( wp_json_encode( $options ) ); ?></textarea>
++                    <p class="description"><?php esc_html_e( 'Copie e salve este JSON para importar em outro site.', 'simulador-imobiliario' ); ?></p>
++                </td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Importar configurações', 'simulador-imobiliario' ); ?></th>
++                <td>
++                    <textarea name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[export_string]" rows="4" class="large-text"></textarea>
++                    <p class="description"><?php esc_html_e( 'Cole o JSON exportado anteriormente e salve.', 'simulador-imobiliario' ); ?></p>
++                </td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Ativar REST API', 'simulador-imobiliario' ); ?></th>
++                <td><label><input type="checkbox" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[rest_enabled]" value="1" <?php checked( $options['rest_enabled'], true ); ?> /> <?php esc_html_e( 'Disponibilizar endpoints públicos', 'simulador-imobiliario' ); ?></label></td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Telemetria', 'simulador-imobiliario' ); ?></th>
++                <td><label><input type="checkbox" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[telemetria]" value="1" <?php checked( $options['telemetria'], true ); ?> /> <?php esc_html_e( 'Permitir envio de dados anônimos (desativado por padrão)', 'simulador-imobiliario' ); ?></label></td>
++            </tr>
++            <tr>
++                <th scope="row"><?php esc_html_e( 'Limpeza na desinstalação', 'simulador-imobiliario' ); ?></th>
++                <td><label><input type="checkbox" name="<?php echo esc_attr( SIMIMOB_Settings::OPTION_KEY ); ?>[limpeza]" value="1" <?php checked( $options['limpeza'], true ); ?> /> <?php esc_html_e( 'Apagar configurações ao remover o plugin', 'simulador-imobiliario' ); ?></label></td>
++            </tr>
++        </table>
++        <?php
++    }
++}
+diff --git a/simulador-imobiliario/includes/class-elementor-financiamento.php b/simulador-imobiliario/includes/class-elementor-financiamento.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..2f956e04b6c4addb691d31d58a7eec2be89eafea
+--- /dev/null
++++ b/simulador-imobiliario/includes/class-elementor-financiamento.php
+@@ -0,0 +1,74 @@
++<?php
++/**
++ * Elementor widget for financing simulator.
++ */
++
++if ( ! defined( 'ABSPATH' ) ) {
++    exit;
++}
++
++use Elementor\Widget_Base;
++use Elementor\Controls_Manager;
++
++class SIMIMOB_Elementor_Financiamento extends Widget_Base {
++
++    /**
++     * Singleton registration.
++     */
++    public static function get_instance() {
++        static $registered = false;
++        if ( ! $registered ) {
++            add_action( 'elementor/widgets/register', array( __CLASS__, 'register_widget' ) );
++            $registered = true;
++        }
++        return new self();
++    }
++
++    /**
++     * Register widget.
++     */
++    public static function register_widget( $widgets_manager ) {
++        $widgets_manager->register( new self() );
++    }
++
++    public function get_name() {
++        return 'simimob-financiamento';
++    }
++
++    public function get_title() {
++        return __( 'Simulador de Financiamento', 'simulador-imobiliario' );
++    }
++
++    public function get_icon() {
++        return 'eicon-calculator';
++    }
++
++    public function get_categories() {
++        return array( 'general' );
++    }
++
++    protected function register_controls() {
++        $this->start_controls_section(
++            'section_content',
++            array(
++                'label' => __( 'Conteúdo', 'simulador-imobiliario' ),
++            )
++        );
++        $this->add_control(
++            'mostrar_capacidade',
++            array(
++                'label'        => __( 'Exibir etapa de capacidade de crédito', 'simulador-imobiliario' ),
++                'type'         => Controls_Manager::SWITCHER,
++                'label_on'     => __( 'Sim', 'simulador-imobiliario' ),
++                'label_off'    => __( 'Não', 'simulador-imobiliario' ),
++                'return_value' => 'yes',
++                'default'      => 'yes',
++            )
++        );
++        $this->end_controls_section();
++    }
++
++    protected function render() {
++        echo do_shortcode( '[simulador_financiamento]' );
++    }
++}
+diff --git a/simulador-imobiliario/includes/class-elementor-obras.php b/simulador-imobiliario/includes/class-elementor-obras.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..294984e547b4d172e444c486ae74f2af0742d2fd
+--- /dev/null
++++ b/simulador-imobiliario/includes/class-elementor-obras.php
+@@ -0,0 +1,64 @@
++<?php
++/**
++ * Elementor widget for obras simulator.
++ */
++
++if ( ! defined( 'ABSPATH' ) ) {
++    exit;
++}
++
++use Elementor\Widget_Base;
++use Elementor\Controls_Manager;
++
++class SIMIMOB_Elementor_Obras extends Widget_Base {
++
++    public static function get_instance() {
++        static $registered = false;
++        if ( ! $registered ) {
++            add_action( 'elementor/widgets/register', array( __CLASS__, 'register_widget' ) );
++            $registered = true;
++        }
++        return new self();
++    }
++
++    public static function register_widget( $widgets_manager ) {
++        $widgets_manager->register( new self() );
++    }
++
++    public function get_name() {
++        return 'simimob-obras';
++    }
++
++    public function get_title() {
++        return __( 'Simulador de Saldo de Obras', 'simulador-imobiliario' );
++    }
++
++    public function get_icon() {
++        return 'eicon-library-open';
++    }
++
++    public function get_categories() {
++        return array( 'general' );
++    }
++
++    protected function register_controls() {
++        $this->start_controls_section(
++            'section_content',
++            array(
++                'label' => __( 'Conteúdo', 'simulador-imobiliario' ),
++            )
++        );
++        $this->add_control(
++            'empreendimento_default',
++            array(
++                'label' => __( 'Empreendimento padrão', 'simulador-imobiliario' ),
++                'type'  => Controls_Manager::TEXT,
++            )
++        );
++        $this->end_controls_section();
++    }
++
++    protected function render() {
++        echo do_shortcode( '[simulador_obras]' );
++    }
++}
+diff --git a/simulador-imobiliario/includes/class-elementor-wizard.php b/simulador-imobiliario/includes/class-elementor-wizard.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..56c35d5099ae71489d0c536cce9376aff0ed0d5c
+--- /dev/null
++++ b/simulador-imobiliario/includes/class-elementor-wizard.php
+@@ -0,0 +1,66 @@
++<?php
++/**
++ * Elementor widget for unified wizard.
++ */
++
++if ( ! defined( 'ABSPATH' ) ) {
++    exit;
++}
++
++use Elementor\Widget_Base;
++use Elementor\Controls_Manager;
++
++class SIMIMOB_Elementor_Wizard extends Widget_Base {
++
++    public static function get_instance() {
++        static $registered = false;
++        if ( ! $registered ) {
++            add_action( 'elementor/widgets/register', array( __CLASS__, 'register_widget' ) );
++            $registered = true;
++        }
++        return new self();
++    }
++
++    public static function register_widget( $widgets_manager ) {
++        $widgets_manager->register( new self() );
++    }
++
++    public function get_name() {
++        return 'simimob-wizard';
++    }
++
++    public function get_title() {
++        return __( 'Simulador Imobiliário (Wizard)', 'simulador-imobiliario' );
++    }
++
++    public function get_icon() {
++        return 'eicon-tabs';
++    }
++
++    public function get_categories() {
++        return array( 'general' );
++    }
++
++    protected function register_controls() {
++        $this->start_controls_section(
++            'section_content',
++            array(
++                'label' => __( 'Conteúdo', 'simulador-imobiliario' ),
++            )
++        );
++        $this->add_control(
++            'exibir_obras',
++            array(
++                'label'        => __( 'Incluir simulador de obras', 'simulador-imobiliario' ),
++                'type'         => Controls_Manager::SWITCHER,
++                'default'      => 'yes',
++                'return_value' => 'yes',
++            )
++        );
++        $this->end_controls_section();
++    }
++
++    protected function render() {
++        echo do_shortcode( '[simulador_imobiliario]' );
++    }
++}
+diff --git a/simulador-imobiliario/includes/class-rest.php b/simulador-imobiliario/includes/class-rest.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..6ce2fb55e5c94c6b16d6d7b5a4cbdac749d96a6b
+--- /dev/null
++++ b/simulador-imobiliario/includes/class-rest.php
+@@ -0,0 +1,178 @@
++<?php
++/**
++ * REST endpoints for Simulador Imobiliário.
++ *
++ * @package Simulador_Imobiliario
++ */
++
++if ( ! defined( 'ABSPATH' ) ) {
++    exit;
++}
++
++class SIMIMOB_REST {
++
++    /**
++     * Instance.
++     *
++     * @var SIMIMOB_REST|null
++     */
++    protected static $instance = null;
++
++    /**
++     * Namespace.
++     */
++    const REST_NAMESPACE = 'simimob/v1';
++
++    /**
++     * Get singleton instance.
++     */
++    public static function get_instance() {
++        if ( null === self::$instance ) {
++            self::$instance = new self();
++        }
++
++        return self::$instance;
++    }
++
++    /**
++     * Constructor.
++     */
++    private function __construct() {
++        add_action( 'rest_api_init', array( $this, 'register_routes' ) );
++    }
++
++    /**
++     * Register REST routes.
++     */
++    public function register_routes() {
++        $options = SIMIMOB_Settings::get_options();
++        if ( empty( $options['rest_enabled'] ) ) {
++            return;
++        }
++
++        register_rest_route(
++            self::REST_NAMESPACE,
++            '/financiamento/simular',
++            array(
++                'methods'             => WP_REST_Server::CREATABLE,
++                'callback'            => array( $this, 'simulate_financiamento' ),
++                'permission_callback' => '__return_true',
++                'args'                => array(
++                    'modalidade' => array(
++                        'required' => true,
++                        'sanitize_callback' => 'sanitize_text_field',
++                    ),
++                    'renda' => array(
++                        'required' => true,
++                        'sanitize_callback' => 'floatval',
++                    ),
++                    'idade' => array(
++                        'required' => true,
++                        'sanitize_callback' => 'absint',
++                    ),
++                    'valor_imovel' => array(
++                        'required' => true,
++                        'sanitize_callback' => 'floatval',
++                    ),
++                    'prazo' => array(
++                        'required' => false,
++                        'sanitize_callback' => 'absint',
++                    ),
++                ),
++            )
++        );
++
++        register_rest_route(
++            self::REST_NAMESPACE,
++            '/obras/simular',
++            array(
++                'methods'             => WP_REST_Server::CREATABLE,
++                'callback'            => array( $this, 'simulate_obras' ),
++                'permission_callback' => '__return_true',
++                'args'                => array(
++                    'valor_imovel'        => array( 'required' => true, 'sanitize_callback' => 'floatval' ),
++                    'valor_financiamento' => array( 'required' => true, 'sanitize_callback' => 'floatval' ),
++                    'entrega'             => array( 'required' => true, 'sanitize_callback' => 'sanitize_text_field' ),
++                ),
++            )
++        );
++
++        register_rest_route(
++            self::REST_NAMESPACE,
++            '/config',
++            array(
++                'methods'             => WP_REST_Server::READABLE,
++                'callback'            => array( $this, 'get_config' ),
++                'permission_callback' => '__return_true',
++            )
++        );
++    }
++
++    /**
++     * Financing simulation endpoint.
++     */
++    public function simulate_financiamento( WP_REST_Request $request ) {
++        $modalidade = $request->get_param( 'modalidade' );
++        $renda      = (float) $request->get_param( 'renda' );
++        $idade      = (int) $request->get_param( 'idade' );
++        $valor      = (float) $request->get_param( 'valor_imovel' );
++        $prazo      = (int) $request->get_param( 'prazo' );
++
++        $params = SIMIMOB_Settings::get_public_settings();
++        $modalParams = isset( $params['modalidadeParams'][ $modalidade ] ) ? $params['modalidadeParams'][ $modalidade ] : array();
++        $ltv = isset( $modalParams['ltv_max'] ) ? floatval( $modalParams['ltv_max'] ) / 100 : 0.8;
++        $rendaPercent = isset( $modalParams['renda_percent'] ) ? floatval( $modalParams['renda_percent'] ) / 100 : 0.3;
++        $taxaAm = isset( $modalParams['taxa_am'] ) ? floatval( $modalParams['taxa_am'] ) / 100 : 0.008;
++        $prazoMax = isset( $modalParams['prazo_max'] ) ? (int) $modalParams['prazo_max'] : 360;
++        $idadeMax = isset( $modalParams['idade_max'] ) ? (int) $modalParams['idade_max'] : 80;
++        $entradaMin = isset( $modalParams['entrada_min'] ) ? floatval( $modalParams['entrada_min'] ) / 100 : 0;
++
++        $prazo = $prazo ? min( $prazo, $prazoMax ) : $prazoMax;
++        $pmtMax = $renda * $rendaPercent;
++        $credito = simimob_calc_pv( $taxaAm, $prazo, -$pmtMax );
++        $credito = min( $credito, $valor * $ltv );
++        $entrada = $valor * $entradaMin;
++
++        $idadeFim = $idade + ( $prazo / 12 );
++        $idadeValida = $idadeFim <= $idadeMax;
++
++        return rest_ensure_response(
++            array(
++                'credito' => $credito,
++                'parcela' => simimob_calc_pmt( $taxaAm, $prazo, $credito ),
++                'prazo'   => $prazo,
++                'taxa'    => $taxaAm,
++                'entrada' => $entrada,
++                'idade_valida' => $idadeValida,
++            )
++        );
++    }
++
++    /**
++     * Obras simulation endpoint.
++     */
++    public function simulate_obras( WP_REST_Request $request ) {
++        $valorImovel        = (float) $request->get_param( 'valor_imovel' );
++        $valorFinanciamento = (float) $request->get_param( 'valor_financiamento' );
++        $entrega            = $request->get_param( 'entrega' );
++
++        $saldo = max( 0, $valorImovel - $valorFinanciamento );
++        $meses = simimob_months_until( $entrega );
++
++        return rest_ensure_response(
++            array(
++                'saldo'        => $saldo,
++                'meses'        => $meses,
++                'semestrais'   => floor( $meses / 6 ),
++                'anuais'       => floor( $meses / 12 ),
++            )
++        );
++    }
++
++    /**
++     * Public config endpoint.
++     */
++    public function get_config() {
++        return rest_ensure_response( SIMIMOB_Settings::get_public_settings() );
++    }
++}
+diff --git a/simulador-imobiliario/includes/class-settings.php b/simulador-imobiliario/includes/class-settings.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..073fc880563da43ee06589899c1569213498c2d2
+--- /dev/null
++++ b/simulador-imobiliario/includes/class-settings.php
+@@ -0,0 +1,229 @@
++<?php
++/**
++ * Settings handler for Simulador Imobiliário.
++ *
++ * @package Simulador_Imobiliario
++ */
++
++if ( ! defined( 'ABSPATH' ) ) {
++    exit;
++}
++
++class SIMIMOB_Settings {
++
++    /**
++     * Instance holder.
++     *
++     * @var SIMIMOB_Settings|null
++     */
++    protected static $instance = null;
++
++    /**
++     * Option key.
++     */
++    const OPTION_KEY = 'simimob_settings';
++
++    /**
++     * Return singleton instance.
++     */
++    public static function get_instance() {
++        if ( null === self::$instance ) {
++            self::$instance = new self();
++        }
++
++        return self::$instance;
++    }
++
++    /**
++     * Constructor.
++     */
++    private function __construct() {
++        add_action( 'admin_init', array( $this, 'register_settings' ) );
++    }
++
++    /**
++     * Register settings using Settings API.
++     */
++    public function register_settings() {
++        register_setting(
++            'simimob_settings_group',
++            self::OPTION_KEY,
++            array(
++                'sanitize_callback' => array( $this, 'sanitize_settings' ),
++                'default'           => $this->get_defaults(),
++            )
++        );
++    }
++
++    /**
++     * Default settings values.
++     *
++     * @return array
++     */
++    public function get_defaults() {
++        return array(
++            'primary_color'             => '',
++            'typography'                => '',
++            'logo_pdf'                  => '',
++            'timezone'                  => get_option( 'timezone_string', 'America/Sao_Paulo' ),
++            'share_whatsapp'            => __( 'Olá {cliente}, segue a simulação para o empreendimento {empreendimento}. Saldo: {saldo}', 'simulador-imobiliario' ),
++            'share_email_subject'       => __( 'Simulação do empreendimento {empreendimento}', 'simulador-imobiliario' ),
++            'share_email_body'          => __( 'Olá {cliente}, confira a simulação do empreendimento {empreendimento}.', 'simulador-imobiliario' ),
++            'modalidades'               => array( 'A', 'B', 'C', 'D', 'E' ),
++            'modalidade_params'         => array(),
++            'permitir_pular_capacidade' => false,
++            'coeficientes'              => array(),
++            'intermediaria_limite'      => 10,
++            'entrada_minima'            => 0,
++            'entrada_maxima'            => '',
++            'mensal_minima'             => '',
++            'mensal_maxima'             => '',
++            'empreendimentos'           => array(),
++            'pdf_ativo'                 => true,
++            'pdf_header'                => '',
++            'pdf_footer'                => '',
++            'pdf_marca_dagua'           => '',
++            'rest_enabled'              => false,
++            'export_string'             => '',
++            'telemetria'                => false,
++            'limpeza'                   => false,
++        );
++    }
++
++    /**
++     * Sanitize settings input.
++     *
++     * @param array $input Raw input.
++     *
++     * @return array
++     */
++    public function sanitize_settings( $input ) {
++        $defaults = $this->get_defaults();
++        $output   = wp_parse_args( $input, $defaults );
++
++        $output['primary_color']             = sanitize_hex_color( $output['primary_color'] );
++        $output['typography']                = sanitize_text_field( $output['typography'] );
++        $output['logo_pdf']                  = esc_url_raw( $output['logo_pdf'] );
++        $output['timezone']                  = sanitize_text_field( $output['timezone'] );
++        $output['share_whatsapp']            = wp_kses_post( $output['share_whatsapp'] );
++        $output['share_email_subject']       = sanitize_text_field( $output['share_email_subject'] );
++        $output['share_email_body']          = wp_kses_post( $output['share_email_body'] );
++        $output['modalidades']               = array_map( 'sanitize_text_field', (array) $output['modalidades'] );
++        $output['permitir_pular_capacidade'] = simimob_to_bool( $output['permitir_pular_capacidade'] );
++        $output['intermediaria_limite']      = floatval( $output['intermediaria_limite'] );
++        $output['entrada_minima']            = floatval( $output['entrada_minima'] );
++        $output['entrada_maxima']            = '' !== $output['entrada_maxima'] ? floatval( $output['entrada_maxima'] ) : '';
++        $output['mensal_minima']             = '' !== $output['mensal_minima'] ? floatval( $output['mensal_minima'] ) : '';
++        $output['mensal_maxima']             = '' !== $output['mensal_maxima'] ? floatval( $output['mensal_maxima'] ) : '';
++        $output['pdf_ativo']                 = simimob_to_bool( $output['pdf_ativo'] );
++        $output['rest_enabled']              = simimob_to_bool( $output['rest_enabled'] );
++        $output['telemetria']                = simimob_to_bool( $output['telemetria'] );
++        $output['limpeza']                   = simimob_to_bool( $output['limpeza'] );
++        $output['pdf_header']                = wp_kses_post( $output['pdf_header'] );
++        $output['pdf_footer']                = wp_kses_post( $output['pdf_footer'] );
++        $output['pdf_marca_dagua']           = sanitize_text_field( $output['pdf_marca_dagua'] );
++
++        $output['modalidade_params'] = array();
++        if ( isset( $input['modalidade_params'] ) && is_array( $input['modalidade_params'] ) ) {
++            foreach ( $input['modalidade_params'] as $key => $params ) {
++                $output['modalidade_params'][ sanitize_text_field( $key ) ] = array(
++                    'ltv_max'       => isset( $params['ltv_max'] ) ? floatval( $params['ltv_max'] ) : 0,
++                    'renda_percent' => isset( $params['renda_percent'] ) ? floatval( $params['renda_percent'] ) : 0,
++                    'taxa_aa'       => isset( $params['taxa_aa'] ) ? floatval( $params['taxa_aa'] ) : 0,
++                    'taxa_am'       => isset( $params['taxa_am'] ) ? floatval( $params['taxa_am'] ) : 0,
++                    'prazo_max'     => isset( $params['prazo_max'] ) ? absint( $params['prazo_max'] ) : 0,
++                    'idade_max'     => isset( $params['idade_max'] ) ? absint( $params['idade_max'] ) : 80,
++                    'entrada_min'   => isset( $params['entrada_min'] ) ? floatval( $params['entrada_min'] ) : 0,
++                    'descricao'     => isset( $params['descricao'] ) ? sanitize_text_field( $params['descricao'] ) : '',
++                );
++            }
++        }
++
++        $output['coeficientes'] = array();
++        if ( isset( $input['coeficientes'] ) && is_array( $input['coeficientes'] ) ) {
++            foreach ( $input['coeficientes'] as $coef ) {
++                $output['coeficientes'][] = array(
++                    'faixa'       => isset( $coef['faixa'] ) ? sanitize_text_field( $coef['faixa'] ) : '',
++                    'idade'       => isset( $coef['idade'] ) ? sanitize_text_field( $coef['idade'] ) : '',
++                    'coeficiente' => isset( $coef['coeficiente'] ) ? floatval( $coef['coeficiente'] ) : 0,
++                );
++            }
++        }
++
++        $output['empreendimentos'] = simimob_sanitize_empreendimentos( isset( $input['empreendimentos'] ) ? $input['empreendimentos'] : array() );
++
++        if ( isset( $input['export_string'] ) && ! empty( $input['export_string'] ) ) {
++            $decoded = json_decode( wp_unslash( $input['export_string'] ), true );
++            if ( is_array( $decoded ) ) {
++                $output = wp_parse_args( $decoded, $output );
++            }
++        }
++
++        $output['export_string'] = '';
++
++        return $output;
++    }
++
++    /**
++     * Get options merged with defaults.
++     *
++     * @return array
++     */
++    public static function get_options() {
++        $instance = self::get_instance();
++        $defaults = $instance->get_defaults();
++        $options  = get_option( self::OPTION_KEY, array() );
++
++        return wp_parse_args( $options, $defaults );
++    }
++
++    /**
++     * Public settings for front-end.
++     *
++     * @return array
++     */
++    public static function get_public_settings() {
++        $options = self::get_options();
++
++        return array(
++            'primaryColor'            => ! empty( $options['primary_color'] ) ? $options['primary_color'] : '',
++            'permitirPularCapacidade' => (bool) $options['permitir_pular_capacidade'],
++            'intermediariaLimite'     => floatval( $options['intermediaria_limite'] ),
++            'entradaMinima'           => floatval( $options['entrada_minima'] ),
++            'entradaMaxima'           => '' === $options['entrada_maxima'] ? '' : floatval( $options['entrada_maxima'] ),
++            'mensalMinima'            => '' === $options['mensal_minima'] ? '' : floatval( $options['mensal_minima'] ),
++            'mensalMaxima'            => '' === $options['mensal_maxima'] ? '' : floatval( $options['mensal_maxima'] ),
++            'modalidades'             => $options['modalidades'],
++            'modalidadeParams'        => $options['modalidade_params'],
++            'coeficientes'            => $options['coeficientes'],
++            'pdfAtivo'                => (bool) $options['pdf_ativo'],
++            'shareWhatsapp'           => $options['share_whatsapp'],
++            'shareEmailSubject'       => $options['share_email_subject'],
++            'shareEmailBody'          => $options['share_email_body'],
++            'empreendimentos'         => $options['empreendimentos'],
++        );
++    }
++
++    /**
++     * Activation handler.
++     */
++    public static function activate() {
++        $instance = self::get_instance();
++        $defaults = $instance->get_defaults();
++        $options  = get_option( self::OPTION_KEY, array() );
++
++        if ( empty( $options ) ) {
++            update_option( self::OPTION_KEY, $defaults );
++        }
++    }
++
++    /**
++     * Remove options when uninstall if requested.
++     */
++    public static function uninstall() {
++        $options = self::get_options();
++        if ( ! empty( $options['limpeza'] ) ) {
++            delete_option( self::OPTION_KEY );
++        }
++    }
++}
+diff --git a/simulador-imobiliario/includes/class-shortcodes.php b/simulador-imobiliario/includes/class-shortcodes.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..5d53034e1612672649f63b28cb3413057255e8ab
+--- /dev/null
++++ b/simulador-imobiliario/includes/class-shortcodes.php
+@@ -0,0 +1,76 @@
++<?php
++/**
++ * Shortcodes for Simulador Imobiliário.
++ *
++ * @package Simulador_Imobiliario
++ */
++
++if ( ! defined( 'ABSPATH' ) ) {
++    exit;
++}
++
++class SIMIMOB_Shortcodes {
++
++    /**
++     * Instance.
++     *
++     * @var SIMIMOB_Shortcodes|null
++     */
++    protected static $instance = null;
++
++    /**
++     * Get instance.
++     */
++    public static function get_instance() {
++        if ( null === self::$instance ) {
++            self::$instance = new self();
++        }
++
++        return self::$instance;
++    }
++
++    /**
++     * Constructor.
++     */
++    private function __construct() {
++        add_shortcode( 'simulador_financiamento', array( $this, 'render_financiamento' ) );
++        add_shortcode( 'simulador_obras', array( $this, 'render_obras' ) );
++        add_shortcode( 'simulador_imobiliario', array( $this, 'render_wizard' ) );
++    }
++
++    /**
++     * Render financing template.
++     */
++    public function render_financiamento( $atts = array(), $content = '' ) {
++        wp_enqueue_style( 'simimob-front' );
++        wp_enqueue_script( 'simimob-front' );
++        ob_start();
++        $data = shortcode_atts( array(), $atts, 'simulador_financiamento' );
++        include SIMIMOB_PLUGIN_DIR . 'templates/financiamento.php';
++        return ob_get_clean();
++    }
++
++    /**
++     * Render obras template.
++     */
++    public function render_obras( $atts = array(), $content = '' ) {
++        wp_enqueue_style( 'simimob-front' );
++        wp_enqueue_script( 'simimob-front' );
++        ob_start();
++        $data = shortcode_atts( array(), $atts, 'simulador_obras' );
++        include SIMIMOB_PLUGIN_DIR . 'templates/obras.php';
++        return ob_get_clean();
++    }
++
++    /**
++     * Render wizard template.
++     */
++    public function render_wizard( $atts = array(), $content = '' ) {
++        wp_enqueue_style( 'simimob-front' );
++        wp_enqueue_script( 'simimob-front' );
++        ob_start();
++        $data = shortcode_atts( array(), $atts, 'simulador_imobiliario' );
++        include SIMIMOB_PLUGIN_DIR . 'templates/wizard.php';
++        return ob_get_clean();
++    }
++}
+diff --git a/simulador-imobiliario/includes/helpers.php b/simulador-imobiliario/includes/helpers.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..3d3a06d7b2e2238cb88283c17af3256f6699142d
+--- /dev/null
++++ b/simulador-imobiliario/includes/helpers.php
+@@ -0,0 +1,171 @@
++<?php
++/**
++ * Helper functions for Simulador Imobiliário.
++ *
++ * @package Simulador_Imobiliario
++ */
++
++if ( ! defined( 'ABSPATH' ) ) {
++    exit;
++}
++
++/**
++ * Get plugin option with default.
++ *
++ * @param string $key Option key.
++ * @param mixed  $default Default value.
++ *
++ * @return mixed
++ */
++function simimob_get_option( $key, $default = false ) {
++    $options = get_option( 'simimob_settings', array() );
++
++    if ( isset( $options[ $key ] ) ) {
++        return $options[ $key ];
++    }
++
++    return $default;
++}
++
++/**
++ * Sanitize currency value (BRL).
++ *
++ * @param string $value Value.
++ * @return float
++ */
++function simimob_sanitize_currency( $value ) {
++    $value = preg_replace( '/[^0-9,.-]/', '', (string) $value );
++    $value = str_replace( '.', '', $value );
++    $value = str_replace( ',', '.', $value );
++
++    return (float) $value;
++}
++
++/**
++ * Format currency to BRL.
++ *
++ * @param float $value Value.
++ * @return string
++ */
++function simimob_format_currency( $value ) {
++    return 'R$ ' . number_format( (float) $value, 2, ',', '.' );
++}
++
++/**
++ * Calculate PMT (annuity payment).
++ *
++ * @param float $rate Monthly interest rate.
++ * @param int   $nper Number of payments.
++ * @param float $pv Present value.
++ *
++ * @return float
++ */
++function simimob_calc_pmt( $rate, $nper, $pv ) {
++    if ( 0.0 === (float) $rate ) {
++        return ( $pv / $nper ) * -1;
++    }
++
++    $pmt = ( $rate * $pv ) / ( 1 - pow( 1 + $rate, -$nper ) );
++
++    return -1 * $pmt;
++}
++
++/**
++ * Calculate PV (present value) from PMT.
++ *
++ * @param float $rate Monthly interest rate.
++ * @param int   $nper Number of payments.
++ * @param float $pmt Payment amount.
++ *
++ * @return float
++ */
++function simimob_calc_pv( $rate, $nper, $pmt ) {
++    if ( 0.0 === (float) $rate ) {
++        return -1 * $pmt * $nper;
++    }
++
++    $pv = $pmt * ( 1 - pow( 1 + $rate, -$nper ) ) / $rate;
++
++    return -1 * $pv;
++}
++
++/**
++ * Calculate months between now and target date (inclusive current month).
++ *
++ * @param string $target YYYY-MM.
++ *
++ * @return int
++ */
++function simimob_months_until( $target ) {
++    try {
++        $tz_string = simimob_get_option( 'timezone', get_option( 'timezone_string', 'America/Sao_Paulo' ) );
++        $timezone  = $tz_string ? new DateTimeZone( $tz_string ) : wp_timezone();
++        $current = new DateTimeImmutable( 'first day of this month', $timezone );
++        $target_dt = DateTimeImmutable::createFromFormat( 'Y-m', $target, $timezone );
++        if ( ! $target_dt ) {
++            return 0;
++        }
++        $target_dt = $target_dt->setTime( 0, 0 )->modify( 'first day of this month' );
++        $interval  = $current->diff( $target_dt );
++        $months    = ( (int) $interval->y * 12 ) + (int) $interval->m;
++        return max( 0, $months ) + 1; // inclusive month current
++    } catch ( Exception $e ) {
++        return 0;
++    }
++}
++
++/**
++ * Return empreendimentos catalog.
++ *
++ * @return array
++ */
++function simimob_get_empreendimentos() {
++    $data = simimob_get_option( 'empreendimentos', array() );
++
++    if ( ! is_array( $data ) ) {
++        $data = array();
++    }
++
++    return $data;
++}
++
++/**
++ * Prepare sanitized empreendimentos.
++ *
++ * @param array $input Raw input.
++ *
++ * @return array
++ */
++function simimob_sanitize_empreendimentos( $input ) {
++    $output = array();
++
++    if ( ! is_array( $input ) ) {
++        return $output;
++    }
++
++    foreach ( $input as $item ) {
++        if ( empty( $item['nome'] ) ) {
++            continue;
++        }
++
++        $output[] = array(
++            'nome'          => sanitize_text_field( $item['nome'] ),
++            'prosoluto'     => isset( $item['prosoluto'] ) ? floatval( $item['prosoluto'] ) : 0,
++            'meses_obra'    => isset( $item['meses_obra'] ) ? absint( $item['meses_obra'] ) : 0,
++            'entrega_padrao'=> isset( $item['entrega_padrao'] ) ? sanitize_text_field( $item['entrega_padrao'] ) : '',
++            'politica'      => isset( $item['politica'] ) ? wp_kses_post( $item['politica'] ) : '',
++        );
++    }
++
++    return $output;
++}
++
++/**
++ * Normalize boolean value from options.
++ *
++ * @param mixed $value Value.
++ * @return bool
++ */
++function simimob_to_bool( $value ) {
++    return ! empty( $value ) && 'false' !== $value && '0' !== $value;
++}
+diff --git a/simulador-imobiliario/languages/simulador-imobiliario.pot b/simulador-imobiliario/languages/simulador-imobiliario.pot
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+diff --git a/simulador-imobiliario/readme.txt b/simulador-imobiliario/readme.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..a1c6175e7e2dce43d7806b16b81b5c6e36228805
+--- /dev/null
++++ b/simulador-imobiliario/readme.txt
+@@ -0,0 +1,36 @@
++=== Simulador Imobiliário — Financiamento & Obras ===
++Contributors: openai-codex
++Tags: real estate, financing, calculator, elementor, gutenberg
++Requires at least: 5.8
++Tested up to: 6.4
++Stable tag: 1.0.0
++License: GPLv2 or later
++License URI: https://www.gnu.org/licenses/gpl-2.0.html
++
++Plugin de simuladores imobiliários para financiamento e saldo de obras com shortcodes, blocos e widgets Elementor.
++
++== Description ==
++
++* Shortcodes: `[simulador_financiamento]`, `[simulador_obras]`, `[simulador_imobiliario]`
++* Blocos Gutenberg dinâmicos correspondentes aos simuladores.
++* Widgets Elementor para Houzez/Elementor.
++* Configurações avançadas de cores, textos, políticas comerciais e PDF.
++
++== Installation ==
++
++1. Envie o arquivo `simulador-imobiliario.zip` para Plugins > Adicionar novo > Enviar plugin.
++2. Ative o plugin.
++3. Acesse *Simulador Imobiliário* no menu do WordPress para configurar cores, modalidades, políticas e compartilhamento.
++
++== Frequently Asked Questions ==
++
++= Como utilizo os simuladores nas páginas? =
++Use os shortcodes informados acima, insira os blocos Gutenberg ou arraste os widgets nas páginas Elementor.
++
++= Como exportar/importar configurações? =
++Na aba *Avançado* do menu do plugin há botões de exportação (JSON) e campo para importar.
++
++== Changelog ==
++
++= 1.0.0 =
++* Versão inicial.
+diff --git a/simulador-imobiliario/simulador-imobiliario.php b/simulador-imobiliario/simulador-imobiliario.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..64f3c87dca7233712a39458e772563ba2c1d8970
+--- /dev/null
++++ b/simulador-imobiliario/simulador-imobiliario.php
+@@ -0,0 +1,116 @@
++<?php
++/**
++ * Plugin Name: Simulador Imobiliário — Financiamento & Obras
++ * Plugin URI: https://example.com/
++ * Description: Simuladores integrados de financiamento e saldo de obras com shortcodes, blocos Gutenberg e widgets Elementor.
++ * Version: 1.0.0
++ * Author: OpenAI Codex
++ * Author URI: https://example.com/
++ * Text Domain: simulador-imobiliario
++ * Domain Path: /languages
++ */
++
++if ( ! defined( 'ABSPATH' ) ) {
++    exit;
++}
++
++if ( ! defined( 'SIMIMOB_PLUGIN_FILE' ) ) {
++    define( 'SIMIMOB_PLUGIN_FILE', __FILE__ );
++}
++
++if ( ! defined( 'SIMIMOB_PLUGIN_DIR' ) ) {
++    define( 'SIMIMOB_PLUGIN_DIR', plugin_dir_path( SIMIMOB_PLUGIN_FILE ) );
++}
++
++if ( ! defined( 'SIMIMOB_PLUGIN_URL' ) ) {
++    define( 'SIMIMOB_PLUGIN_URL', plugin_dir_url( SIMIMOB_PLUGIN_FILE ) );
++}
++
++require_once SIMIMOB_PLUGIN_DIR . 'includes/helpers.php';
++require_once SIMIMOB_PLUGIN_DIR . 'includes/class-settings.php';
++require_once SIMIMOB_PLUGIN_DIR . 'includes/class-admin.php';
++require_once SIMIMOB_PLUGIN_DIR . 'includes/class-shortcodes.php';
++require_once SIMIMOB_PLUGIN_DIR . 'includes/class-rest.php';
++
++/**
++ * Initialize plugin functionality.
++ */
++function simimob_init() {
++    load_plugin_textdomain( 'simulador-imobiliario', false, dirname( plugin_basename( SIMIMOB_PLUGIN_FILE ) ) . '/languages' );
++
++    SIMIMOB_Settings::get_instance();
++    SIMIMOB_Admin::get_instance();
++    SIMIMOB_Shortcodes::get_instance();
++    SIMIMOB_REST::get_instance();
++
++    if ( class_exists( 'Elementor\Plugin' ) ) {
++        require_once SIMIMOB_PLUGIN_DIR . 'includes/class-elementor-financiamento.php';
++        require_once SIMIMOB_PLUGIN_DIR . 'includes/class-elementor-obras.php';
++        require_once SIMIMOB_PLUGIN_DIR . 'includes/class-elementor-wizard.php';
++
++        SIMIMOB_Elementor_Financiamento::get_instance();
++        SIMIMOB_Elementor_Obras::get_instance();
++        SIMIMOB_Elementor_Wizard::get_instance();
++    }
++
++    simimob_register_blocks();
++}
++add_action( 'plugins_loaded', 'simimob_init' );
++
++/**
++ * Register front-end assets and block assets.
++ */
++function simimob_register_assets() {
++    wp_register_style( 'simimob-front', SIMIMOB_PLUGIN_URL . 'assets/css/front.css', array(), '1.0.0' );
++    wp_register_script( 'simimob-front', SIMIMOB_PLUGIN_URL . 'assets/js/front.js', array(), '1.0.0', true );
++
++    wp_register_script( 'simimob-financiamento-block', SIMIMOB_PLUGIN_URL . 'blocks/financiamento/index.js', array( 'wp-blocks', 'wp-element' ), '1.0.0', true );
++    wp_register_script( 'simimob-obras-block', SIMIMOB_PLUGIN_URL . 'blocks/obras/index.js', array( 'wp-blocks', 'wp-element' ), '1.0.0', true );
++    wp_register_script( 'simimob-wizard-block', SIMIMOB_PLUGIN_URL . 'blocks/wizard/index.js', array( 'wp-blocks', 'wp-element' ), '1.0.0', true );
++
++    wp_register_style( 'simimob-block-editor', SIMIMOB_PLUGIN_URL . 'assets/css/block-editor.css', array(), '1.0.0' );
++
++    $config = SIMIMOB_Settings::get_public_settings();
++    wp_localize_script( 'simimob-front', 'SIMIMOB_CONFIG', $config );
++}
++add_action( 'init', 'simimob_register_assets' );
++
++/**
++ * Register Gutenberg blocks.
++ */
++function simimob_register_blocks() {
++    if ( ! function_exists( 'register_block_type' ) ) {
++        return;
++    }
++
++    $blocks = array( 'financiamento', 'obras', 'wizard' );
++
++    foreach ( $blocks as $block ) {
++        register_block_type( SIMIMOB_PLUGIN_DIR . 'blocks/' . $block );
++    }
++}
++
++/**
++ * Plugin activation callback.
++ */
++function simimob_activate() {
++    SIMIMOB_Settings::get_instance();
++    SIMIMOB_Settings::activate();
++}
++register_activation_hook( SIMIMOB_PLUGIN_FILE, 'simimob_activate' );
++
++/**
++ * Plugin deactivation callback.
++ */
++function simimob_deactivate() {
++    // Placeholder for future use.
++}
++register_deactivation_hook( SIMIMOB_PLUGIN_FILE, 'simimob_deactivate' );
++
++/**
++ * Plugin uninstall callback.
++ */
++function simimob_uninstall() {
++    SIMIMOB_Settings::uninstall();
++}
++register_uninstall_hook( SIMIMOB_PLUGIN_FILE, 'simimob_uninstall' );
+diff --git a/simulador-imobiliario/templates/financiamento.php b/simulador-imobiliario/templates/financiamento.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..d4fcdf4e58fa307115a47149ff3930af881e41e3
+--- /dev/null
++++ b/simulador-imobiliario/templates/financiamento.php
+@@ -0,0 +1,93 @@
++<?php
++/**
++ * Front template for financing simulator.
++ *
++ * @var array $data Shortcode attributes.
++ */
++
++$settings = SIMIMOB_Settings::get_public_settings();
++$modalidades = $settings['modalidades'];
++$modalidade_params = $settings['modalidadeParams'];
++?>
++<div class="simimob-simulador" data-type="financiamento" data-label-credito="<?php esc_attr_e( 'Crédito máximo', 'simulador-imobiliario' ); ?>" data-label-parcela="<?php esc_attr_e( 'Parcela estimada', 'simulador-imobiliario' ); ?>" data-label-prazo="<?php esc_attr_e( 'Prazo', 'simulador-imobiliario' ); ?>" data-label-taxa="<?php esc_attr_e( 'Taxa', 'simulador-imobiliario' ); ?>" data-label-entrada="<?php esc_attr_e( 'Entrada mínima', 'simulador-imobiliario' ); ?>" data-label-idade="<?php esc_attr_e( 'Idade/prazo excedem a política', 'simulador-imobiliario' ); ?>">
++    <div class="simimob-stepper">
++        <button type="button" aria-current="step"><?php esc_html_e( 'Modalidade', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Capacidade de crédito', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Dados do imóvel', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Resumo', 'simulador-imobiliario' ); ?></button>
++    </div>
++    <div class="simimob-step active">
++        <h3><?php esc_html_e( 'Escolha a modalidade', 'simulador-imobiliario' ); ?></h3>
++        <?php foreach ( $modalidades as $index => $modalidade ) :
++            $params = isset( $modalidade_params[ $modalidade ] ) ? $modalidade_params[ $modalidade ] : array();
++            $descricao = isset( $params['descricao'] ) ? $params['descricao'] : '';
++            ?>
++            <div class="simimob-field">
++                <label>
++                    <input type="radio" name="modalidade" value="<?php echo esc_attr( $modalidade ); ?>" <?php checked( 0 === $index ); ?> />
++                    <strong><?php echo esc_html( $modalidade ); ?></strong> — <?php echo esc_html( $descricao ); ?>
++                </label>
++            </div>
++        <?php endforeach; ?>
++        <div class="simimob-actions">
++            <button type="button" data-next-step><?php esc_html_e( 'Continuar', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <h3><?php esc_html_e( 'Capacidade de crédito', 'simulador-imobiliario' ); ?></h3>
++        <div class="simimob-field">
++            <label for="simimob-renda"><?php esc_html_e( 'Renda familiar bruta mensal', 'simulador-imobiliario' ); ?></label>
++            <input data-mask="currency" type="text" id="simimob-renda" name="renda_familiar" />
++        </div>
++        <div class="simimob-field">
++            <label for="simimob-idade"><?php esc_html_e( 'Idade do comprador', 'simulador-imobiliario' ); ?></label>
++            <input type="number" id="simimob-idade" name="idade" />
++        </div>
++        <div class="simimob-field">
++            <label for="simimob-valor-imovel"><?php esc_html_e( 'Valor do imóvel', 'simulador-imobiliario' ); ?></label>
++            <input data-mask="currency" type="text" id="simimob-valor-imovel" name="valor_imovel" />
++        </div>
++        <div class="simimob-field">
++            <label for="simimob-prazo"><?php esc_html_e( 'Prazo pretendido (meses)', 'simulador-imobiliario' ); ?></label>
++            <input type="number" id="simimob-prazo" name="prazo" />
++        </div>
++        <div class="simimob-summary simimob-capacidade-resultado"></div>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-next-step><?php esc_html_e( 'Usar estes parâmetros', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <h3><?php esc_html_e( 'Dados do imóvel', 'simulador-imobiliario' ); ?></h3>
++        <div class="simimob-field">
++            <label for="simimob-financiamento-valor"><?php esc_html_e( 'Valor do financiamento', 'simulador-imobiliario' ); ?></label>
++            <input data-mask="currency" type="text" id="simimob-financiamento-valor" name="financiamento_valor" />
++        </div>
++        <div class="simimob-field">
++            <label for="simimob-entrega"><?php esc_html_e( 'Entrega (mês/ano)', 'simulador-imobiliario' ); ?></label>
++            <input type="month" id="simimob-entrega" name="entrega" />
++        </div>
++        <div class="simimob-field">
++            <label for="simimob-empreendimento"><?php esc_html_e( 'Empreendimento', 'simulador-imobiliario' ); ?></label>
++            <input type="text" id="simimob-empreendimento" name="empreendimento" placeholder="<?php esc_attr_e( 'Ex.: Living Parque', 'simulador-imobiliario' ); ?>" />
++        </div>
++        <div class="simimob-field">
++            <label for="simimob-unidade"><?php esc_html_e( 'Unidade', 'simulador-imobiliario' ); ?></label>
++            <input type="text" id="simimob-unidade" name="unidade" placeholder="<?php esc_attr_e( 'Ex.: Bloco X • Unidade 01/601', 'simulador-imobiliario' ); ?>" />
++        </div>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-next-step><?php esc_html_e( 'Continuar', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <h3><?php esc_html_e( 'Resumo do financiamento', 'simulador-imobiliario' ); ?></h3>
++        <div class="simimob-summary">
++            <p><?php esc_html_e( 'Revise os dados antes de seguir para o saldo de obras.', 'simulador-imobiliario' ); ?></p>
++            <p><?php esc_html_e( 'Modalidade selecionada será utilizada para cálculos adicionais.', 'simulador-imobiliario' ); ?></p>
++        </div>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++</div>
+diff --git a/simulador-imobiliario/templates/obras.php b/simulador-imobiliario/templates/obras.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..cc019f35fdd881babc9433f86ec105ee01c91e31
+--- /dev/null
++++ b/simulador-imobiliario/templates/obras.php
+@@ -0,0 +1,129 @@
++<?php
++/**
++ * Template for obras simulator.
++ */
++$settings = SIMIMOB_Settings::get_public_settings();
++?>
++<div class="simimob-simulador" data-type="obras" data-label-saldo="<?php esc_attr_e( 'Saldo de obras', 'simulador-imobiliario' ); ?>" data-label-meses="<?php esc_attr_e( 'Meses até a entrega', 'simulador-imobiliario' ); ?>" data-label-semestrais="<?php esc_attr_e( 'Semestrais possíveis', 'simulador-imobiliario' ); ?>" data-label-anuais="<?php esc_attr_e( 'Anuais possíveis', 'simulador-imobiliario' ); ?>" data-mensagem-intermediaria="<?php echo esc_attr__( 'Esta parcela intermediária está muito superior ao valor das parcelas mensais, a política comercial do vendedor não permite uma diferença entre parcelas tão discrepante, aumente o valor da parcela mensal para enquadrar a proposta a política comercial', 'simulador-imobiliario' ); ?>">
++    <div class="simimob-stepper">
++        <button type="button" aria-current="step"><?php esc_html_e( 'Dados iniciais', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Resultado', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Identificação', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Distribuição', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Resumo final', 'simulador-imobiliario' ); ?></button>
++    </div>
++    <div class="simimob-step active">
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Empreendimento', 'simulador-imobiliario' ); ?></label>
++            <input type="text" name="obras_empreendimento" placeholder="<?php esc_attr_e( 'Ex.: Living Parque', 'simulador-imobiliario' ); ?>" />
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Unidade', 'simulador-imobiliario' ); ?></label>
++            <input type="text" name="obras_unidade" placeholder="<?php esc_attr_e( 'Ex.: Bloco X • Unidade 01/601', 'simulador-imobiliario' ); ?>" />
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Entrega (mês/ano)', 'simulador-imobiliario' ); ?></label>
++            <input type="month" name="obras_entrega" />
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Valor do imóvel', 'simulador-imobiliario' ); ?></label>
++            <input data-mask="currency" type="text" name="obras_valor_imovel" />
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Valor do financiamento', 'simulador-imobiliario' ); ?></label>
++            <input data-mask="currency" type="text" name="obras_valor_financiamento" />
++        </div>
++        <div class="simimob-actions">
++            <button type="button" data-next-step><?php esc_html_e( 'Continuar', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <h3><?php esc_html_e( 'Resultado', 'simulador-imobiliario' ); ?></h3>
++        <div class="simimob-summary simimob-obras-resumo"></div>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-next-step><?php esc_html_e( 'Continuar', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Nome do corretor(a)', 'simulador-imobiliario' ); ?></label>
++            <input type="text" name="corretor_nome" />
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'E-mail do corretor', 'simulador-imobiliario' ); ?></label>
++            <input type="email" name="corretor_email" />
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Imobiliária', 'simulador-imobiliario' ); ?></label>
++            <input type="text" name="imobiliaria" />
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Nome do cliente', 'simulador-imobiliario' ); ?></label>
++            <input type="text" name="cliente_nome" />
++        </div>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-next-step><?php esc_html_e( 'Continuar', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <h3><?php esc_html_e( 'Distribuição do saldo', 'simulador-imobiliario' ); ?></h3>
++        <p class="simimob-aviso-intermediaria" style="display:none;color:#c0392b;font-size:0.85rem;"></p>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Sinal (R$)', 'simulador-imobiliario' ); ?></label>
++            <input data-mask="currency" type="text" name="obras_sinal" />
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Mensal (R$)', 'simulador-imobiliario' ); ?></label>
++            <input data-mask="currency" type="text" name="obras_mensal" />
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Tipo de intermediárias', 'simulador-imobiliario' ); ?></label>
++            <select name="obras_tipo_intermediaria">
++                <option value="semestral"><?php esc_html_e( 'Semestrais', 'simulador-imobiliario' ); ?></option>
++                <option value="anual"><?php esc_html_e( 'Anuais', 'simulador-imobiliario' ); ?></option>
++            </select>
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Intermediária (R$)', 'simulador-imobiliario' ); ?></label>
++            <input data-mask="currency" type="text" name="obras_intermediaria" />
++        </div>
++        <div class="simimob-field">
++            <label><?php esc_html_e( 'Início das intermediárias', 'simulador-imobiliario' ); ?></label>
++            <input type="month" name="obras_inicio_intermediaria" />
++        </div>
++        <div class="simimob-summary">
++            <p><?php esc_html_e( 'Total sinal:', 'simulador-imobiliario' ); ?> <span class="simimob-total-sinal">R$ 0,00</span></p>
++            <p><?php esc_html_e( 'Total mensais:', 'simulador-imobiliario' ); ?> <span class="simimob-total-mensal">R$ 0,00</span></p>
++            <p><?php esc_html_e( 'Total intermediárias:', 'simulador-imobiliario' ); ?> <span class="simimob-total-intermediaria">R$ 0,00</span></p>
++            <p><?php esc_html_e( 'Valor total de pagamentos:', 'simulador-imobiliario' ); ?> <span class="simimob-total-geral">R$ 0,00</span></p>
++            <p><?php esc_html_e( 'Saldo em aberto:', 'simulador-imobiliario' ); ?> <span class="simimob-saldo-aberto">R$ 0,00</span></p>
++        </div>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-next-step><?php esc_html_e( 'Continuar', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <h3><?php esc_html_e( 'Resumo final', 'simulador-imobiliario' ); ?></h3>
++        <table class="simimob-cronograma">
++            <thead>
++                <tr>
++                    <th><?php esc_html_e( 'Vencimento', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Tipo', 'simulador-imobiliario' ); ?></th>
++                    <th><?php esc_html_e( 'Valor', 'simulador-imobiliario' ); ?></th>
++                </tr>
++            </thead>
++            <tbody></tbody>
++        </table>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++            <?php if ( ! empty( $settings['pdfAtivo'] ) ) : ?>
++                <button type="button" data-action="print"><?php esc_html_e( 'Baixar PDF', 'simulador-imobiliario' ); ?></button>
++            <?php endif; ?>
++            <button type="button" data-share="whatsapp"><?php esc_html_e( 'Compartilhar no WhatsApp', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-share="email"><?php esc_html_e( 'Enviar por e-mail', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++</div>
+diff --git a/simulador-imobiliario/templates/partials/capacidade.php b/simulador-imobiliario/templates/partials/capacidade.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..aaf79c7b3e33c0c998a3b454bcbd5fe8dbb078df
+--- /dev/null
++++ b/simulador-imobiliario/templates/partials/capacidade.php
+@@ -0,0 +1,17 @@
++<div class="simimob-field">
++    <label for="wizard-renda"><?php esc_html_e( 'Renda familiar bruta mensal', 'simulador-imobiliario' ); ?></label>
++    <input data-mask="currency" type="text" id="wizard-renda" name="renda_familiar" />
++</div>
++<div class="simimob-field">
++    <label for="wizard-idade"><?php esc_html_e( 'Idade do comprador', 'simulador-imobiliario' ); ?></label>
++    <input type="number" id="wizard-idade" name="idade" />
++</div>
++<div class="simimob-field">
++    <label for="wizard-valor"><?php esc_html_e( 'Valor do imóvel', 'simulador-imobiliario' ); ?></label>
++    <input data-mask="currency" type="text" id="wizard-valor" name="valor_imovel" />
++</div>
++<div class="simimob-field">
++    <label for="wizard-prazo"><?php esc_html_e( 'Prazo pretendido (meses)', 'simulador-imobiliario' ); ?></label>
++    <input type="number" id="wizard-prazo" name="prazo" />
++</div>
++<div class="simimob-summary simimob-capacidade-resultado"></div>
+diff --git a/simulador-imobiliario/templates/partials/imovel.php b/simulador-imobiliario/templates/partials/imovel.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..e17a1f0db452ce57147cf998cc843fc39ba671e1
+--- /dev/null
++++ b/simulador-imobiliario/templates/partials/imovel.php
+@@ -0,0 +1,20 @@
++<div class="simimob-field">
++    <label for="wizard-valor-imovel"><?php esc_html_e( 'Valor do imóvel', 'simulador-imobiliario' ); ?></label>
++    <input data-mask="currency" type="text" id="wizard-valor-imovel" name="obras_valor_imovel" />
++</div>
++<div class="simimob-field">
++    <label for="wizard-valor-financiamento"><?php esc_html_e( 'Valor do financiamento', 'simulador-imobiliario' ); ?></label>
++    <input data-mask="currency" type="text" id="wizard-valor-financiamento" name="obras_valor_financiamento" />
++</div>
++<div class="simimob-field">
++    <label for="wizard-entrega"><?php esc_html_e( 'Entrega (mês/ano)', 'simulador-imobiliario' ); ?></label>
++    <input type="month" id="wizard-entrega" name="obras_entrega" />
++</div>
++<div class="simimob-field">
++    <label for="wizard-empreendimento"><?php esc_html_e( 'Empreendimento', 'simulador-imobiliario' ); ?></label>
++    <input type="text" id="wizard-empreendimento" name="obras_empreendimento" />
++</div>
++<div class="simimob-field">
++    <label for="wizard-unidade"><?php esc_html_e( 'Unidade', 'simulador-imobiliario' ); ?></label>
++    <input type="text" id="wizard-unidade" name="obras_unidade" />
++</div>
+diff --git a/simulador-imobiliario/templates/partials/modalidades.php b/simulador-imobiliario/templates/partials/modalidades.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..8f43c30186cb8408f27bfa42ffb7c73b7b604e07
+--- /dev/null
++++ b/simulador-imobiliario/templates/partials/modalidades.php
+@@ -0,0 +1,16 @@
++<?php
++$settings     = SIMIMOB_Settings::get_public_settings();
++$modalidades  = $settings['modalidades'];
++$parametros   = $settings['modalidadeParams'];
++?>
++<h3><?php esc_html_e( 'Escolha a modalidade', 'simulador-imobiliario' ); ?></h3>
++<?php foreach ( $modalidades as $index => $modalidade ) :
++    $descricao = isset( $parametros[ $modalidade ]['descricao'] ) ? $parametros[ $modalidade ]['descricao'] : '';
++    ?>
++    <div class="simimob-field">
++        <label>
++            <input type="radio" name="modalidade" value="<?php echo esc_attr( $modalidade ); ?>" <?php checked( 0 === $index ); ?> />
++            <strong><?php echo esc_html( $modalidade ); ?></strong> — <?php echo esc_html( $descricao ); ?>
++        </label>
++    </div>
++<?php endforeach; ?>
+diff --git a/simulador-imobiliario/templates/partials/obras.php b/simulador-imobiliario/templates/partials/obras.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..18e64a61a4ca2a53e9e1a1af37d7b9d80cb53fd0
+--- /dev/null
++++ b/simulador-imobiliario/templates/partials/obras.php
+@@ -0,0 +1,31 @@
++<div class="simimob-summary simimob-obras-resumo"></div>
++<div class="simimob-field">
++    <label><?php esc_html_e( 'Sinal (R$)', 'simulador-imobiliario' ); ?></label>
++    <input data-mask="currency" type="text" name="obras_sinal" />
++</div>
++<div class="simimob-field">
++    <label><?php esc_html_e( 'Mensal (R$)', 'simulador-imobiliario' ); ?></label>
++    <input data-mask="currency" type="text" name="obras_mensal" />
++</div>
++<div class="simimob-field">
++    <label><?php esc_html_e( 'Tipo de intermediárias', 'simulador-imobiliario' ); ?></label>
++    <select name="obras_tipo_intermediaria">
++        <option value="semestral"><?php esc_html_e( 'Semestrais', 'simulador-imobiliario' ); ?></option>
++        <option value="anual"><?php esc_html_e( 'Anuais', 'simulador-imobiliario' ); ?></option>
++    </select>
++</div>
++<div class="simimob-field">
++    <label><?php esc_html_e( 'Intermediária (R$)', 'simulador-imobiliario' ); ?></label>
++    <input data-mask="currency" type="text" name="obras_intermediaria" />
++</div>
++<div class="simimob-field">
++    <label><?php esc_html_e( 'Início das intermediárias', 'simulador-imobiliario' ); ?></label>
++    <input type="month" name="obras_inicio_intermediaria" />
++</div>
++<div class="simimob-summary">
++    <p><?php esc_html_e( 'Total sinal:', 'simulador-imobiliario' ); ?> <span class="simimob-total-sinal">R$ 0,00</span></p>
++    <p><?php esc_html_e( 'Total mensais:', 'simulador-imobiliario' ); ?> <span class="simimob-total-mensal">R$ 0,00</span></p>
++    <p><?php esc_html_e( 'Total intermediárias:', 'simulador-imobiliario' ); ?> <span class="simimob-total-intermediaria">R$ 0,00</span></p>
++    <p><?php esc_html_e( 'Valor total de pagamentos:', 'simulador-imobiliario' ); ?> <span class="simimob-total-geral">R$ 0,00</span></p>
++    <p><?php esc_html_e( 'Saldo em aberto:', 'simulador-imobiliario' ); ?> <span class="simimob-saldo-aberto">R$ 0,00</span></p>
++</div>
+diff --git a/simulador-imobiliario/templates/pdf/financiamento.php b/simulador-imobiliario/templates/pdf/financiamento.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..091d4fdebe8f357b53dbb5973d48fbae3d56d806
+--- /dev/null
++++ b/simulador-imobiliario/templates/pdf/financiamento.php
+@@ -0,0 +1,14 @@
++<?php
++/**
++ * PDF template placeholder for financing.
++ */
++?>
++<div class="simimob-print-header">
++    <?php echo wp_kses_post( simimob_get_option( 'pdf_header', '' ) ); ?>
++</div>
++<div class="simimob-print-body">
++    <h1><?php esc_html_e( 'Simulação de Financiamento', 'simulador-imobiliario' ); ?></h1>
++</div>
++<div class="simimob-print-footer">
++    <?php echo wp_kses_post( simimob_get_option( 'pdf_footer', '' ) ); ?>
++</div>
+diff --git a/simulador-imobiliario/templates/pdf/obras.php b/simulador-imobiliario/templates/pdf/obras.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..8a0ec26f01bc955f8edf9851ac45914829de1ecc
+--- /dev/null
++++ b/simulador-imobiliario/templates/pdf/obras.php
+@@ -0,0 +1,14 @@
++<?php
++/**
++ * PDF template placeholder for obras.
++ */
++?>
++<div class="simimob-print-header">
++    <?php echo wp_kses_post( simimob_get_option( 'pdf_header', '' ) ); ?>
++</div>
++<div class="simimob-print-body">
++    <h1><?php esc_html_e( 'Simulação de Saldo de Obras', 'simulador-imobiliario' ); ?></h1>
++</div>
++<div class="simimob-print-footer">
++    <?php echo wp_kses_post( simimob_get_option( 'pdf_footer', '' ) ); ?>
++</div>
+diff --git a/simulador-imobiliario/templates/wizard.php b/simulador-imobiliario/templates/wizard.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..3673279af257c904b1b4486be953ef3dbbc54b7d
+--- /dev/null
++++ b/simulador-imobiliario/templates/wizard.php
+@@ -0,0 +1,53 @@
++<?php
++/**
++ * Unified wizard template.
++ */
++$settings = SIMIMOB_Settings::get_public_settings();
++?>
++<div class="simimob-simulador" data-type="wizard" data-label-credito="<?php esc_attr_e( 'Crédito máximo', 'simulador-imobiliario' ); ?>" data-label-parcela="<?php esc_attr_e( 'Parcela estimada', 'simulador-imobiliario' ); ?>" data-label-prazo="<?php esc_attr_e( 'Prazo', 'simulador-imobiliario' ); ?>" data-label-taxa="<?php esc_attr_e( 'Taxa', 'simulador-imobiliario' ); ?>" data-label-entrada="<?php esc_attr_e( 'Entrada mínima', 'simulador-imobiliario' ); ?>" data-label-idade="<?php esc_attr_e( 'Idade/prazo excedem a política', 'simulador-imobiliario' ); ?>" data-label-saldo="<?php esc_attr_e( 'Saldo de obras', 'simulador-imobiliario' ); ?>" data-label-meses="<?php esc_attr_e( 'Meses até a entrega', 'simulador-imobiliario' ); ?>" data-label-semestrais="<?php esc_attr_e( 'Semestrais possíveis', 'simulador-imobiliario' ); ?>" data-label-anuais="<?php esc_attr_e( 'Anuais possíveis', 'simulador-imobiliario' ); ?>" data-mensagem-intermediaria="<?php echo esc_attr__( 'Esta parcela intermediária está muito superior ao valor das parcelas mensais, a política comercial do vendedor não permite uma diferença entre parcelas tão discrepante, aumente o valor da parcela mensal para enquadrar a proposta a política comercial', 'simulador-imobiliario' ); ?>">
++    <div class="simimob-stepper">
++        <button type="button" aria-current="step"><?php esc_html_e( 'Modalidade', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Capacidade', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Imóvel', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Saldo de obras', 'simulador-imobiliario' ); ?></button>
++        <button type="button"><?php esc_html_e( 'Resumo', 'simulador-imobiliario' ); ?></button>
++    </div>
++    <div class="simimob-step active">
++        <?php include SIMIMOB_PLUGIN_DIR . 'templates/partials/modalidades.php'; ?>
++        <div class="simimob-actions">
++            <button type="button" data-next-step><?php esc_html_e( 'Continuar', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <?php include SIMIMOB_PLUGIN_DIR . 'templates/partials/capacidade.php'; ?>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-next-step><?php esc_html_e( 'Continuar', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <?php include SIMIMOB_PLUGIN_DIR . 'templates/partials/imovel.php'; ?>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-next-step><?php esc_html_e( 'Continuar', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <?php include SIMIMOB_PLUGIN_DIR . 'templates/partials/obras.php'; ?>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-next-step><?php esc_html_e( 'Resumo', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++    <div class="simimob-step">
++        <h3><?php esc_html_e( 'Resumo final', 'simulador-imobiliario' ); ?></h3>
++        <div class="simimob-summary">
++            <p><?php esc_html_e( 'Veja os resultados da simulação completa. Utilize as ações para compartilhar.', 'simulador-imobiliario' ); ?></p>
++        </div>
++        <div class="simimob-actions">
++            <button type="button" data-prev-step><?php esc_html_e( 'Voltar', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-share="whatsapp"><?php esc_html_e( 'Compartilhar no WhatsApp', 'simulador-imobiliario' ); ?></button>
++            <button type="button" data-share="email"><?php esc_html_e( 'Enviar por e-mail', 'simulador-imobiliario' ); ?></button>
++        </div>
++    </div>
++</div>
+ 
+EOF
+)
