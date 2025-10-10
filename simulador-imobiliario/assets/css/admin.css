@@ -1,0 +1,19 @@
+diff --git a//dev/null b/simulador-imobiliario/assets/css/admin.css
+index 0000000000000000000000000000000000000000..61a9eab2c8636e52d19471bce90c8338fc97c416 100644
+--- a//dev/null
++++ b/simulador-imobiliario/assets/css/admin.css
+@@ -0,0 +1,14 @@
++.simimob-admin .simimob-table input,
++.simimob-admin .simimob-table textarea,
++.simimob-admin .simimob-repeatable input,
++.simimob-admin .simimob-repeatable textarea {
++    width: 100%;
++}
++
++.simimob-admin .simimob-repeatable tbody tr td {
++    vertical-align: middle;
++}
++
++.simimob-admin .simimob-add-row {
++    margin-top: 10px;
++}
