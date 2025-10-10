@@ -1,3 +1,4 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index dd842caf359ff46ffc361ca1cde513e15b16a1e7..2599f0e92b4e234a9357678eba83c52f26a79b03 100644
 --- a/README.md
@@ -19,3 +20,6 @@ index dd842caf359ff46ffc361ca1cde513e15b16a1e7..2599f0e92b4e234a9357678eba83c52f
 +```
 +
 +Substitua `<usuario>`, `<repositorio>` e `<branch>` conforme o projeto. Depois, faça o upload do arquivo zipado em **Plugins → Adicionar novo → Enviar plugin** no painel WordPress.
+ 
+EOF
+)
