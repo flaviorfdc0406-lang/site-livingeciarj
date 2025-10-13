@@ -1,1 +1,0 @@
-languages/simulador-imobiliario.pot
