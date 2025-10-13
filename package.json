@@ -1,0 +1,9 @@
+{
+  "name": "living-eciarj-prototype",
+  "version": "1.0.0",
+  "description": "Simulação estática do site Living Eciarj com servidor local para testes.",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simulação do Site Living Eciarj</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="container">
+        <div class="logo">Living Eciarj</div>
+        <nav class="nav" aria-label="Menu principal">
+          <button class="menu-toggle" aria-expanded="false" aria-controls="menu-list">
+            <span class="sr-only">Abrir menu</span>
+            ☰
+          </button>
+          <ul class="menu" id="menu-list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" aria-label="Alternar tema">
+          <span aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <p class="hero__eyebrow">Simulação de funcionalidades</p>
+            <h1>Experimente a nova experiência digital Living Eciarj</h1>
+            <p>
+              Utilize esta simulação para navegar pelas seções, testar interações e
+              validar o conteúdo antes da publicação no ambiente oficial.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#solucoes">Explorar soluções</a>
+              <button class="btn btn--secondary" data-open-modal="tour">
+                Fazer tour guiado
+              </button>
+            </div>
+          </div>
+          <div class="hero__media" aria-hidden="true">
+            <div class="hero__card">
+              <strong>Dashboards dinâmicos</strong>
+              <span>Monitoramento em tempo real</span>
+            </div>
+            <div class="hero__card">
+              <strong>Fluxos automáticos</strong>
+              <span>Mais eficiência na gestão</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section">
+        <div class="container">
+          <header class="section__header">
+            <span class="eyebrow">Nossa essência</span>
+            <h2>Conheça a Living Eciarj</h2>
+            <p>
+              Criamos soluções digitais que transformam a jornada de condomínios, com foco na
+              experiência de moradores e síndicos. Este protótipo demonstra como os módulos do
+              site definitivo serão apresentados.
+            </p>
+          </header>
+
+          <div class="feature-grid">
+            <article class="feature">
+              <h3>Portal de Moradores</h3>
+              <p>
+                Interface intuitiva para acompanhar comunicados, reservas de espaços e serviços
+                oferecidos pelo condomínio.
+              </p>
+            </article>
+            <article class="feature">
+              <h3>Gestão inteligente</h3>
+              <p>
+                Módulos dedicados à administração, com dashboards configuráveis e integração com
+                plataformas existentes.
+              </p>
+            </article>
+            <article class="feature">
+              <h3>Suporte personalizado</h3>
+              <p>
+                Fluxos de atendimento com respostas automáticas e acompanhamento humano para cada
+                necessidade.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="solucoes" class="section section--accent">
+        <div class="container">
+          <header class="section__header">
+            <span class="eyebrow">Experimente na prática</span>
+            <h2>Módulos simulados</h2>
+            <p>
+              Explore cards interativos que representam os principais módulos que farão parte da
+              plataforma completa. Clique em cada card para visualizar detalhes.
+            </p>
+          </header>
+
+          <div class="card-grid" data-module-grid>
+            <article class="module-card" data-module="financeiro">
+              <h3>Financeiro</h3>
+              <p>Emissão de boletos, controle de inadimplência e relatórios customizados.</p>
+              <span class="module-card__status">Status: Em validação</span>
+            </article>
+            <article class="module-card" data-module="reservas">
+              <h3>Reservas</h3>
+              <p>Agendamento inteligente de áreas comuns com confirmação automática.</p>
+              <span class="module-card__status">Status: Em testes</span>
+            </article>
+            <article class="module-card" data-module="comunicados">
+              <h3>Comunicados</h3>
+              <p>Publicação segmentada e histórico de notificações em múltiplos canais.</p>
+              <span class="module-card__status">Status: Pronto para homologação</span>
+            </article>
+            <article class="module-card" data-module="seguranca">
+              <h3>Segurança</h3>
+              <p>Integração com portarias remotas e monitoramento por câmeras inteligentes.</p>
+              <span class="module-card__status">Status: Em desenvolvimento</span>
+            </article>
+          </div>
+
+          <aside class="module-details" aria-live="polite">
+            <h3>Selecione um módulo para ver detalhes</h3>
+            <p>
+              Esta área exibirá informações detalhadas da solução escolhida, permitindo validar os
+              textos e fluxos antes de levar ao ambiente real.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="diferenciais" class="section">
+        <div class="container">
+          <header class="section__header">
+            <span class="eyebrow">Porque escolher a Living Eciarj</span>
+            <h2>Diferenciais da plataforma</h2>
+          </header>
+          <dl class="timeline">
+            <div class="timeline__item">
+              <dt>Integração completa</dt>
+              <dd>Conecta-se com ERPs e sistemas legados sem fricções.</dd>
+            </div>
+            <div class="timeline__item">
+              <dt>Experiência mobile</dt>
+              <dd>Aplicativo responsivo com notificações personalizadas.</dd>
+            </div>
+            <div class="timeline__item">
+              <dt>Suporte contínuo</dt>
+              <dd>Equipe disponível 24/7 para acompanhar o ciclo de vida do produto.</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="depoimentos" class="section section--dark">
+        <div class="container">
+          <header class="section__header section__header--center">
+            <span class="eyebrow">Validação social</span>
+            <h2>Depoimentos simulados</h2>
+          </header>
+
+          <div class="carousel" role="region" aria-roledescription="carrossel" aria-label="Depoimentos">
+            <button class="carousel__control" data-carousel="prev" aria-label="Anterior">‹</button>
+            <div class="carousel__track" data-carousel-track>
+              <figure class="testimonial">
+                <blockquote>
+                  “A interface proposta facilitou o cadastro de novos moradores e agilizou a
+                  comunicação do condomínio.”
+                </blockquote>
+                <figcaption>Maria Oliveira — Síndica</figcaption>
+              </figure>
+              <figure class="testimonial">
+                <blockquote>
+                  “Conseguimos antecipar possíveis gargalos ainda na fase de teste, garantindo uma
+                  implantação mais tranquila.”
+                </blockquote>
+                <figcaption>João Santos — Consultor</figcaption>
+              </figure>
+              <figure class="testimonial">
+                <blockquote>
+                  “A simulação ajudou a visualizar o potencial do portal e a planejar campanhas de
+                  lançamento.”
+                </blockquote>
+                <figcaption>Ana Costa — Marketing</figcaption>
+              </figure>
+            </div>
+            <button class="carousel__control" data-carousel="next" aria-label="Próximo">›</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="section section--contact">
+        <div class="container">
+          <header class="section__header">
+            <span class="eyebrow">Valide o fluxo</span>
+            <h2>Envie uma mensagem de teste</h2>
+            <p>
+              Preencha o formulário abaixo para entender como o fluxo de contato será apresentado. Os
+              dados não são enviados, mas a validação demonstra as mensagens que o usuário verá.
+            </p>
+          </header>
+
+          <form class="form" data-contact-form novalidate>
+            <div class="form__group">
+              <label for="nome">Nome</label>
+              <input id="nome" name="nome" type="text" required placeholder="Seu nome completo" />
+              <span class="form__error" data-error-for="nome"></span>
+            </div>
+            <div class="form__group">
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                placeholder="nome@exemplo.com"
+              />
+              <span class="form__error" data-error-for="email"></span>
+            </div>
+            <div class="form__group">
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="4"
+                minlength="10"
+                required
+                placeholder="Conte-nos o que deseja validar"
+              ></textarea>
+              <span class="form__error" data-error-for="mensagem"></span>
+            </div>
+            <button class="btn btn--primary" type="submit">Enviar demonstração</button>
+            <p class="form__feedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__content">
+        <div>
+          <strong>Living Eciarj</strong>
+          <p>Simulação criada para validação interna do site.</p>
+        </div>
+        <div class="footer__links">
+          <a href="#inicio">Voltar ao topo</a>
+          <a href="#contato">Contato</a>
+          <a href="#" data-open-modal="roadmap">Roadmap</a>
+        </div>
+      </div>
+      <p class="footer__copy">&copy; <span data-year></span> Living Eciarj. Todos os direitos reservados.</p>
+    </footer>
+
+    <dialog class="modal" data-modal="tour" aria-labelledby="tour-title">
+      <div class="modal__header">
+        <h2 id="tour-title">Tour guiado pelo protótipo</h2>
+        <button class="modal__close" data-close-modal aria-label="Fechar">×</button>
+      </div>
+      <div class="modal__body">
+        <ol>
+          <li>Navegue pelo menu superior para acessar cada funcionalidade simulada.</li>
+          <li>Clique nos módulos para visualizar os requisitos planejados.</li>
+          <li>Utilize o formulário para testar mensagens de validação e confirmação.</li>
+          <li>Alterne o tema para verificar a consistência visual em ambientes diferentes.</li>
+        </ol>
+      </div>
+      <div class="modal__footer">
+        <button class="btn btn--secondary" data-close-modal>Fechar</button>
+      </div>
+    </dialog>
+
+    <dialog class="modal" data-modal="roadmap" aria-labelledby="roadmap-title">
+      <div class="modal__header">
+        <h2 id="roadmap-title">Roadmap previsto</h2>
+        <button class="modal__close" data-close-modal aria-label="Fechar">×</button>
+      </div>
+      <div class="modal__body">
+        <ul class="roadmap">
+          <li>
+            <strong>Fase 1:</strong> Homologação das funcionalidades críticas e revisão de conteúdo.
+          </li>
+          <li>
+            <strong>Fase 2:</strong> Integração com sistemas externos e testes de performance.
+          </li>
+          <li>
+            <strong>Fase 3:</strong> Publicação e monitoramento com métricas de engajamento.
+          </li>
+        </ul>
+      </div>
+      <div class="modal__footer">
+        <button class="btn btn--secondary" data-close-modal>Fechar</button>
+      </div>
+    </dialog>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
